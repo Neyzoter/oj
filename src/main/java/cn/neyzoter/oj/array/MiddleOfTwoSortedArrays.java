@@ -4,7 +4,7 @@ public class MiddleOfTwoSortedArrays{
     public static double[] arr1 = {1,2};
     public static double[] arr2 = {3,4};
 	public static void main(String[] args){
-        System.out.println(Solution1.getMidVal(arr1,arr2));
+        System.out.println(Solution2_MiddleOfTwoSortedArrays.getMidVal(arr1,arr2));
 	}
 }
 
@@ -56,5 +56,47 @@ class Solution1{
         }
         System.out.println("temp_b = "+temp_b+"\ttemp_s = "+temp_s);
         return (remainder == 1)?((temp_b + temp_s)/2.0):temp_s;
+    }
+}
+
+/**
+ * Median of Two Sorted Arrays
+ * 两个排序数组的中位数
+ */
+
+class Solution2_MiddleOfTwoSortedArrays {
+    public static double getMidVal(double[] A, double[] B) {
+        int m = A.length;
+        int n = B.length;
+        if (m > n) { // to ensure m<=n
+            double[] temp = A; A = B; B = temp;
+            int tmp = m; m = n; n = tmp;
+        }
+        int iMin = 0, iMax = m, halfLen = (m + n + 1) / 2;
+        while (iMin <= iMax) {
+            int i = (iMin + iMax) / 2;
+            int j = halfLen - i;
+            if (i < iMax && B[j-1] > A[i]){
+                iMin = iMin + 1; // i is too small
+            }
+            else if (i > iMin && A[i-1] > B[j]) {
+                iMax = iMax - 1; // i is too big
+            }
+            else { // i is perfect
+                double maxLeft = 0;
+                if (i == 0) { maxLeft = B[j-1]; }
+                else if (j == 0) { maxLeft = A[i-1]; }
+                else { maxLeft = Math.max(A[i-1], B[j-1]); }
+                if ( (m + n) % 2 == 1 ) { return maxLeft; }
+
+                double minRight = 0;
+                if (i == m) { minRight = B[j]; }
+                else if (j == n) { minRight = A[i]; }
+                else { minRight = Math.min(B[j], A[i]); }
+
+                return (maxLeft + minRight) / 2.0;
+            }
+        }
+        return 0.0;
     }
 }

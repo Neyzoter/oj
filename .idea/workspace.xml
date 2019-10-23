@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb0abe79-672b-402f-8f02-f808b084a278" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/MiddleOfTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/MiddleOfTwoSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/AddTwoNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/AddTwoNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/ContainerWithMostWater.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/ContainerWithMostWater.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/LongestSubstringWithoutRepeatingCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/LongestSubstringWithoutRepeatingCharacters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/MiddleOfTwoSortedArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/MiddleOfTwoSortedArrays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/Solution1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/Solution_AddTwoNumbers1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/Solution_AddTwoNumbers1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/Solution_AddTwoNumbers2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/Solution_AddTwoNumbers2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/Solution_LengthOfLongestSubstring1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/Solution_LengthOfLongestSubstring1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/Solution_LengthOfLongestSubstring2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/Solution_LengthOfLongestSubstring2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/Solution_MaxArea1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/Solution_MaxArea1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/Solution_MaxArea2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/Solution_MaxArea2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/ThreeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/ThreeSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/dynamic/LongestPalindromicSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/dynamic/LongestPalindromicSubstring.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/dynamic/Solution_LongestPalindrome1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/dynamic/Solution_LongestPalindrome1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/dynamic/Solution_LongestPalindrome2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/dynamic/Solution_LongestPalindrome2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/link/AddTwoNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/link/AddTwoNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/link/ListNode_RemoveNthFromEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/link/ListNode_RemoveNthFromEnd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/link/RemoveNthNodeFromEndofList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/link/RemoveNthNodeFromEndofList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/link/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/link/Solution1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/link/Solution2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/link/Solution2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/link/Solution3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/link/Solution3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/link/Solution_RemoveNthFromEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/link/Solution_RemoveNthFromEnd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/math/PalindromeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/math/PalindromeNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/math/Solution_Palindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/math/Solution_Palindrome.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/MiddleOfTwoSortedArrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+            <state relative-caret-position="150">
+              <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
               <folding>
                 <element signature="e#192#193#0" expanded="true" />
                 <element signature="e#255#256#0" expanded="true" />
@@ -256,12 +228,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571807042207</updated>
-      <workItem from="1571807044702" duration="13537000" />
+      <workItem from="1571807044702" duration="13890000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13537000" />
+    <option name="totallyTimeSpent" value="13890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -274,7 +246,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21988682" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.27531084" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.27531084" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
@@ -282,7 +254,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18827708" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.18827708" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -444,8 +416,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/MiddleOfTwoSortedArrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+        <state relative-caret-position="150">
+          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
           <folding>
             <element signature="e#192#193#0" expanded="true" />
             <element signature="e#255#256#0" expanded="true" />
