@@ -8,7 +8,7 @@ public class MiddleOfTwoSortedArrays{
 	}
 }
 
-class Solution1{
+class Solution1_MiddleOfTwoSortedArrays{
     public static double getMidVal(double[] arr1,double[] arr2){
         int m = arr1.length;int n = arr2.length;
 
