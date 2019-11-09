@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb0abe79-672b-402f-8f02-f808b084a278" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/MiddleOfTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/MiddleOfTwoSortedArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/ThreeSumClosest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/ThreeSumClosest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,12 +27,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="565">
-                <caret line="263" column="9" selection-start-line="263" selection-start-column="9" selection-end-line="263" selection-end-column="9" />
+              <first_editor relative-caret-position="195">
+                <caret line="147" selection-start-line="147" selection-end-line="147" />
                 <folding>
                   <element signature="e#0#23#0" />
                   <element signature="e#439#474#0" />
@@ -55,11 +53,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/ThreeSumClosest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="405">
+              <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/util/Arrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5296">
+              <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -108,10 +115,10 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/math/README.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/ThreeSumClosest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/MiddleOfTwoSortedArrays.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/MoveZeros.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/ThreeSumClosest.java" />
       </list>
     </option>
   </component>
@@ -137,6 +144,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,7 +191,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -217,7 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MoveZeros">
+  <component name="RunManager" selected="Application.ThreeSumClosest">
     <configuration name="MiddleOfTwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.neyzoter.oj.array.MiddleOfTwoSortedArrays" />
       <module name="OJ" />
@@ -244,8 +251,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreeSumClosest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.neyzoter.oj.array.ThreeSumClosest" />
+      <module name="oj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.neyzoter.oj.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreeSumClosest" />
         <item itemvalue="Application.MoveZeros" />
         <item itemvalue="Application.MiddleOfTwoSortedArrays" />
       </list>
@@ -263,16 +284,18 @@
       <updated>1571807042207</updated>
       <workItem from="1571807044702" duration="15402000" />
       <workItem from="1573177045074" duration="2360000" />
+      <workItem from="1573270500702" duration="3217000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17762000" />
+    <option name="totallyTimeSpent" value="20979000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-11" width="1867" height="1092" extended-state="6" />
+    <frame x="55" y="-4" width="1865" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24463992" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2006597" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -281,7 +304,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24057084" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24057084" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -289,7 +312,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.23343527" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.22731906" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.27531084" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -422,20 +445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/ThreeSumClosest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/MiddleOfTwoSortedArrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -450,11 +459,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="565">
-            <caret line="263" column="9" selection-start-line="263" selection-start-column="9" selection-end-line="263" selection-end-column="9" />
+          <first_editor relative-caret-position="195">
+            <caret line="147" selection-start-line="147" selection-end-line="147" />
             <folding>
               <element signature="e#0#23#0" />
               <element signature="e#439#474#0" />
@@ -462,6 +478,20 @@
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5296">
+          <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/ThreeSumClosest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
         </state>
       </provider>
     </entry>
