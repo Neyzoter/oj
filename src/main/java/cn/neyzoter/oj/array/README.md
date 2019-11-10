@@ -270,7 +270,21 @@ while(idx_mid<idx_max&&nums[idx_mid]==nums[idx_mid-1]) {
 ```
 
 ## 2.思路
+1.创建一个字符串数组，保存字母V1；将字符串转化为整数型数组V2；创建要返回的String列表ans
+2.For循环中创建数组
 
+```
+FOR int i : V2
+    int len = ans.len==0?1:ans.len;
+    String thisS = V1[i]
+    WHILE len--
+        String s = ans.remove
+        FOR char ch : thisS.toCharArray
+              ans.add(s+ch)
+        END
+    END
+END
+```
 
 # 283 移动零（MoveZeroes）
 数组、双指针

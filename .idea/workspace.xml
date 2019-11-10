@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb0abe79-672b-402f-8f02-f808b084a278" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,8 +30,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="399">
-                <caret line="268" column="6" selection-start-line="268" selection-start-column="6" selection-end-line="268" selection-end-column="6" />
+              <first_editor relative-caret-position="354">
+                <caret line="277" column="34" selection-start-line="277" selection-start-column="34" selection-end-line="277" selection-end-column="34" />
                 <folding>
                   <element signature="e#0#23#0" />
                   <element signature="e#439#474#0" />
@@ -40,6 +39,27 @@
                 </folding>
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/LetterCombinations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/util/List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="599" column="6" selection-start-line="599" selection-start-column="6" selection-end-line="599" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -118,6 +138,7 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/MiddleOfTwoSortedArrays.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/MoveZeros.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/ThreeSumClosest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/LetterCombinations.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md" />
       </list>
     </option>
@@ -224,7 +245,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreeSumClosest">
+  <component name="RunManager" selected="Application.LetterCombinations">
+    <configuration name="LetterCombinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.neyzoter.oj.array.LetterCombinations" />
+      <module name="oj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.neyzoter.oj.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MiddleOfTwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.neyzoter.oj.array.MiddleOfTwoSortedArrays" />
       <module name="OJ" />
@@ -266,6 +300,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LetterCombinations" />
         <item itemvalue="Application.ThreeSumClosest" />
         <item itemvalue="Application.MoveZeros" />
         <item itemvalue="Application.MiddleOfTwoSortedArrays" />
@@ -285,18 +320,18 @@
       <workItem from="1571807044702" duration="15402000" />
       <workItem from="1573177045074" duration="2360000" />
       <workItem from="1573270500702" duration="3534000" />
-      <workItem from="1573295094103" duration="414000" />
+      <workItem from="1573295094103" duration="3999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21710000" />
+    <option name="totallyTimeSpent" value="25295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-11" width="1867" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20285872" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20285872" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -305,7 +340,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24057084" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24057084" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -313,7 +348,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.26605505" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.26605505" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.27531084" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -446,13 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/MiddleOfTwoSortedArrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/MoveZeros.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -481,11 +509,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="599" column="6" selection-start-line="599" selection-start-column="6" selection-end-line="599" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/LetterCombinations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/MiddleOfTwoSortedArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="399">
-            <caret line="268" column="6" selection-start-line="268" selection-start-column="6" selection-end-line="268" selection-end-column="6" />
+          <first_editor relative-caret-position="354">
+            <caret line="277" column="34" selection-start-line="277" selection-start-column="34" selection-end-line="277" selection-end-column="34" />
             <folding>
               <element signature="e#0#23#0" />
               <element signature="e#439#474#0" />
