@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb0abe79-672b-402f-8f02-f808b084a278" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/hash/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/hash/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,8 +42,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/hash/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="438">
-                <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+              <first_editor>
+                <caret column="23" selection-start-column="23" selection-end-column="23" />
               </first_editor>
               <second_editor />
             </state>
@@ -364,12 +364,12 @@
       <workItem from="1573295094103" duration="5252000" />
       <workItem from="1573443184976" duration="2192000" />
       <workItem from="1573526235207" duration="629000" />
-      <workItem from="1573562334175" duration="4248000" />
+      <workItem from="1573562334175" duration="4290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33617000" />
+    <option name="totallyTimeSpent" value="33659000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-11" width="1867" height="1092" extended-state="6" />
@@ -384,15 +384,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24057084" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24057084" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.27420998" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32925585" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.24770643" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24770643" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.27531084" />
       <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32985157" />
@@ -647,8 +647,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/hash/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="438">
-            <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+          <first_editor>
+            <caret column="23" selection-start-column="23" selection-end-column="23" />
           </first_editor>
           <second_editor />
         </state>
