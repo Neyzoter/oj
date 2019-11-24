@@ -286,6 +286,41 @@ FOR int i : V2
 END
 ```
 
+# 79 单词搜索（WordSearch）
+## 1.问题
+给定一个二维网格和一个单词，找出该单词是否存在于网格中。
+
+单词必须按照字母顺序，通过相邻的单元格内的字母构成，其中“相邻”单元格是那些水平相邻或垂直相邻的单元格。同一个单元格内的字母不允许被重复使用。
+
+示例:
+
+```
+board =
+[
+  ['A','B','C','E'],
+  ['S','F','C','S'],
+  ['A','D','E','E']
+]
+```
+
+
+给定 word = "ABCCED", 返回 true.
+
+给定 word = "SEE", 返回 true.
+
+给定 word = "ABCB", 返回 false.
+
+## 2.思路
+使用回溯算法，字母表（已经使用的字母用空格代替）、单词剩下的部分，开始的坐标作为输入，直到单词剩下部分为0.
+
+*注意*：二维数组赋值深拷贝需要通过特定函数实现，如`System.arraycopy`，但是`System.arraycopy`只能对某个对象操作，不能直接操作二维数组，所以需要写一个for。对于某一个类的数组，也需要逐个深拷贝。
+
+```java
+char[][] boardNext = new char[board.length][board[0].length];
+for (int idx = 0; idx < board.length;idx ++){
+    System.arraycopy(board[idx],0,boardNext[idx],0,board[0].length);
+}
+```
 
 # 283 移动零（MoveZeroes）
 数组、双指针
