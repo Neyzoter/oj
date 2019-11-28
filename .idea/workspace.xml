@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cb0abe79-672b-402f-8f02-f808b084a278" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/link/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/link/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,16 +19,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="350">
-                <caret line="298" column="32" lean-forward="true" selection-start-line="298" selection-start-column="32" selection-end-line="298" selection-end-column="32" />
-                <folding>
-                  <element signature="e#0#23#0" />
-                  <element signature="e#439#474#0" />
-                  <element signature="e#723#781#0" />
-                </folding>
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="685">
+                <caret line="173" column="12" selection-start-line="173" selection-start-column="12" selection-end-line="173" selection-end-column="12" />
               </first_editor>
               <second_editor />
             </state>
@@ -36,16 +31,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/link/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="468">
-                <caret line="113" column="57" selection-start-line="113" selection-start-column="57" selection-end-line="113" selection-end-column="57" />
-                <folding>
-                  <element signature="e#0#23#0" />
-                </folding>
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/WordBreak.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="135" column="7" selection-start-line="135" selection-start-column="7" selection-end-line="135" selection-end-column="7" />
+              <folding>
+                <element signature="e#4543#4544#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="2669" column="26" selection-start-line="2669" selection-start-column="26" selection-end-line="2669" selection-end-column="26" />
+              <folding>
+                <element signature="e#104675#104676#0" expanded="true" />
+                <element signature="e#104730#104731#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,12 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/link/MergeTwoLists.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="33" selection-end-column="5" />
-              <folding>
-                <element signature="e#374#375#0" expanded="true" />
-                <element signature="e#397#398#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -115,7 +116,6 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/LongestSubstringWithoutRepeatingCharacters.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/ThreeSum.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/LongestPalindromicSubstring.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/link/AddTwoNumbers.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/link/RemoveNthNodeFromEndofList.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/math/PalindromeNumber.java" />
@@ -136,6 +136,8 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/MaxSubArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/link/MergeTwoLists.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/link/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/WordBreak.java" />
       </list>
     </option>
   </component>
@@ -202,7 +204,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="oj" type="462c0819:PsiDirectoryNode" />
-              <item name="link" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -241,7 +243,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeTwoLists">
+  <component name="RunManager" selected="Application.WordBreak">
     <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.neyzoter.oj.array.MaxSubArray" />
       <module name="oj" />
@@ -281,12 +283,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidSudoku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.neyzoter.oj.hash.ValidSudoku" />
+    <configuration name="WordBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.neyzoter.oj.dynamic.WordBreak" />
       <module name="oj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.neyzoter.oj.hash.*" />
+          <option name="PATTERN" value="cn.neyzoter.oj.dynamic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -309,11 +311,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordBreak" />
         <item itemvalue="Application.MergeTwoLists" />
         <item itemvalue="Application.MaxSubArray" />
         <item itemvalue="Application.WordSearch" />
         <item itemvalue="Application.RomanToInteger" />
-        <item itemvalue="Application.ValidSudoku" />
       </list>
     </recent_temporary>
   </component>
@@ -341,18 +343,28 @@
       <workItem from="1574574268072" duration="15000" />
       <workItem from="1574592397072" duration="8189000" />
       <workItem from="1574678242195" duration="2112000" />
-      <workItem from="1574764377024" duration="5473000" />
+      <workItem from="1574764377024" duration="5752000" />
+      <workItem from="1574928660549" duration="12396000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59061000" />
+    <option name="totallyTimeSpent" value="71736000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="-4" width="1865" height="1084" extended-state="6" />
+    <frame x="54" y="-11" width="1867" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22210005" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22484882" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -361,15 +373,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24057084" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.25993884" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21814474" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34862384" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32925585" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32925585" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.16819572" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.16411825" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.27522936" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -395,6 +407,12 @@
           <line>70</line>
           <properties />
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/WordBreak.java</url>
+          <line>155</line>
+          <properties />
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -437,18 +455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1280">
           <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <folding>
-              <element signature="e#0#39#0" />
-            </folding>
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -613,8 +619,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="350">
-            <caret line="298" column="32" lean-forward="true" selection-start-line="298" selection-start-column="32" selection-end-line="298" selection-end-column="32" />
+          <first_editor relative-caret-position="2775">
+            <caret line="298" column="32" selection-start-line="298" selection-start-column="32" selection-end-line="298" selection-end-column="32" />
             <folding>
               <element signature="e#0#23#0" />
               <element signature="e#439#474#0" />
@@ -625,13 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/WordSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/link/AddTwoNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -639,27 +638,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/link/MergeTwoLists.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/WordSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/link/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="468">
-            <caret line="113" column="57" selection-start-line="113" selection-start-column="57" selection-end-line="113" selection-end-column="57" />
+          <first_editor relative-caret-position="515">
+            <caret line="111" column="5" lean-forward="true" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
             <folding>
               <element signature="e#0#23#0" />
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/link/MergeTwoLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="2669" column="26" selection-start-line="2669" selection-start-column="26" selection-end-line="2669" selection-end-column="26" />
+          <folding>
+            <element signature="e#104675#104676#0" expanded="true" />
+            <element signature="e#104730#104731#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="685">
+            <caret line="173" column="12" selection-start-line="173" selection-start-column="12" selection-end-line="173" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/WordBreak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="135" column="7" selection-start-line="135" selection-start-column="7" selection-end-line="135" selection-end-column="7" />
+          <folding>
+            <element signature="e#4543#4544#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

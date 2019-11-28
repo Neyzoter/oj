@@ -67,3 +67,109 @@ for(长度){
 * 动态规划
 
 在比较以i和j分别为起始点字符串时，有可能会进行i+1和j+1以及i+2和j+2位置的字符的比较；而在比较i+1和j+1分别为起始点字符串时，这些字符又会被比较一次了。也就是说该问题有非常相似的子问题，而子问题之间又有重叠，这就给动态规划法的应该提供了契机。
+
+# 139 单词拆分（Word Break）
+## 1.问题
+给定一个非空字符串 s 和一个包含非空单词列表的字典 wordDict，判定 s 是否可以被空格拆分为一个或多个在字典中出现的单词。
+
+说明：
+
+拆分时可以重复使用字典中的单词。
+
+你可以假设字典中没有重复的单词。
+
+**示例 1**：
+
+输入: `s = "leetcode", wordDict = ["leet", "code"]`
+
+输出: true
+
+解释: 返回 true 因为 "leetcode" 可以被拆分成 "leet code"。
+
+**示例 2**：
+
+输入: `s = "applepenapple", wordDict = ["apple", "pen"]`
+
+输出: true
+
+解释: 返回 true 因为 "applepenapple" 可以被拆分成 "apple pen apple"。
+     注意你可以重复使用字典中的单词。
+
+**示例 3**：
+
+输入:` s = "catsandog", wordDict = ["cats", "dog", "sand", "and", "cat"]`
+
+输出: false
+
+## 2.思路
+### 2.1 暴力法
+首先，单词字典保存到集合。
+
+然后，使用动态规划（递归实现）：
+
+```
+wordExist(String s,Hashset<String> dict)
+
+if s.len == 0
+    return true
+End
+
+For i = 0 : s.len
+    String s1 = s.substr(i)[0];
+    String s2 = s.substr(i)[1];
+    If dict.contains(s1) && wordExist(s2,dict) 
+        return true
+    End
+End
+
+return false
+```
+
+时间复杂度：n(n^n)
+
+空间复杂度：n(n^2)
+
+但是`"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab"
+["a","aa","aaa","aaaa","aaaaa","aaaaaa","aaaaaaa","aaaaaaaa","aaaaaaaaa","aaaaaaaaaa"]`需要非常长的时间
+
+### 2.2 记忆化回溯
+
+基于暴力法，把每次true或者false用Hashmap memo记录下来。
+
+```
+wordExist(String s,Hashset<String> dict)
+If s.len == 0
+    return true
+End
+For i = 0 : s.len
+    String s1 = s.substr(i)[0];
+    String s2 = s.substr(i)[1];
+    If dict.contains(s1) && wordExist(s2,dict) 
+        memo.put(s, true);
+        return true
+    End
+End
+memo.put(s, false)
+return false
+```
+
+时间复杂度：n(n^2)
+
+空间复杂度：n(n^2)
+
+### 2.3 动态规划
+对于给定的字符串可以拆分成2个子字符串的子问题。如果这2个子问题都可以拆分成符合要求的子字符串，则整个字符串符合要求。
+
+```
+dp[0] = true
+dp[1:-1] = false
+For i = 0 : s.len
+    For j = 0 : i
+        If dp[j] == true && dict.exist(s[j:i])
+            dp [i] = true
+        End
+    End
+End 
+
+return dp[-1]
+```
