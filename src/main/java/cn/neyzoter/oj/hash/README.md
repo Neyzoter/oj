@@ -51,3 +51,67 @@
 
 ## 2.思路
 使用Hashset，如果之前没有出现过则将这个数字添加进去，如果出现过了就false。
+
+# 136. 只出现一次的数字（Single Number）
+## 1.问题
+给定一个非空整数数组，除了某个元素只出现一次以外，其余每个元素均出现两次。找出那个只出现了一次的元素。
+
+说明：
+
+你的算法应该具有线性时间复杂度。 你可以不使用额外空间来实现吗？
+
+**示例 1:**
+
+输入: `[2,2,1]`
+
+输出: 1
+
+**示例 2:**
+
+输入: `[4,1,2,1,2]`
+
+输出: 4
+
+## 2.思路
+
+### 2.1 暴力法
+```
+For i = 0 : len(nums) - 1 
+    For j = 0 : len(nums) - 1
+        If j == i
+            
+        ElseIf nums[i] == nums[j]
+            found = true
+            break;
+        End
+    End
+    
+    // 没有找到
+    If !found
+        return nums[i]
+    Else
+        found =false
+    End
+End
+```
+
+时间复杂度：O(n^2)
+
+### 2.2 哈希表
+```
+Map<Integer,Integer> hashmap = new HashMap<>()
+
+For num : nums
+    If hashmap.contains(num)
+        hashmap.put(num,2)
+    Else
+        hashmap.put(num,1)
+    End
+End
+
+For num : nums
+    If hashmap.get(num) = 1
+        return num
+    End
+End
+```
