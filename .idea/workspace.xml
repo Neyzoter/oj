@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb0abe79-672b-402f-8f02-f808b084a278" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/hash/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/hash/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/hash/SingleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/hash/SingleNumber.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/hash/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="548">
+              <first_editor relative-caret-position="248">
                 <caret line="93" column="7" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
               </first_editor>
               <second_editor />
@@ -32,8 +32,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/hash/SingleNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" selection-start-line="33" selection-end-line="33" selection-end-column="17" />
+            <state relative-caret-position="569">
+              <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -163,6 +166,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="oj" type="462c0819:PsiDirectoryNode" />
               <item name="hash" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oj" type="462c0819:PsiDirectoryNode" />
+              <item name="hash" type="462c0819:PsiDirectoryNode" />
+              <item name="SingleNumber.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="oj" type="b2602c69:ProjectViewProjectNode" />
@@ -318,12 +331,12 @@
       <workItem from="1574995270373" duration="8712000" />
       <workItem from="1575270926264" duration="599000" />
       <workItem from="1575466908459" duration="2869000" />
-      <workItem from="1575629683903" duration="9028000" />
+      <workItem from="1575629683903" duration="11000000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93152000" />
+    <option name="totallyTimeSpent" value="95124000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -688,7 +701,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/hash/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="548">
+          <first_editor relative-caret-position="248">
             <caret line="93" column="7" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
           </first_editor>
           <second_editor />
@@ -697,8 +710,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/hash/SingleNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" selection-start-line="33" selection-end-line="33" selection-end-column="17" />
+        <state relative-caret-position="569">
+          <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
