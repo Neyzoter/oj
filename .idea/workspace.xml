@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cb0abe79-672b-402f-8f02-f808b084a278" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,41 +17,80 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="457">
-                <caret line="267" column="9" selection-start-line="267" selection-start-column="9" selection-end-line="267" selection-end-column="9" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/ClimbStairs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/hash/SingleNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.55595154">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="3975">
+                    <caret line="265" column="7" selection-start-line="265" selection-start-column="7" selection-end-line="265" selection-end-column="7" />
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/NextPermutation.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/ClimbStairs.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="31" selection-start-column="31" selection-end-column="31" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="FIRST">
+                  <first_editor relative-caret-position="3150">
+                    <caret line="323" column="23" selection-start-line="323" selection-start-column="23" selection-end-line="323" selection-end-column="23" />
+                    <folding>
+                      <element signature="e#0#23#0" />
+                      <element signature="e#439#474#0" />
+                      <element signature="e#723#781#0" />
+                    </folding>
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="FIRST">
+                  <first_editor relative-caret-position="540">
+                    <caret line="320" column="29" selection-start-line="320" selection-start-column="29" selection-end-line="320" selection-end-column="29" />
+                    <folding>
+                      <element signature="e#0#23#0" />
+                      <element signature="e#439#474#0" />
+                      <element signature="e#723#781#0" />
+                    </folding>
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -99,7 +138,6 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/math/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/math/RomanToInteger.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/WordSearch.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/MaxSubArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/link/MergeTwoLists.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/link/README.md" />
@@ -116,6 +154,8 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/others/disk/DiskSpaceDetail.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/ClimbStairs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/NextPermutation.java" />
       </list>
     </option>
   </component>
@@ -140,7 +180,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,12 +220,13 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="oj" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -221,7 +261,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClimbStairs">
+  <component name="RunManager" selected="Application.NextPermutation">
     <configuration name="ClimbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.neyzoter.oj.dynamic.ClimbStairs" />
       <module name="oj" />
@@ -248,12 +288,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenerateParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.neyzoter.oj.dynamic.GenerateParenthesis" />
+    <configuration name="NextPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.neyzoter.oj.array.NextPermutation" />
       <module name="oj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.neyzoter.oj.dynamic.*" />
+          <option name="PATTERN" value="cn.neyzoter.oj.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -289,11 +329,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NextPermutation" />
         <item itemvalue="Application.ClimbStairs" />
         <item itemvalue="Application.DiskSpaceDetail" />
         <item itemvalue="Application.SendMailThread" />
         <item itemvalue="Application.SingleNumber" />
-        <item itemvalue="Application.GenerateParenthesis" />
       </list>
     </recent_temporary>
   </component>
@@ -328,12 +368,14 @@
       <workItem from="1575466908459" duration="2869000" />
       <workItem from="1575629683903" duration="11752000" />
       <workItem from="1575981863834" duration="5591000" />
-      <workItem from="1576981721740" duration="1710000" />
+      <workItem from="1576981721740" duration="2387000" />
+      <workItem from="1577356055594" duration="7536000" />
+      <workItem from="1577513390148" duration="235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103177000" />
+    <option name="totallyTimeSpent" value="111625000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -348,7 +390,7 @@
     <frame x="54" y="-11" width="1867" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12314458" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23144585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -357,15 +399,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21814474" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.34862384" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2008155" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.32415903" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32925585" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32925585" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.4678899" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3730887" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.27522936" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -646,21 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="248">
-            <caret line="298" column="32" selection-start-line="298" selection-start-column="32" selection-end-line="298" selection-end-column="32" />
-            <folding>
-              <element signature="e#0#23#0" />
-              <element signature="e#439#474#0" />
-              <element signature="e#723#781#0" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/MaxSubArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -719,8 +746,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="457">
-            <caret line="267" column="9" selection-start-line="267" selection-start-column="9" selection-end-line="267" selection-end-column="9" />
+          <first_editor relative-caret-position="3975">
+            <caret line="265" column="7" selection-start-line="265" selection-start-column="7" selection-end-line="265" selection-end-column="7" />
           </first_editor>
           <second_editor />
         </state>
@@ -728,8 +755,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/ClimbStairs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="3150">
+            <caret line="323" column="23" selection-start-line="323" selection-start-column="23" selection-end-line="323" selection-end-column="23" />
+            <folding>
+              <element signature="e#0#23#0" />
+              <element signature="e#439#474#0" />
+              <element signature="e#723#781#0" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/NextPermutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
         </state>
       </provider>
     </entry>
