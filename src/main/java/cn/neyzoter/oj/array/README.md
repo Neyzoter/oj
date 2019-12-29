@@ -146,6 +146,48 @@ nums2 = [3, 4]
 
 3.1 中位数通过`(m+n+1)%2`来判断是（等于1）否（等于0）需要平均
 
+# 14 最长公共前缀
+## 1.问题
+编写一个函数来查找字符串数组中的最长公共前缀。
+
+如果不存在公共前缀，返回空字符串 ""。
+
+示例 1:
+
+```
+输入: ["flower","flow","flight"]
+输出: "fl"
+```
+
+示例 2:
+
+```
+输入: ["dog","racecar","car"]
+输出: ""
+解释: 输入不存在公共前缀。
+说明:
+所有输入只包含小写字母 a-z 。
+```
+
+## 2.思路
+### 2.1 暴力搜索
+minlen = strs[0].len
+strnum = strs.len
+For str : strs
+    If str.len < minlen
+        minlen = str.len
+    End
+End
+
+prefix = ""
+For i = 0 : minlen - 1
+    ch = strs[0].charAt(i)
+    For str : strs
+        If str.charAt(i) != ch
+            return prefix
+    End
+    prefix += ch
+End
 # 15 三数之和
 中等
 
