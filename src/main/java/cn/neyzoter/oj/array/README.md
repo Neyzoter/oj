@@ -171,6 +171,7 @@ nums2 = [3, 4]
 
 ## 2.思路
 ### 2.1 暴力搜索
+```
 minlen = strs[0].len
 strnum = strs.len
 For str : strs
@@ -188,6 +189,8 @@ For i = 0 : minlen - 1
     End
     prefix += ch
 End
+```
+
 # 15 三数之和
 中等
 
