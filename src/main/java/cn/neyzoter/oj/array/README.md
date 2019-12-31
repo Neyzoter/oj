@@ -371,6 +371,102 @@ For i = N-2 : 0
 End
 ```
 
+# 33. 搜索旋转排序数组
+
+## 1.问题
+假设按照升序排序的数组在预先未知的某个点上进行了旋转。
+
+( 例如，数组 `[0,1,2,4,5,6,7]` 可能变为 `[4,5,6,7,0,1,2]` )。
+
+搜索一个给定的目标值，如果数组中存在这个目标值，则返回它的索引，否则返回 -1 。
+
+你可以假设数组中不存在重复的元素。
+
+你的算法时间复杂度必须是 `O(log n)` 级别。
+
+示例 1:
+
+```
+输入: nums = [4,5,6,7,0,1,2], target = 0
+输出: 4
+```
+
+示例 2:
+
+```
+输入: nums = [4,5,6,7,0,1,2], target = 3
+输出: -1
+```
+## 2.思路
+
+```java
+/**
+ * 二分查找
+ * @param left
+ * @param right
+ * @param nums
+ * @param target
+ * @return
+ */
+public int binarysearch(int left, int right, int[] nums, int target) {
+    int middle;
+    while (left <= right) {
+        middle = (left + right) / 2;
+        if (nums[middle] > target) {
+            right = middle - 1;
+        }else if (nums[middle] < target){
+            left = middle + 1;
+        }else {
+            return middle;
+        }
+    }
+    return -1;
+}
+
+/**
+ * 查找旋转的索引
+ * @param nums
+ * @return
+ */
+public int find_rotation_idx (int[] nums) {
+    int left = 0;int right = nums.length - 1;
+    if (nums[left] < nums[right]) {
+        return 0;
+    }
+    while (left <= right) {
+        int middle = (left + right) / 2;
+        if (nums[middle] > nums[middle + 1]) {
+            return middle + 1;
+        } else if (nums[middle] >= nums[0]){
+            left = middle + 1;
+        } else if (nums[middle] <= nums[nums.length - 1]) {
+            right = middle - 1;
+        }
+    }
+    return -1;
+}
+public int search(int[] nums, int target) {
+    if (nums.length == 1) {
+        return nums[0] == target ? 0:-1;
+    } else if (nums.length == 0) {
+        return -1;
+    }
+    int rotation_idx = find_rotation_idx(nums);
+    if (rotation_idx == -1) {
+        return -1;
+    }
+    if (rotation_idx == 0) {
+        return binarysearch(0, nums.length-1, nums, target);
+    } else if (target >= nums[0]) {
+        return binarysearch(0, rotation_idx - 1, nums, target);
+    } else if (target <= nums[nums.length - 1]){
+        return binarysearch(rotation_idx, nums.length - 1, nums, target);
+    } else {
+        return -1;
+    }
+}
+
+```
 
 # 53. 最大子序和（Max SubArray）
 ## 1.问题
