@@ -468,6 +468,108 @@ public int search(int[] nums, int target) {
 
 ```
 
+# 39.组合总数
+## 1.问题
+给定一个无重复元素的数组 candidates 和一个目标数 target ，找出 candidates 中所有可以使数字和为 target 的组合。
+
+candidates 中的数字可以无限制重复被选取。
+
+说明：
+
+```
+所有数字（包括 target）都是正整数。
+解集不能包含重复的组合。 
+```
+
+示例 1:
+
+```
+输入: candidates = [2,3,6,7], target = 7,
+所求解集为:
+[
+  [7],
+  [2,2,3]
+]
+```
+
+示例 2:
+
+```
+输入: candidates = [2,3,5], target = 8,
+所求解集为:
+[
+  [2,2,2,2],
+  [2,3,3],
+  [3,5]
+]
+```
+
+## 2.思路
+
+### 2.1 递归法
+
+```
+nums是一个升序数组
+
+combinationSum(nums, target,i)
+
+List<List<Integer>> list 
+
+For i ; nums[i] <= target && NotOutOfBound; i++
+    If nums[i] == target
+        List<Integer> l1 = {nums[i]}
+        list.add(l1)
+    Else
+        List<List<Integer>> l2
+        l2 = combinationSum(nums, target-nums[i],i)
+        If l2.isNotEmpty
+            For l : l2
+                l.add(nums[i])
+                list.add(l)
+            End
+        End
+    End
+End
+return list
+
+```
+
+说明：i参数的作用是防止重复，只能向后找
+
+时间复杂度: O(n)
+
+### 2.2 动态规划
+
+```
+N为candidates长度
+
+hashmap DP[N]
+
+// 初始化第一个
+DP.put(candidate[0], {candidate[0]})
+
+For i = 1 : N
+    List<List<Integer>> list = new LinkList<>();
+    For num : candidate (num <= candidate[i])
+        If DP.contains(target - num)  // 有配对的数已经计算得到
+            List<List<Integer>> list_DP = DP.get(target-num)
+            For l : list_DP
+                l.add(num)  // 将num加入到list中，需要注意实际实现的时候，先要拷贝出来，否则会把原来的修改掉
+                list.add(l)
+            End
+        Else If target == num
+            List<Integer> list_temp = num
+            list.add(list_temp)
+        End
+    End
+
+End
+
+```
+
+
+
+
 # 53. 最大子序和（Max SubArray）
 ## 1.问题
 给定一个整数数组 nums ，找到一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。
