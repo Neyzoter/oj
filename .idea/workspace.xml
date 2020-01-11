@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb0abe79-672b-402f-8f02-f808b084a278" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/CombinationSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,7 +16,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.75911456">
+    <splitter split-orientation="horizontal" split-proportion="0.37434897">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -59,8 +58,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/CombinationSum.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="419">
-                  <caret line="83" column="42" selection-start-line="83" selection-start-column="42" selection-end-line="83" selection-end-column="42" />
+                <state relative-caret-position="330">
+                  <caret line="45" column="87" selection-start-line="45" selection-start-column="87" selection-end-line="45" selection-end-column="88" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -120,8 +119,8 @@
             <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="FIRST">
-                  <first_editor relative-caret-position="203">
-                    <caret line="565" column="27" selection-start-line="565" selection-start-column="27" selection-end-line="565" selection-end-column="27" />
+                  <first_editor relative-caret-position="555">
+                    <caret line="544" column="67" selection-start-line="544" selection-start-column="67" selection-end-line="544" selection-end-column="67" />
                     <folding>
                       <element signature="e#0#23#0" />
                       <element signature="e#439#474#0" />
@@ -204,8 +203,8 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/NextPermutation.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/LongestCommonPrefix.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/SearchTranposedSortedArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/CombinationSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md" />
       </list>
     </option>
   </component>
@@ -422,12 +421,12 @@
       <workItem from="1577356055594" duration="7536000" />
       <workItem from="1577513390148" duration="3294000" />
       <workItem from="1577778086190" duration="9904000" />
-      <workItem from="1578655844752" duration="14407000" />
+      <workItem from="1578655844752" duration="14909000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138995000" />
+    <option name="totallyTimeSpent" value="139497000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -452,14 +451,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2038736" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.26605505" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26605505" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32925585" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32925585" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.19673802" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.19673802" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.27522936" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -491,12 +490,6 @@
           <line>155</line>
           <properties />
           <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/CombinationSum.java</url>
-          <line>87</line>
-          <properties />
-          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -836,22 +829,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="203">
-            <caret line="565" column="27" selection-start-line="565" selection-start-column="27" selection-end-line="565" selection-end-column="27" />
-            <folding>
-              <element signature="e#0#23#0" />
-              <element signature="e#439#474#0" />
-              <element signature="e#723#781#0" />
-              <element signature="n#!!doc" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -879,11 +856,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/CombinationSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="83" column="42" selection-start-line="83" selection-start-column="42" selection-end-line="83" selection-end-column="42" />
+        <state relative-caret-position="330">
+          <caret line="45" column="87" selection-start-line="45" selection-start-column="87" selection-end-line="45" selection-end-column="88" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="555">
+            <caret line="544" column="67" selection-start-line="544" selection-start-column="67" selection-end-line="544" selection-end-column="67" />
+            <folding>
+              <element signature="e#0#23#0" />
+              <element signature="e#439#474#0" />
+              <element signature="e#723#781#0" />
+              <element signature="n#!!doc" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

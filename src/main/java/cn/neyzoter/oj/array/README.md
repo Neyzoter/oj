@@ -540,36 +540,55 @@ return list
 
 ### 2.2 动态规划
 
-```
-N为candidates长度
+动态规划法较为繁琐，因为动态规划的最终结果以来前面的结果（耦合度高），比如计算target = 5，需要考虑`dp[1:4]`，会出现各种重复的情况。
 
-hashmap DP
+而上述递归法的结果都是独立的，可以通过让idx不从0开始，而是从上一步递归的一步开始，从而实现后面的递归数字都是大于等于前面的数字的。
 
-// 初始化第一个
-DP.put(candidate[0], {candidate[0]})
-
-For i = 0 : N(candidates[i] <= target)  
-    For num : candidate (num <= candidate[i])
-        If DP.contains(target - num)  // 有配对的数已经计算得到
-            List<List<Integer>> list_DP = DP.get(target-num)
-            List<List<Integer>> list = new LinkList<>();
-            For l : list_DP
-                List<Integer> l_new = new LinkedList<>(l)
-                l_new.add(num)  // 将num加入到list中，需要注意实际实现的时候，先要拷贝出来，否则会把原来的修改掉
-                list.add(l)
-                dp.put(num, list)
-            End
-        Else If target == num
-            List<List<Integer>> list = new LinkList<>();
-            List<Integer> l_new = new LinkedList<>()
-            l_new.add(num)
-            list.add(l_new)        
-            dp.put(num, list)
-        End
-    End
-
-End
-
+```java
+public List<List<Integer>> combinationSum(int[] candidates, int target) {
+    int len = candidates.length;
+    if (len == 0) {
+        return new LinkedList<>();
+    }
+    Map<Integer,List<List<Integer>>> dp = new HashMap<>();
+    Arrays.sort(candidates);
+    for (int num = candidates[0] ; num <= target; num ++) {
+        List<List<Integer>> lists = new LinkedList<>();
+        Set<List<Integer>> mapLists = new HashSet<>();
+        for (int j = 0 ; j < len && candidates[j] <= num ; j ++) {
+            if (dp.containsKey(num - candidates[j])) {
+                List<List<Integer>> l_dp = dp.get(num - candidates[j]);
+                for (List<Integer> l : l_dp) {
+                    List<Integer> l_new = new LinkedList<>(l);
+                    if (l_new.get(l_new.size() - 1) < candidates[j]) {
+                        l_new.add(candidates[j]);
+                    } else {
+                        for (int i = 0 ; i < l_new.size() ; i ++) {
+                            if (l_new.get(i) >= candidates[j]) {
+                                l_new.add(i, candidates[j]);
+                                break;
+                            }
+                        }
+                    }
+                    mapLists.add(l_new);
+                }
+            }else if (candidates[j] == num) {
+                List<Integer> l_new = new LinkedList<>();
+                l_new.add(candidates[j]);
+                mapLists.add(l_new);
+            }
+        }
+        for (List<Integer> list : mapLists) {
+            lists.add(list);
+        }
+        dp.put(num, lists);
+    }
+    if (dp.containsKey(target)) {
+        return dp.get(target);
+    } else {
+        return new LinkedList<>();
+    }
+}
 ```
 
 
