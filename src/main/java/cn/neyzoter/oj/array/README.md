@@ -543,23 +543,28 @@ return list
 ```
 N为candidates长度
 
-hashmap DP[N]
+hashmap DP
 
 // 初始化第一个
 DP.put(candidate[0], {candidate[0]})
 
-For i = 1 : N
-    List<List<Integer>> list = new LinkList<>();
+For i = 0 : N(candidates[i] <= target)  
     For num : candidate (num <= candidate[i])
         If DP.contains(target - num)  // 有配对的数已经计算得到
             List<List<Integer>> list_DP = DP.get(target-num)
+            List<List<Integer>> list = new LinkList<>();
             For l : list_DP
-                l.add(num)  // 将num加入到list中，需要注意实际实现的时候，先要拷贝出来，否则会把原来的修改掉
+                List<Integer> l_new = new LinkedList<>(l)
+                l_new.add(num)  // 将num加入到list中，需要注意实际实现的时候，先要拷贝出来，否则会把原来的修改掉
                 list.add(l)
+                dp.put(num, list)
             End
         Else If target == num
-            List<Integer> list_temp = num
-            list.add(list_temp)
+            List<List<Integer>> list = new LinkList<>();
+            List<Integer> l_new = new LinkedList<>()
+            l_new.add(num)
+            list.add(l_new)        
+            dp.put(num, list)
         End
     End
 
