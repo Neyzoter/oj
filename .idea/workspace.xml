@@ -17,7 +17,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.61943877">
+    <splitter split-orientation="horizontal" split-proportion="0.1888298">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -71,8 +71,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/SearchTargetInIncrement.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="24" column="76" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
+                <state relative-caret-position="105">
+                  <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="28" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -119,8 +119,8 @@
             <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="FIRST">
-                  <first_editor relative-caret-position="390">
-                    <caret line="488" column="24" selection-start-line="488" selection-start-column="12" selection-end-line="488" selection-end-column="24" />
+                  <first_editor relative-caret-position="495">
+                    <caret line="498" column="20" selection-start-line="498" selection-start-column="20" selection-end-line="498" selection-end-column="20" />
                     <folding>
                       <element signature="e#0#23#0" />
                       <element signature="e#439#474#0" />
@@ -217,8 +217,8 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/CombinationSum.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/test/testDeepShallowCopy.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/test/TestDeepShallowCopy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/SearchTargetInIncrement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md" />
       </list>
     </option>
   </component>
@@ -436,12 +436,12 @@
       <workItem from="1577513390148" duration="3294000" />
       <workItem from="1577778086190" duration="9904000" />
       <workItem from="1578655844752" duration="18479000" />
-      <workItem from="1580200287257" duration="2491000" />
+      <workItem from="1580200287257" duration="3023000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145558000" />
+    <option name="totallyTimeSpent" value="146090000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -465,7 +465,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21916412" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21916412" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30988786" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -473,7 +473,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32925585" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.24668705" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24668705" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.27522936" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -868,21 +868,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="390">
-            <caret line="488" column="24" selection-start-line="488" selection-start-column="12" selection-end-line="488" selection-end-column="24" />
-            <folding>
-              <element signature="e#0#23#0" />
-              <element signature="e#439#474#0" />
-              <element signature="e#723#781#0" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/util/Collections.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -906,11 +891,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/SearchTargetInIncrement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="76" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
+        <state relative-caret-position="105">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="495">
+            <caret line="498" column="20" selection-start-line="498" selection-start-column="20" selection-end-line="498" selection-end-column="20" />
+            <folding>
+              <element signature="e#0#23#0" />
+              <element signature="e#439#474#0" />
+              <element signature="e#723#781#0" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
