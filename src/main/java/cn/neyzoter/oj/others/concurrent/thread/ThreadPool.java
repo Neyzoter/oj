@@ -1,6 +1,10 @@
 package cn.neyzoter.oj.others.concurrent.thread;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.concurrent.*;
+import java.util.concurrent.LinkedBlockingQueue;
 
 /**
  * 线程池的测试
@@ -8,6 +12,8 @@ import java.util.concurrent.*;
  * @date 2020-1-29
  */
 public class ThreadPool {
+    private final static Logger logger = LoggerFactory.getLogger(ThreadPool.class);
+
     private BlockingQueue<Runnable> workQueue = new LinkedBlockingDeque(10);
     /**
      * corePoolSize: 线程池的一直存在着的线程数量，如果线程个数超过这个数目，则需要创建新的线程
@@ -22,5 +28,45 @@ public class ThreadPool {
      *      ThreadPoolExecutor.DiscardOldestPolicy：丢弃队列最前面的任务，然后重新尝试执行任务（重复此过程）
      *      ThreadPoolExecutor.CallerRunsPolicy：由调用线程处理该任务
      */
-    public ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(8,20,100, TimeUnit.MICROSECONDS,workQueue);
+    public ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(2,9,100, TimeUnit.MICROSECONDS,workQueue);
+
+    public static void main(String[] args) {
+        ThreadPool threadPool = new ThreadPool();
+        for (int i = 1; i < 20 ; i++) {
+            try {
+                threadPool.threadPoolExecutor.execute(new Task(i * 100000 * (int)Math.pow(-1,i)));
+                logger.info(String.format("[i = %d] active count = %d , completed = %d",i,threadPool.threadPoolExecutor.getActiveCount(),threadPool.threadPoolExecutor.getCompletedTaskCount()));
+            }catch (Exception e) {
+                logger.error("",e);
+            }
+
+        }
+    }
+}
+
+/**
+ * 任务
+ */
+class Task implements Runnable{
+    private final static Logger logger = LoggerFactory.getLogger(Task.class);
+    int count;
+    int maxcount;
+    public Task(int cnt) {
+        count = cnt;
+        maxcount = cnt;
+    }
+    @Override
+    public void run() {
+        while (true) {
+            if (count > 0) {
+                count --;
+            } else if (count < 0) {
+                count ++;
+            } else {
+                logger.info(String.format("[Task(%d)] count dec to 0", maxcount));
+                break;
+            }
+        }
+
+    }
 }
