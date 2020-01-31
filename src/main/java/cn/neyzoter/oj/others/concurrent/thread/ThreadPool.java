@@ -32,6 +32,7 @@ public class ThreadPool {
     /**
      * 创建一个可缓存线程池，如果线程池长度超过处理需要，可灵活回收空闲线程，若无可回收，则新建线程
      * ThreadPoolExecutor(0, Integer.MAX_VALUE,60L, TimeUnit.SECONDS, new SynchronousQueue<Runnable>());
+     * 应用场景：执行很多短期异步的小程序或者负载较轻的服务器
      */
     public ExecutorService cachedThreadPool = Executors.newCachedThreadPool();
 
@@ -39,18 +40,21 @@ public class ThreadPool {
      * 创建一个定长线程池，可控制线程最大并发数，超出的线程会在队列中等待
      * 而且保持线程池的核心线程数和最大线程数相同
      * ThreadPoolExecutor(nThreads, nThreads,0L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue<Runnable>());
+     * 应用场景：执行长期的任务，性能好很多
      */
     public ExecutorService fixedThreadPool = Executors.newFixedThreadPool(100);
 
     /**
      * 创建一个定长(核心线程数目)线程池，支持定时及周期性任务执行
      * ScheduledThreadPoolExecutor(corePoolSize)
+     * 应用场景：周期性执行任务的场景，不同于fixedThreadPool，最大的线程个数不限定
      */
     public ExecutorService scheduledThreadPool = Executors.newScheduledThreadPool(100);
 
     /**
      * 创建一个单线程化的线程池，它只会用唯一的工作线程来执行任务，保证所有任务按照指定顺序(FIFO, LIFO, 优先级)执行
      * DelegatedScheduledExecutorService(new ScheduledThreadPoolExecutor(1))
+     * 应用场景：一个任务一个任务执行的场景
      */
     public ExecutorService singleThreadSPool = Executors.newSingleThreadScheduledExecutor();
 
