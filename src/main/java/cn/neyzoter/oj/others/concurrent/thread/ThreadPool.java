@@ -12,7 +12,6 @@ import java.util.concurrent.*;
  */
 public class ThreadPool {
     private final static Logger logger = LoggerFactory.getLogger(ThreadPool.class);
-
     private BlockingQueue<Runnable> workQueue = new LinkedBlockingDeque(10);
     /**
      * corePoolSize: 线程池的一直存在着的线程数量，如果线程个数超过这个数目，则需要创建新的线程
