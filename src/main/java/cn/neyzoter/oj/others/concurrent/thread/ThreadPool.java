@@ -4,7 +4,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.concurrent.*;
-import java.util.concurrent.LinkedBlockingQueue;
 
 /**
  * 线程池的测试
@@ -30,8 +29,34 @@ public class ThreadPool {
      */
     public ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(2,9,100, TimeUnit.MICROSECONDS,workQueue);
 
+    /**
+     * 创建一个可缓存线程池，如果线程池长度超过处理需要，可灵活回收空闲线程，若无可回收，则新建线程
+     * ThreadPoolExecutor(0, Integer.MAX_VALUE,60L, TimeUnit.SECONDS, new SynchronousQueue<Runnable>());
+     */
+    public ExecutorService cachedThreadPool = Executors.newCachedThreadPool();
+
+    /**
+     * 创建一个定长线程池，可控制线程最大并发数，超出的线程会在队列中等待
+     * 而且保持线程池的核心线程数和最大线程数相同
+     * ThreadPoolExecutor(nThreads, nThreads,0L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue<Runnable>());
+     */
+    public ExecutorService fixedThreadPool = Executors.newFixedThreadPool(100);
+
+    /**
+     * 创建一个定长(核心线程数目)线程池，支持定时及周期性任务执行
+     * ScheduledThreadPoolExecutor(corePoolSize)
+     */
+    public ExecutorService scheduledThreadPool = Executors.newScheduledThreadPool(100);
+
+    /**
+     * 创建一个单线程化的线程池，它只会用唯一的工作线程来执行任务，保证所有任务按照指定顺序(FIFO, LIFO, 优先级)执行
+     * DelegatedScheduledExecutorService(new ScheduledThreadPoolExecutor(1))
+     */
+    public ExecutorService singleThreadSPool = Executors.newSingleThreadScheduledExecutor();
+
     public static void main(String[] args) {
         ThreadPool threadPool = new ThreadPool();
+        System.out.println(" ======  ThreadPoolExecutor  Test  =====");
         for (int i = 1; i < 20 ; i++) {
             try {
                 threadPool.threadPoolExecutor.execute(new Task(i * 100000 * (int)Math.pow(-1,i)));
@@ -41,6 +66,7 @@ public class ThreadPool {
             }
 
         }
+        System.out.println("\n ======  newCachedThreadPool  Test  =====");
     }
 }
 
