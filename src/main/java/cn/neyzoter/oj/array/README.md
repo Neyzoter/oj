@@ -331,6 +331,40 @@ FOR int i : V2
 END
 ```
 
+# 18.四数之和
+## 1.问题
+给定一个包含 n 个整数的数组 nums 和一个目标值 target，判断 nums 中是否存在四个元素 a，b，c 和 d ，使得 a + b + c + d 的值与 target 相等？找出所有满足条件且不重复的四元组。
+
+注意：
+
+答案中不可以包含重复的四元组。
+
+示例：
+
+```
+给定数组 nums = [1, 0, -1, 0, -2, 2]，和 target = 0。
+
+满足要求的四元组集合为：
+[
+  [-1,  0, 0, 1],
+  [-2, -1, 1, 2],
+  [-2,  0, 0, 2]
+]
+```
+
+## 2.思路
+nums.sort
+
+For i = 0:N - 1
+    For j = i + 1:N - 1
+        target_2item = target - nums[i][j]
+        find(nums, i, j, target_2item)  // 找到所有2个元素相加等于target_2item
+    End
+End
+
+*考虑到不能重复，使用Set<List<Integer>>保存数据，最后转化为List<List<Integer>>*
+
+
 # 31.下一个排列（Next Permutation）
 ## 1.问题
 实现获取下一个排列的函数，算法需要将给定数字序列重新排列成字典序中下一个更大的排列。
