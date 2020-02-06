@@ -48,14 +48,14 @@ public class ThreadPool {
      * ScheduledThreadPoolExecutor(corePoolSize)
      * 应用场景：周期性执行任务的场景，不同于fixedThreadPool，最大的线程个数不限定
      */
-    public ExecutorService scheduledThreadPool = Executors.newScheduledThreadPool(100);
+    public ScheduledExecutorService scheduledThreadPool = Executors.newScheduledThreadPool(5);
 
     /**
      * 创建一个单线程化的线程池，它只会用唯一的工作线程来执行任务，保证所有任务按照指定顺序(FIFO, LIFO, 优先级)执行
      * DelegatedScheduledExecutorService(new ScheduledThreadPoolExecutor(1))
      * 应用场景：一个任务一个任务执行的场景
      */
-    public ExecutorService singleThreadSPool = Executors.newSingleThreadScheduledExecutor();
+    public ScheduledExecutorService singleThreadSPool = Executors.newSingleThreadScheduledExecutor();
 
     public static void main(String[] args) {
         ThreadPool threadPool = new ThreadPool();
@@ -71,6 +71,7 @@ public class ThreadPool {
         }
         System.out.println("\n ======  newCachedThreadPool  Test  =====");
     }
+
 }
 
 /**
