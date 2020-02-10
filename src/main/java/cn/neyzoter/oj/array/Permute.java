@@ -14,10 +14,10 @@ public class Permute {
         ArrayList<int[]> nums_list = new ArrayList<>();
         nums_list.add(nums1);nums_list.add(nums2);
         Solution1_Permute solution1_permute = new Solution1_Permute();
+        Solution2_Permute solution2_permute = new Solution2_Permute();
         Iterator<int[]> iter = nums_list.iterator();
-//        System.out.println(Solution1_Permute.factorial(3));
         while (iter.hasNext()) {
-            System.out.println(solution1_permute.permute(iter.next()));
+            System.out.println(solution2_permute.permute(iter.next()));
         }
     }
 }
@@ -49,6 +49,41 @@ class Solution1_Permute {
                 result_temp.add(0,nums[i]);
                 result.add(result_temp);
             }
+        }
+        return result;
+    }
+}
+
+/**
+ * optimize solution1
+ */
+class Solution2_Permute {
+    public List<List<Integer>> permute(int[] nums) {
+        boolean[] used = new boolean[nums.length];
+        for (int i = 0 ; i < nums.length ; i ++) {
+            used[i] = false;
+        }
+        return permute(nums, used);
+    }
+    public List<List<Integer>> permute(int[] nums, boolean[] used) {
+        List<List<Integer>> result = new ArrayList<>();
+        for (int i = 0; i < nums.length ; i ++ ) {
+            if (used[i] == true) {
+                continue;
+            } else {
+                used[i] = true;
+            }
+            List<List<Integer>> result_temps = permute(nums,used);
+            if (result_temps.size() == 0) {
+                List<Integer> list = new LinkedList<>();
+                list.add(0,nums[i]);
+                result.add(list);
+            }
+            for (List<Integer> result_temp : result_temps) {
+                result_temp.add(0,nums[i]);
+                result.add(result_temp);
+            }
+            used[i] = false;
         }
         return result;
     }
