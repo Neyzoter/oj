@@ -654,8 +654,55 @@ public List<List<Integer>> combinationSum(int[] candidates, int target) {
 }
 ```
 
+# 46. 全排列
+## 1.问题
+给定一个没有重复数字的序列，返回其所有可能的全排列。
 
+示例:
 
+```
+输入: [1,2,3]
+输出:
+[
+  [1,2,3],
+  [1,3,2],
+  [2,1,3],
+  [2,3,1],
+  [3,1,2],
+  [3,2,1]
+]
+```
+
+## 2.思路
+### 2.1 递归法
+```java
+public List<List<Integer>> permute(int[] nums) {
+    List<List<Integer>> result = new ArrayList<>();
+    if (nums.length == 0) {
+        return result;
+    } else if (nums.length == 1) {
+        List<Integer> list = new LinkedList<>();
+        list.add(nums[0]);
+        result.add(0, list);
+        return result;
+    }
+    for (int i = 0; i < nums.length ; i ++ ) {
+        int[] new_nums = new int[nums.length - 1];
+        for (int j = 0,x = 0 ; x < nums.length ; x ++) {
+            if (x != i) {
+                new_nums[j] = nums[x];
+                j ++;
+            }
+        }
+        List<List<Integer>> result_temps = permute(new_nums);
+        for (List<Integer> result_temp : result_temps) {
+            result_temp.add(0,nums[i]);
+            result.add(result_temp);
+        }
+    }
+    return result;
+}
+```
 
 # 53. 最大子序和（Max SubArray）
 ## 1.问题
