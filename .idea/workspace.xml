@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cb0abe79-672b-402f-8f02-f808b084a278" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,13 +16,13 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5288714">
+    <splitter split-orientation="horizontal" split-proportion="0.31623933">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/util/ArrayList.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="704">
+                <state relative-caret-position="207">
                   <caret line="106" column="13" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
                   <folding>
                     <element signature="e#6283#6284#0" expanded="true" />
@@ -33,32 +32,54 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/RotateImage.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="FIRST">
                   <first_editor relative-caret-position="464">
-                    <caret line="769" lean-forward="true" selection-start-line="769" selection-end-line="769" />
+                    <caret line="769" selection-start-line="769" selection-end-line="769" />
                     <folding>
                       <element signature="e#439#474#0" />
                       <element signature="e#723#781#0" />
-                      <element signature="n#!!doc" expanded="true" />
                     </folding>
                   </first_editor>
                   <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/others/concurrent/thread/CyclicBarrierTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="509">
+                  <caret line="45" column="79" selection-start-line="45" selection-start-column="79" selection-end-line="45" selection-end-column="79" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#543#544#0" expanded="true" />
+                    <element signature="e#568#569#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/lang/Thread.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="561">
+                  <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/lang/Runnable.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="478">
+                  <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -99,7 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/ContainerWithMostWater.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/LongestSubstringWithoutRepeatingCharacters.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/ThreeSum.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/LongestPalindromicSubstring.java" />
@@ -150,6 +170,7 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/others/datastructure/ConsistentHash.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/RotateImage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/others/concurrent/thread/CyclicBarrierTest.java" />
       </list>
     </option>
   </component>
@@ -185,6 +206,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,15 +247,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="oj" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oj" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="oj" type="462c0819:PsiDirectoryNode" />
               <item name="others" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -244,7 +257,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="oj" type="462c0819:PsiDirectoryNode" />
               <item name="others" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="oj" type="b2602c69:ProjectViewProjectNode" />
@@ -254,7 +267,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -290,7 +302,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RotateImage">
+  <component name="RunManager" selected="Application.CyclicBarrierTest">
     <configuration name="ConsistentHash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.neyzoter.oj.others.datastructure.ConsistentHash" />
       <module name="oj" />
@@ -304,12 +316,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FourNumsSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.neyzoter.oj.array.FourNumsSum" />
+    <configuration name="CyclicBarrierTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.neyzoter.oj.others.concurrent.thread.CyclicBarrierTest" />
       <module name="oj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.neyzoter.oj.array.*" />
+          <option name="PATTERN" value="cn.neyzoter.oj.others.concurrent.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -358,11 +370,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CyclicBarrierTest" />
         <item itemvalue="Application.RotateImage" />
         <item itemvalue="Application.ConsistentHash" />
         <item itemvalue="Application.Permute" />
         <item itemvalue="Application.MappedByteBuffTest" />
-        <item itemvalue="Application.FourNumsSum" />
       </list>
     </recent_temporary>
   </component>
@@ -413,12 +425,13 @@
       <workItem from="1581212112508" duration="5647000" />
       <workItem from="1581252803255" duration="10717000" />
       <workItem from="1581498771334" duration="2749000" />
-      <workItem from="1581768868116" duration="3516000" />
+      <workItem from="1581768868116" duration="3997000" />
+      <workItem from="1582014386116" duration="1263000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204428000" />
+    <option name="totallyTimeSpent" value="206172000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -430,10 +443,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-11" width="1867" height="1092" extended-state="6" />
+    <frame x="55" y="-4" width="1865" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16217703" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16382627" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -442,15 +455,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3374108" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3027523" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21406728" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2579001" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32925585" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32925585" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.19877675" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.41590214" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.27522936" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -483,6 +496,18 @@
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/RotateImage.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/RotateImage.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -492,27 +517,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="139" column="57" selection-start-line="139" selection-start-column="57" selection-end-line="139" selection-end-column="57" />
-          <folding>
-            <element signature="e#5644#5645#0" expanded="true" />
-            <element signature="e#5675#5676#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/SearchTargetInIncrement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -530,13 +534,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -876,9 +873,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/RotateImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
+        <state relative-caret-position="207">
           <caret line="106" column="13" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
           <folding>
             <element signature="e#6283#6284#0" expanded="true" />
@@ -891,21 +895,39 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="464">
-            <caret line="769" lean-forward="true" selection-start-line="769" selection-end-line="769" />
+            <caret line="769" selection-start-line="769" selection-end-line="769" />
             <folding>
               <element signature="e#439#474#0" />
               <element signature="e#723#781#0" />
-              <element signature="n#!!doc" expanded="true" />
             </folding>
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/RotateImage.java">
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        <state relative-caret-position="561">
+          <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/others/concurrent/thread/CyclicBarrierTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="45" column="79" selection-start-line="45" selection-start-column="79" selection-end-line="45" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
