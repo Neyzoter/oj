@@ -3,7 +3,6 @@ package cn.neyzoter.oj.test;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.concurrent.CountDownLatch;
 
 /**
  * 测试深拷贝和浅拷贝
