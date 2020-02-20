@@ -8,8 +8,9 @@ import java.util.*;
 public class GroupAnagrams {
     public static void main (String[] args) {
         String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
+        String[] strs2 = {};
         Solution1_GroupAnagrams solution1_groupAnagrams = new Solution1_GroupAnagrams();
-        System.out.println(solution1_groupAnagrams.groupAnagrams(strs));
+        System.out.println(solution1_groupAnagrams.groupAnagrams(strs2));
     }
 }
 
