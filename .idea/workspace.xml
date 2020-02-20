@@ -23,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/GroupAnagrams.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
+            <state relative-caret-position="168">
+              <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -41,8 +41,47 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+            <state relative-caret-position="93">
+              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://MAVEN/cn.neyzoter:oj:1.0-SNAPSHOT">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>MAVEN</ID>
+              <OriginalElement>cn.neyzoter:oj:1.0-SNAPSHOT</OriginalElement>
+              <nodes>
+                <node x="0.0" y="41.0">cn.neyzoter:oj:1.0-SNAPSHOT</node>
+                <node x="75.0" y="82.0">javax.mail:mail:jar:1.4.7</node>
+                <node x="64.0" y="41.0">org.slf4j:slf4j-api:jar:1.7.25</node>
+                <node x="54.0" y="0.0">org.slf4j:slf4j-simple:jar:1.7.25</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="cn.neyzoter:oj:1.0-SNAPSHOT" target="org.slf4j:slf4j-api:jar:1.7.25">
+                  <point x="17.0" y="-0.0" />
+                  <point x="-35.0" y="-0.0" />
+                </edge>
+                <edge source="cn.neyzoter:oj:1.0-SNAPSHOT" target="org.slf4j:slf4j-simple:jar:1.7.25">
+                  <point x="17.0" y="-7.0" />
+                  <point x="-45.0" y="-0.0" />
+                </edge>
+                <edge source="cn.neyzoter:oj:1.0-SNAPSHOT" target="javax.mail:mail:jar:1.4.7">
+                  <point x="17.0" y="7.0" />
+                  <point x="54.0" y="92.5" />
+                  <point x="-24.0" y="-0.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-173.0" y="36.0" />
+              <SelectedNodes>
+                <node>org.slf4j:slf4j-simple:jar:1.7.25</node>
+                <node>cn.neyzoter:oj:1.0-SNAPSHOT</node>
+              </SelectedNodes>
+              <Categories />
+              <VISIBILITY>All</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -168,7 +207,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,6 +254,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -378,11 +417,12 @@
       <workItem from="1582090796414" duration="11000" />
       <workItem from="1582091409252" duration="938000" />
       <workItem from="1582204186095" duration="1115000" />
+      <workItem from="1582205322001" duration="142000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212689000" />
+    <option name="totallyTimeSpent" value="212831000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -396,7 +436,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21261115" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21584478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -413,9 +453,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32925585" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.18654434" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.5559503" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.14564832" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.46003553" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -467,13 +507,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/LongestCommonPrefix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/lang/Object.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/AddTwoNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -609,10 +642,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/others/concurrent/thread/ThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+    <entry file="uml://MAVEN/cn.neyzoter:oj:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>cn.neyzoter:oj:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="0.0" y="41.0">cn.neyzoter:oj:1.0-SNAPSHOT</node>
+            <node x="75.0" y="82.0">javax.mail:mail:jar:1.4.7</node>
+            <node x="64.0" y="41.0">org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="54.0" y="0.0">org.slf4j:slf4j-simple:jar:1.7.25</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="cn.neyzoter:oj:1.0-SNAPSHOT" target="org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="17.0" y="-0.0" />
+              <point x="-35.0" y="-0.0" />
+            </edge>
+            <edge source="cn.neyzoter:oj:1.0-SNAPSHOT" target="org.slf4j:slf4j-simple:jar:1.7.25">
+              <point x="17.0" y="-7.0" />
+              <point x="-45.0" y="-0.0" />
+            </edge>
+            <edge source="cn.neyzoter:oj:1.0-SNAPSHOT" target="javax.mail:mail:jar:1.4.7">
+              <point x="17.0" y="7.0" />
+              <point x="54.0" y="92.5" />
+              <point x="-24.0" y="-0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-173.0" y="36.0" />
+          <SelectedNodes>
+            <node>org.slf4j:slf4j-simple:jar:1.7.25</node>
+            <node>cn.neyzoter:oj:1.0-SNAPSHOT</node>
+          </SelectedNodes>
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
         </state>
       </provider>
     </entry>
@@ -623,17 +686,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/others/concurrent/thread/ThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/GroupAnagrams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
+        <state relative-caret-position="168">
+          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+        <state relative-caret-position="93">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
         </state>
       </provider>
     </entry>
