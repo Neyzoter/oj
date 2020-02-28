@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cb0abe79-672b-402f-8f02-f808b084a278" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/SimpleSelectionSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/SimpleSelectionSorter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,7 +21,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/test/TestDeepShallowCopy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="120">
               <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -38,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/others/util/TimeUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -47,6 +48,24 @@
                 <element signature="e#158#159#0" expanded="true" />
                 <element signature="e#220#221#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/BubbleSorter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="35" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/SimpleSelectionSorter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -83,13 +102,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/SimpleSelectionSorter.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/link/AddTwoNumbers.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/link/RemoveNthNodeFromEndofList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/math/PalindromeNumber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/MiddleOfTwoSortedArrays.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/MoveZeros.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/ThreeSumClosest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/LetterCombinations.java" />
@@ -137,6 +155,10 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/test/TestStaticStringAsFormat.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/others/util/TimeUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/BubbleSorter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/SimpleSelectionSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/SimpleSelectionSorter.java" />
       </list>
     </option>
   </component>
@@ -160,9 +182,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="55" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1865" />
-    <option name="height" value="1084" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -172,6 +194,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,6 +230,15 @@
             </path>
             <path>
               <item name="oj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oj" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oj" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -214,7 +246,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -249,13 +280,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TimeUtil">
-    <configuration name="CyclicBarrierTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.neyzoter.oj.others.concurrent.thread.CyclicBarrierTest" />
+  <component name="RunManager" selected="Application.SimpleSelectionSorter">
+    <configuration name="BubbleSorter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.neyzoter.oj.sort.BubbleSorter" />
       <module name="oj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.neyzoter.oj.others.concurrent.thread.*" />
+          <option name="PATTERN" value="cn.neyzoter.oj.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -276,12 +307,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDeepShallowCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.neyzoter.oj.test.TestDeepShallowCopy" />
+    <configuration name="SimpleSelectionSorter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.neyzoter.oj.sort.SimpleSelectionSorter" />
       <module name="oj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.neyzoter.oj.test.*" />
+          <option name="PATTERN" value="cn.neyzoter.oj.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -317,11 +348,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimpleSelectionSorter" />
+        <item itemvalue="Application.BubbleSorter" />
         <item itemvalue="Application.TimeUtil" />
         <item itemvalue="Application.TestStaticStringAsFormat" />
         <item itemvalue="Application.GroupAnagrams" />
-        <item itemvalue="Application.TestDeepShallowCopy" />
-        <item itemvalue="Application.CyclicBarrierTest" />
       </list>
     </recent_temporary>
   </component>
@@ -379,11 +410,13 @@
       <workItem from="1582602023304" duration="305000" />
       <workItem from="1582632774513" duration="883000" />
       <workItem from="1582636484162" duration="612000" />
+      <workItem from="1582690239091" duration="192000" />
+      <workItem from="1582865973497" duration="1698000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214601000" />
+    <option name="totallyTimeSpent" value="216491000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -396,8 +429,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-4" width="1865" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20835625" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21275426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -406,7 +440,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22018349" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24159022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2579001" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -414,7 +448,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32925585" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3550356" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.30682978" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.27522936" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -468,20 +502,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/others/nio/bytebuff/largeFile.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/util/concurrent/CountDownLatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1905">
-          <caret line="160" column="60" selection-start-line="160" selection-start-column="60" selection-end-line="160" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/util/concurrent/SynchronousQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -851,7 +871,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/test/TestDeepShallowCopy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="120">
           <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -874,6 +894,20 @@
             <element signature="e#158#159#0" expanded="true" />
             <element signature="e#220#221#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/BubbleSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/SimpleSelectionSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="92" />
         </state>
       </provider>
     </entry>
