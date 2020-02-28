@@ -5,6 +5,6 @@ package cn.neyzoter.oj.sort;
  * @author Neyzoter Song
  * @date 2020-2-28
  */
-public class SimpleSelectionSort {
+public class SimpleSelectionSorter {
 
 }
