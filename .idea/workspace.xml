@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb0abe79-672b-402f-8f02-f808b084a278" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/SimpleSelectionSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/SimpleSelectionSorter.java" afterDir="false" />
-    </list>
+    <list default="true" id="cb0abe79-672b-402f-8f02-f808b084a278" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,11 +58,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/SimpleSelectionSorter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="92" />
+            <state relative-caret-position="300">
+              <caret line="26" selection-start-line="26" selection-end-line="37" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/DirectlyInsertSorter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -103,12 +109,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/DirectlyInsertSorter.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/SimpleSelectionSorter.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/MoveZeros.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/ThreeSumClosest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/LetterCombinations.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/stack/README.md" />
@@ -159,6 +165,7 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/BubbleSorter.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/SimpleSelectionSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/SimpleSelectionSorter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/DirectlyInsertSorter.java" />
       </list>
     </option>
   </component>
@@ -280,7 +287,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SimpleSelectionSorter">
+  <component name="RunManager" selected="Application.DirectlyInsertSorter">
     <configuration name="BubbleSorter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.neyzoter.oj.sort.BubbleSorter" />
       <module name="oj" />
@@ -294,12 +301,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.neyzoter.oj.array.GroupAnagrams" />
+    <configuration name="DirectlyInsertSorter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.neyzoter.oj.sort.DirectlyInsertSorter" />
       <module name="oj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.neyzoter.oj.array.*" />
+          <option name="PATTERN" value="cn.neyzoter.oj.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -348,11 +355,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DirectlyInsertSorter" />
         <item itemvalue="Application.SimpleSelectionSorter" />
         <item itemvalue="Application.BubbleSorter" />
         <item itemvalue="Application.TimeUtil" />
         <item itemvalue="Application.TestStaticStringAsFormat" />
-        <item itemvalue="Application.GroupAnagrams" />
       </list>
     </recent_temporary>
   </component>
@@ -411,12 +418,12 @@
       <workItem from="1582632774513" duration="883000" />
       <workItem from="1582636484162" duration="612000" />
       <workItem from="1582690239091" duration="192000" />
-      <workItem from="1582865973497" duration="1698000" />
+      <workItem from="1582865973497" duration="4320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216491000" />
+    <option name="totallyTimeSpent" value="219113000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -429,7 +436,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-4" width="1865" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21275426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -440,7 +446,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24159022" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3343527" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2579001" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -448,7 +454,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32925585" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.30682978" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.36595312" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.27522936" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -502,17 +508,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/util/concurrent/SynchronousQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="853" column="11" selection-start-line="853" selection-start-column="11" selection-end-line="853" selection-end-column="11" />
-          <folding>
-            <element signature="e#34990#34991#0" expanded="true" />
-            <element signature="e#35017#35018#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/others/nio/bytebuff/MappedByteBuffTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -906,8 +901,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/SimpleSelectionSorter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="92" />
+        <state relative-caret-position="300">
+          <caret line="26" selection-start-line="26" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/DirectlyInsertSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
     </entry>
