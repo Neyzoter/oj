@@ -5,12 +5,12 @@ package cn.neyzoter.oj.sort;
  * @author Neyzoter Song
  * @date 2020-2-28
  */
-public class HillSorter {
+public class ShellSorter {
     /**
      * hill sort
      * @param array array
      */
-    public static void hillSort (int[] array) {
+    public static void shellSort (int[] array) {
         for (int gap = array.length / 2; gap > 0 ; gap /= 2) {
             for (int i = 0; i < gap ; i ++ ){
                 for (int j = i + gap; j < array.length; j += gap) {

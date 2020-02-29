@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cb0abe79-672b-402f-8f02-f808b084a278" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/HillSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/ShellSorter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -88,10 +89,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/HillSorter.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/ShellSorter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="180">
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -135,7 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/stack/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/stack/ValidBrackets.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/hash/ValidSudoku.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/math/README.md" />
@@ -186,6 +186,7 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/DirectlyInsertSorter.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/BinarySearchSorter.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/HillSorter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/ShellSorter.java" />
       </list>
     </option>
   </component>
@@ -307,7 +308,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HillSorter">
+  <component name="RunManager" selected="Application.ShellSorter">
     <configuration name="BinarySearchSorter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.neyzoter.oj.sort.BinarySearchSorter" />
       <module name="oj" />
@@ -347,8 +348,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HillSorter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.neyzoter.oj.sort.HillSorter" />
+    <configuration name="ShellSorter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.neyzoter.oj.sort.ShellSorter" />
       <module name="oj" />
       <extension name="coverage">
         <pattern>
@@ -375,7 +376,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HillSorter" />
+        <item itemvalue="Application.ShellSorter" />
         <item itemvalue="Application.BinarySearchSorter" />
         <item itemvalue="Application.DirectlyInsertSorter" />
         <item itemvalue="Application.SimpleSelectionSorter" />
@@ -439,12 +440,12 @@
       <workItem from="1582636484162" duration="612000" />
       <workItem from="1582690239091" duration="192000" />
       <workItem from="1582865973497" duration="4320000" />
-      <workItem from="1582962853071" duration="5429000" />
+      <workItem from="1582962853071" duration="6375000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224542000" />
+    <option name="totallyTimeSpent" value="225488000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -459,7 +460,7 @@
     <frame x="54" y="-11" width="1867" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21495327" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21495327" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -468,7 +469,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3343527" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3343527" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2579001" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -476,7 +477,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32925585" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.27726808" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.27726808" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.27522936" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -921,10 +922,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/HillSorter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/ShellSorter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="180">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
         </state>
       </provider>
     </entry>
