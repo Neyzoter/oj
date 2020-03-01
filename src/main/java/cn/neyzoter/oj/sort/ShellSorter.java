@@ -34,7 +34,7 @@ public class ShellSorter {
         for (int i : array) {
             System.out.print(i + ",");
         }
-        hillSort(array);
+        shellSort(array);
         System.out.print("\nAfter   ");
         for (int i : array) {
             System.out.print(i + ",");
