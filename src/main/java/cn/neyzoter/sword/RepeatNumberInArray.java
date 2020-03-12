@@ -4,6 +4,8 @@ import java.util.HashSet;
 
 /**
  * 面试题03. 数组中重复的数字
+ * @author Neyzoter Song
+ * @date 2020-3-12
  */
 public class RepeatNumberInArray {
     public static void main (String[] args) {
