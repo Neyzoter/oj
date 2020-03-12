@@ -1,1 +1,9 @@
-/target/
+
+# target
+/target
+
+# jar
+*.jar
+
+# class
+*.class

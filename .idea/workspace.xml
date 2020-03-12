@@ -2,8 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb0abe79-672b-402f-8f02-f808b084a278" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/RepeatNumberInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/RepeatNumberInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/AddTwoNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/ContainerWithMostWater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/LongestSubstringWithoutRepeatingCharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/Solution_AddTwoNumbers1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/Solution_AddTwoNumbers2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/Solution_LengthOfLongestSubstring1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/Solution_LengthOfLongestSubstring2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/Solution_MaxArea1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/Solution_MaxArea2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/ThreeSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/dynamic/LongestPalindromicSubstring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/dynamic/Solution_LongestPalindrome1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/dynamic/Solution_LongestPalindrome2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/link/AddTwoNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/link/ListNode_RemoveNthFromEnd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/link/RemoveNthNodeFromEndofList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/link/Solution1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/link/Solution2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/link/Solution3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/link/Solution_RemoveNthFromEnd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/math/PalindromeNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/math/Solution_Palindrome.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,15 +43,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/KMP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/RepeatNumberInArray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -39,7 +54,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/util/HashSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
+            <state relative-caret-position="2490">
               <caret line="202" column="19" selection-start-line="202" selection-start-column="19" selection-end-line="202" selection-end-column="19" />
               <folding>
                 <element signature="e#7427#7428#0" expanded="true" />
@@ -53,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="118">
+              <first_editor relative-caret-position="600">
                 <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="15" />
               </first_editor>
               <second_editor />
@@ -61,11 +76,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/BuildTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="616">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -186,7 +210,6 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/others/concurrent/thread/ThreadPool.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/test/TestDeepShallowCopy.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/GroupAnagrams.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/test/TestStaticStringAsFormat.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/others/util/TimeUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/BubbleSort.java" />
@@ -205,6 +228,7 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/RepeatNumberInArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/BuildTree.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -282,16 +306,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="neyzoter" type="462c0819:PsiDirectoryNode" />
               <item name="sword" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oj" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="neyzoter" type="462c0819:PsiDirectoryNode" />
-              <item name="sword" type="462c0819:PsiDirectoryNode" />
-              <item name="RepeatNumberInArray.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -468,12 +482,13 @@
       <workItem from="1583036154277" duration="1980000" />
       <workItem from="1583574417212" duration="1034000" />
       <workItem from="1583662676537" duration="3694000" />
-      <workItem from="1583988213041" duration="5565000" />
+      <workItem from="1583988213041" duration="6505000" />
+      <workItem from="1584021401235" duration="171000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246830000" />
+    <option name="totallyTimeSpent" value="247941000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -488,7 +503,7 @@
     <frame x="55" y="-4" width="1865" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22484882" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22759758" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -498,14 +513,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4872579" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.5188583" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.47400612" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32925585" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32925585" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2925586" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29051986" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.27522936" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -549,6 +564,12 @@
           <line>22</line>
           <properties />
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/BuildTree.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -798,13 +819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/largeFile.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -874,6 +888,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/KMP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/RepeatNumberInArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2490">
+          <caret line="202" column="19" selection-start-line="202" selection-start-column="19" selection-end-line="202" selection-end-column="19" />
+          <folding>
+            <element signature="e#7427#7428#0" expanded="true" />
+            <element signature="e#7468#7469#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="600">
+            <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/QuickSorter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -909,45 +958,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/KMP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/util/HashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="202" column="19" selection-start-line="202" selection-start-column="19" selection-end-line="202" selection-end-column="19" />
-          <folding>
-            <element signature="e#7427#7428#0" expanded="true" />
-            <element signature="e#7468#7469#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/RepeatNumberInArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="118">
-            <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/BuildTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="616">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
