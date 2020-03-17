@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb0abe79-672b-402f-8f02-f808b084a278" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/AddTwoNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/ContainerWithMostWater.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/LongestSubstringWithoutRepeatingCharacters.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/Solution_AddTwoNumbers1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/Solution_AddTwoNumbers2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/Solution_LengthOfLongestSubstring1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/Solution_LengthOfLongestSubstring2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/Solution_MaxArea1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/Solution_MaxArea2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/array/ThreeSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/dynamic/LongestPalindromicSubstring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/dynamic/Solution_LongestPalindrome1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/dynamic/Solution_LongestPalindrome2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/link/AddTwoNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/link/ListNode_RemoveNthFromEnd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/link/RemoveNthNodeFromEndofList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/link/Solution1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/link/Solution2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/link/Solution3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/link/Solution_RemoveNthFromEnd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/math/PalindromeNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/neyzoter/oj/math/Solution_Palindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/link/MergeTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/link/MergeTwoLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/link/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/link/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,33 +20,45 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/RepeatNumberInArray.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/BuildTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="45" />
+            <state relative-caret-position="855">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/util/HashSet.java">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2490">
-              <caret line="202" column="19" selection-start-line="202" selection-start-column="19" selection-end-line="202" selection-end-column="19" />
-              <folding>
-                <element signature="e#7427#7428#0" expanded="true" />
-                <element signature="e#7468#7469#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/README.md">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="8111">
+                <caret line="894" column="11" selection-start-line="894" selection-start-column="11" selection-end-line="894" selection-end-column="11" />
+                <folding>
+                  <element signature="e#439#474#0" />
+                  <element signature="e#723#781#0" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/link/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="600">
-                <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="15" />
+              <first_editor relative-caret-position="549">
+                <caret line="135" column="10" selection-start-line="135" selection-start-column="10" selection-end-line="135" selection-end-column="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -77,19 +66,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/BuildTree.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/link/MergeTwoLists.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="390">
+              <caret line="59" selection-start-line="59" selection-end-line="64" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -178,8 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/link/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/WordBreak.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/UniquePath.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/DiffBinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/GenerateParenthesis.java" />
@@ -229,6 +207,8 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/RepeatNumberInArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/BuildTree.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/link/MergeTwoLists.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/link/README.md" />
       </list>
     </option>
   </component>
@@ -264,7 +244,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -305,13 +285,23 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="neyzoter" type="462c0819:PsiDirectoryNode" />
-              <item name="sword" type="462c0819:PsiDirectoryNode" />
+              <item name="oj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="neyzoter" type="462c0819:PsiDirectoryNode" />
+              <item name="oj" type="462c0819:PsiDirectoryNode" />
+              <item name="link" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -346,7 +336,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BuildTree">
+  <component name="RunManager" selected="Application.MergeTwoLists">
     <configuration name="BuildTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.neyzoter.sword.BuildTree" />
       <module name="oj" />
@@ -373,12 +363,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSorter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.neyzoter.oj.sort.QuickSorter" />
+    <configuration name="MergeTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.neyzoter.oj.link.MergeTwoLists" />
       <module name="oj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.neyzoter.oj.sort.*" />
+          <option name="PATTERN" value="cn.neyzoter.oj.link.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -414,11 +404,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeTwoLists" />
         <item itemvalue="Application.BuildTree" />
         <item itemvalue="Application.RepeatNumberInArray" />
         <item itemvalue="Application.TimeUtil" />
         <item itemvalue="Application.MergeSorter" />
-        <item itemvalue="Application.QuickSorter" />
       </list>
     </recent_temporary>
   </component>
@@ -483,12 +473,13 @@
       <workItem from="1583574417212" duration="1034000" />
       <workItem from="1583662676537" duration="3694000" />
       <workItem from="1583988213041" duration="6505000" />
-      <workItem from="1584021401235" duration="171000" />
+      <workItem from="1584021401235" duration="1416000" />
+      <workItem from="1584414394683" duration="2551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="247941000" />
+    <option name="totallyTimeSpent" value="251737000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -503,7 +494,7 @@
     <frame x="55" y="-4" width="1865" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22759758" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23034634" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -512,7 +503,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4872579" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29561672" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47400612" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -520,7 +511,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32925585" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29051986" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.4485219" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.27522936" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -580,24 +571,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/util/concurrent/atomic/AtomicBoolean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
-          <caret line="150" column="21" selection-start-line="150" selection-start-column="21" selection-end-line="150" selection-end-column="21" />
-          <folding>
-            <element signature="e#1819#1820#0" expanded="true" />
-            <element signature="e#1852#1853#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/util/concurrent/atomic/DoubleAdder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/util/concurrent/atomic/AtomicLong.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -860,20 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="12120">
-            <caret line="894" column="11" selection-start-line="894" selection-start-column="11" selection-end-line="894" selection-end-column="11" />
-            <folding>
-              <element signature="e#439#474#0" />
-              <element signature="e#723#781#0" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/BubbleSorter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -923,6 +882,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/BuildTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/QuickSorter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -958,17 +924,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/BuildTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="8111">
+            <caret line="894" column="11" selection-start-line="894" selection-start-column="11" selection-end-line="894" selection-end-column="11" />
+            <folding>
+              <element signature="e#439#474#0" />
+              <element signature="e#723#781#0" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/link/MergeTwoLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="59" selection-start-line="59" selection-end-line="64" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/link/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="549">
+            <caret line="135" column="10" selection-start-line="135" selection-start-column="10" selection-end-line="135" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

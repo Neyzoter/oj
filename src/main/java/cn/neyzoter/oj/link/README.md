@@ -99,6 +99,7 @@ p1 = x; p2 = x+n;
 输出：`1->1->2->3->4->4`
 
 ## 2.思路
+### 2.1 递归
 
 利用递归，递归结束的条件是某一个节点是null，则返回另外节点
 
@@ -121,3 +122,18 @@ public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
 ```
 
 当两个都是null就结束了。
+
+### 2.2 遍历法
+首先确定哪个ListNode起始（比如l1，l1的第一个node的val小于l2），然后for循环l2，每个l2的node都要依次插入到l1中，具体步骤为
+
+```java
+// 保存next
+ListNode l2_next_temp = l2.next;
+ListNode l1_next_temp = l1.next;
+// 将l2插入到l2
+l1.next = l2;
+l1.next.next = l1_next_temp;
+// 更新l1和l2
+l2 = l2_next_temp;
+l1 = l1.next;
+```
