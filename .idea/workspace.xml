@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb0abe79-672b-402f-8f02-f808b084a278" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/GenerateParenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/GenerateParenthesis.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,7 +16,66 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/exam/alibaba/intern/Test1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="244">
+                <caret line="805" column="8" selection-start-line="805" selection-start-column="8" selection-end-line="805" selection-end-column="8" />
+                <folding>
+                  <element signature="e#439#474#0" />
+                  <element signature="e#723#781#0" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="109">
+                <caret line="70" column="4" selection-start-line="70" selection-start-column="2" selection-end-line="70" selection-end-column="4" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/GenerateParenthesis.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="82" column="65" lean-forward="true" selection-start-line="82" selection-start-column="65" selection-end-line="82" selection-end-column="65" />
+              <folding>
+                <element signature="e#2348#2356#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/exam/alibaba/intern/SequenceSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,6 +98,7 @@
       <find>corePoolSize</find>
       <find>tryAcquireShared</find>
       <find>79</find>
+      <find>22</find>
     </findStrings>
     <replaceStrings>
       <replace>{</replace>
@@ -56,9 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/UniquePath.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/DiffBinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/GenerateParenthesis.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/hash/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/hash/SingleNumber.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/others/DiskSpaceDetail.java" />
@@ -107,6 +164,9 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/link/MergeTwoLists.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/link/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/exam/alibaba/intern/Test1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/exam/alibaba/intern/SequenceSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/GenerateParenthesis.java" />
       </list>
     </option>
   </component>
@@ -176,6 +236,36 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="neyzoter" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="oj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="neyzoter" type="462c0819:PsiDirectoryNode" />
+              <item name="oj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="neyzoter" type="462c0819:PsiDirectoryNode" />
+              <item name="oj" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="neyzoter" type="462c0819:PsiDirectoryNode" />
+              <item name="oj" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic" type="462c0819:PsiDirectoryNode" />
+              <item name="GenerateParenthesis.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -196,11 +286,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/cn/neyzoter/exam/alibaba/intern" />
       <recent name="E:\Softcodes\Java\OJ\src\main\java\cn\neyzoter\oj\math" />
       <recent name="E:\Softcodes\Java\OJ\src\main\java\cn\neyzoter\oj\link" />
       <recent name="E:\Softcodes\Java\OJ\src\main\java\cn\neyzoter\oj\dynamic" />
       <recent name="E:\Softcodes\Java\OJ\src\main\java\cn\neyzoter\oj\array" />
-      <recent name="E:\Softcodes\Java\OJ\src\main\java\array" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -215,13 +305,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SequenceSum">
+  <component name="RunManager" selected="Application.GenerateParenthesis">
     <configuration name="BuildTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.neyzoter.sword.BuildTree" />
       <module name="oj" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.neyzoter.sword.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenerateParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.neyzoter.oj.dynamic.GenerateParenthesis" />
+      <module name="oj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.neyzoter.oj.dynamic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -268,26 +371,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.neyzoter.oj.others.util.TimeUtil" />
-      <module name="oj" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.neyzoter.oj.others.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenerateParenthesis" />
         <item itemvalue="Application.SequenceSum" />
         <item itemvalue="Application.MergeTwoLists" />
         <item itemvalue="Application.BuildTree" />
         <item itemvalue="Application.RepeatNumberInArray" />
-        <item itemvalue="Application.TimeUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -354,12 +444,12 @@
       <workItem from="1583988213041" duration="6505000" />
       <workItem from="1584021401235" duration="1416000" />
       <workItem from="1584414394683" duration="6974000" />
-      <workItem from="1584841689777" duration="252000" />
+      <workItem from="1584841689777" duration="2220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256412000" />
+    <option name="totallyTimeSpent" value="258380000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -372,8 +462,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-4" width="1865" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23309511" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23309511" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -382,7 +473,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29561672" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16309887" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47400612" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -390,7 +481,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32925585" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.16921508" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.16921508" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.27522936" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -450,38 +541,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="214" column="13" selection-start-line="214" selection-start-column="13" selection-end-line="214" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="317" column="69" selection-start-line="317" selection-start-column="69" selection-end-line="317" selection-end-column="69" />
-          <folding>
-            <element signature="e#17535#17536#0" expanded="true" />
-            <element signature="e#17577#17578#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/util/concurrent/locks/StampedLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
-          <caret line="512" column="55" selection-start-line="512" selection-start-column="55" selection-end-line="512" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/util/concurrent/Callable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/others/datastructure.java" />
     <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -768,20 +827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="11085">
-            <caret line="825" column="4" selection-start-line="825" selection-start-column="2" selection-end-line="825" selection-end-column="4" />
-            <folding>
-              <element signature="e#439#474#0" />
-              <element signature="e#723#781#0" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/WordSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -838,6 +883,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/exam/alibaba/intern/SequenceSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/exam/alibaba/intern/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="244">
+            <caret line="805" column="8" selection-start-line="805" selection-start-column="8" selection-end-line="805" selection-end-column="8" />
+            <folding>
+              <element signature="e#439#474#0" />
+              <element signature="e#723#781#0" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="109">
+            <caret line="70" column="4" selection-start-line="70" selection-start-column="2" selection-end-line="70" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/GenerateParenthesis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="82" column="65" lean-forward="true" selection-start-line="82" selection-start-column="65" selection-end-line="82" selection-end-column="65" />
+          <folding>
+            <element signature="e#2348#2356#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

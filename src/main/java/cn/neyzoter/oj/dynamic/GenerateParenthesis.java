@@ -1,19 +1,23 @@
 package cn.neyzoter.oj.dynamic;
 
-import java.util.ArrayList;
-import java.util.List;
+import sun.util.resources.cldr.zh.CalendarData_zh_Hans_HK;
+
+import java.util.*;
 
 /**
  * 22.括号生成
  */
 public class GenerateParenthesis {
     public static void main(String[] args){
-        int n = 10;
-        Solution1_GenerateParenthesis solution1_generateParenthesis = new Solution1_GenerateParenthesis();
-        System.out.println(solution1_generateParenthesis.generateParenthesis(n));
+        int n = 1;
+//        Solution1_GenerateParenthesis solution1_generateParenthesis = new Solution1_GenerateParenthesis();
+//        System.out.println(solution1_generateParenthesis.generateParenthesis(n));
 
 //        Solution2_GenerateParenthesis solution2_generateParenthesis = new Solution2_GenerateParenthesis();
 //        System.out.println(solution2_generateParenthesis.generateParenthesis(n));
+
+        Solution3_GenerateParenthesis solution3_generateParenthesis = new Solution3_GenerateParenthesis();
+        System.out.println(solution3_generateParenthesis.generateParenthesis(n));
     }
 }
 
@@ -67,5 +71,30 @@ class Solution2_GenerateParenthesis {
             }
         }
         return strs;
+    }
+}
+
+/**
+ * 动态规划法2
+ */
+class Solution3_GenerateParenthesis {
+    public List<String> generateParenthesis(int n) {
+        Map<Integer, List<String>> dp = new HashMap<>(n);
+        List<String> list = new ArrayList<String>();list.add("");
+        dp.put(0,list);
+        for (int i = 1; i <= n; i ++) {
+            List<String> listStr = new ArrayList<>();
+            for (int j = 0; j <= i - 1 ; j ++) {
+                for (String left : dp.get(j)) {
+                    for (String right : dp.get(i - 1 - j)) {
+                        String str = "(" + left + ")" + right;
+                        listStr.add(str);
+                    }
+                }
+
+            }
+            dp.put(i, listStr);
+        }
+        return dp.get(n);
     }
 }
