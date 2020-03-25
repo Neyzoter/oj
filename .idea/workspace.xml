@@ -22,8 +22,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="345">
-                <caret line="111" column="18" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="18" />
+              <first_editor relative-caret-position="82">
+                <caret line="199" selection-start-line="199" selection-end-line="227" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -31,10 +31,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/FindNthDigit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/CuttingRope.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -84,7 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/others/sendmail/SendMailThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/others/disk/DiskSpaceDetail.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/ClimbStairs.java" />
@@ -134,6 +142,7 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/exam/microsoft/intern/Test1.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/exam/microsoft/intern/Test2.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/CuttingRope.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/FindNthDigit.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/README.md" />
       </list>
     </option>
@@ -265,7 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CuttingRope">
+  <component name="RunManager" selected="Application.FindNthDigit">
     <configuration name="CountDigitOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.neyzoter.sword.CountDigitOne" />
       <module name="oj" />
@@ -292,12 +301,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenerateParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.neyzoter.oj.dynamic.GenerateParenthesis" />
+    <configuration name="FindNthDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.neyzoter.sword.FindNthDigit" />
       <module name="oj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.neyzoter.oj.dynamic.*" />
+          <option name="PATTERN" value="cn.neyzoter.sword.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -305,12 +314,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.neyzoter.oj.link.MergeTwoLists" />
+    <configuration name="GenerateParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.neyzoter.oj.dynamic.GenerateParenthesis" />
       <module name="oj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.neyzoter.oj.link.*" />
+          <option name="PATTERN" value="cn.neyzoter.oj.dynamic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -333,11 +342,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindNthDigit" />
         <item itemvalue="Application.CuttingRope" />
         <item itemvalue="Application.CountDigitOne" />
         <item itemvalue="Application.GenerateParenthesis" />
         <item itemvalue="Application.SequenceSum" />
-        <item itemvalue="Application.MergeTwoLists" />
       </list>
     </recent_temporary>
   </component>
@@ -405,12 +414,13 @@
       <workItem from="1584021401235" duration="1416000" />
       <workItem from="1584414394683" duration="6974000" />
       <workItem from="1584841689777" duration="12083000" />
-      <workItem from="1585056423394" duration="2286000" />
+      <workItem from="1585056423394" duration="2526000" />
+      <workItem from="1585100075033" duration="2095000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="270529000" />
+    <option name="totallyTimeSpent" value="272864000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -425,7 +435,7 @@
     <frame x="55" y="-4" width="1865" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19736119" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1995602" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -434,7 +444,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38328236" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4046891" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2069317" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -442,7 +452,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.38022426" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.25891948" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.19164118" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.27522936" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -542,13 +552,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/FourNumsSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="84" column="25" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/ClimbStairs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -917,16 +920,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/CuttingRope.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/FindNthDigit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="345">
-            <caret line="111" column="18" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="18" />
+          <first_editor relative-caret-position="82">
+            <caret line="199" selection-start-line="199" selection-end-line="227" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>

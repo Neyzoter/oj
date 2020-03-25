@@ -156,3 +156,74 @@ if (mid > 1) {
     oneNum += left * pow;
 }
 ```
+
+## 面试题44. 数字序列中某一位的数字
+### 44.1 问题
+数字以0123456789101112131415…的格式序列化到一个字符序列中。在这个序列中，第5位（从下标0开始计数）是5，第13位是1，第19位是4，等等。
+
+请写一个函数，求任意第n位对应的数字。
+
+示例 1：
+
+```
+输入：n = 3
+输出：3
+```
+
+示例 2：
+
+```
+输入：n = 11
+输出：0
+```
+
+限制：
+
+```
+0 <= n < 2^31
+```
+
+注意：本题与主站 400 题相同：https://leetcode-cn.com/problems/nth-digit/
+
+### 44.2 思路
+1. 首先找到属于几位数（比如为N）
+
+2. 将前面的个数都剪掉，剩下X
+
+3. X/N = A ... B
+
+4. 根据A得到所在的数，根据B得到这个数的第几位
+
+参考：
+
+```java
+public static final int ONE_DIGIT = 10;
+public int findNthDigit(int n) {
+    if (n < ONE_DIGIT) {
+        return n;
+    }
+    long num = 1;
+    int nAt = 1;
+    for (int i = 1;  ; i ++) {
+        long nextNum = num + 9 * (long) Math.pow(10, i - 1) * i;
+        if (nextNum > n) {
+            nAt = i;
+            break;
+        } else {
+            num = nextNum;
+        }
+    }
+    int left = n - (int) num;
+    // 商数
+    int quotient = left / nAt;
+    // 余数
+    int remainder = left % nAt;
+    // 找到nAt位的数字的最小值
+    int base = (int) Math.pow(10, nAt - 1);
+    // 找到字符所在数字
+    int basePlus = base + quotient;
+    // 找到字符，并转化为数字
+    int ch = String.valueOf(basePlus).charAt(remainder) - '0';
+    return ch;
+}
+```
