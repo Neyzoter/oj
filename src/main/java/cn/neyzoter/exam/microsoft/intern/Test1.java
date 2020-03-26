@@ -5,12 +5,14 @@ import java.util.Scanner;
 /**
  * MS Exam1
  * @author Charles Song
- * @date 2020-3
+ * @date 2020-3-25
  */
 public class Test1 {
     public static void main (String[] args) {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
         String[] strings = str.split(" ");
+
+        System.out.println("Game Over!");
     }
 }

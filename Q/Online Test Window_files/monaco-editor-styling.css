@@ -1,0 +1,15 @@
+.readOnlyRegionDecorationLight {
+    background: #F6F6F6;
+    width: 100% !important;
+}
+
+.readOnlyRegionDecorationDark {
+    background: #323542;
+    width: 100% !important;
+}
+
+.warning-line {
+    background: red;
+    width: 5px !important;
+    left: 3px;
+}

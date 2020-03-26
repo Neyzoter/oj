@@ -12,5 +12,7 @@ public class Test2 {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
         String[] strings = str.split(" ");
+
+        System.out.println("Game Over!");
     }
 }

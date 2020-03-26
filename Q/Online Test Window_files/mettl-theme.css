@@ -1,0 +1,12 @@
+body{
+    background-image: url("../../images/RR_ pattern.png");
+}
+
+body.test-window{
+    background-image: none;
+}
+
+#breadcrumb{
+    background: #00accd;
+    color: #fff;
+}
