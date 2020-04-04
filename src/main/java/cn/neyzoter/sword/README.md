@@ -227,3 +227,39 @@ public int findNthDigit(int n) {
     return ch;
 }
 ```
+
+## 面试题52. 两个链表的第一个公共节点
+输入两个链表，找出它们的第一个公共节点。
+
+### 52.1 问题
+https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/
+
+### 52.2 思路
+
+```java
+public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+    ListNode node1, node2;
+    int flag = 0;
+    if (headA == null || headB == null) {
+        return null;
+    }
+    for (node1 = headA, node2 = headB; node1 != node2 && flag <= 1;) {
+        if (node1.next == null) {
+            node1 = headB;
+            flag ++;
+        } else {
+            node1 = node1.next;
+        }
+        if (node2.next == null) {
+            node2 = headA;
+        } else {
+            node2 = node2.next;
+        }
+    }
+    if (flag > 1) {
+        return null;
+    } else {
+        return node1;
+    }
+}
+```
