@@ -260,6 +260,32 @@ public int findNthDigit(int n) {
 
 而后判断是否和2、3和5的计算出来的结果相同，是则下表加1。
 
+```java
+public int nthUglyNumber(int n) {
+    int[] dp = new int[n];
+    dp[0] = 1;
+    int idx2 = 0 , idx3 = 0, idx5 = 0;
+    for (int i = 1 ; i < n ; i ++) {
+        int ugly2 = dp[idx2] * 2;
+        int ugly3 = dp[idx3] * 3;
+        int ugly5 = dp[idx5] * 5;
+        int uglyNum = Math.min(Math.min(ugly2,ugly3), ugly5);
+        dp[i] = uglyNum;
+        // 此处不使用if else，因为有可能ugly数字相同
+        if (uglyNum == ugly2) {
+            idx2 ++;
+        }
+        if (uglyNum == ugly3) {
+            idx3 ++;
+        }
+        if (uglyNum == ugly5) {
+            idx5 ++;
+        }
+    }
+    return dp[n - 1];
+}
+```
+
 ## 面试题52. 两个链表的第一个公共节点
 输入两个链表，找出它们的第一个公共节点。
 
