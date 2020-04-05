@@ -10,13 +10,15 @@ import java.util.HashSet;
 public class NthUglyNumber {
     public static void main (String[] args) {
         int n = 1690;
-        Solution1_NthUglyNumber solution1_nthUglyNumber = new Solution1_NthUglyNumber();
-        System.out.println(solution1_nthUglyNumber.nthUglyNumber(n));
+//        Solution1_NthUglyNumber solution1_nthUglyNumber = new Solution1_NthUglyNumber();
+        Solution2_NthUglyNumber solution2_nthUglyNumber = new Solution2_NthUglyNumber();
+        System.out.println(solution2_nthUglyNumber.nthUglyNumber(n));
     }
 }
 
 /**
- * 动态规划
+ * 动态规划1
+ * n较大时，会超时
  */
 class Solution1_NthUglyNumber {
     public int nthUglyNumber(int n) {
@@ -53,5 +55,34 @@ class Solution1_NthUglyNumber {
         } else {
             return false;
         }
+    }
+}
+
+/**
+ * 动态规划2
+ */
+class Solution2_NthUglyNumber {
+    public int nthUglyNumber(int n) {
+        int[] dp = new int[n];
+        dp[0] = 1;
+        int idx2 = 0 , idx3 = 0, idx5 = 0;
+        for (int i = 1 ; i < n ; i ++) {
+            int ugly2 = dp[idx2] * 2;
+            int ugly3 = dp[idx3] * 3;
+            int ugly5 = dp[idx5] * 5;
+            int uglyNum = Math.min(Math.min(ugly2,ugly3), ugly5);
+            dp[i] = uglyNum;
+            // 此处不使用if else，因为有可能ugly数字相同
+            if (uglyNum == ugly2) {
+                idx2 ++;
+            }
+            if (uglyNum == ugly3) {
+                idx3 ++;
+            }
+            if (uglyNum == ugly5) {
+                idx5 ++;
+            }
+        }
+        return dp[n - 1];
     }
 }
