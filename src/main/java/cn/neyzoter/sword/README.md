@@ -115,6 +115,88 @@
 
 `dp[5] = 6  (2*3均可)`
 
+## 面试题16. 数值的整数次方 MyPow
+### 16.1 问题
+实现函数double Power(double base, int exponent)，求base的exponent次方。不得使用库函数，同时不需要考虑大数问题。
+
+示例 1:
+
+```
+输入: 2.00000, 10
+输出: 1024.00000
+```
+
+示例 2:
+
+```
+输入: 2.10000, 3
+输出: 9.26100
+```
+
+示例 3:
+
+```
+输入: 2.00000, -2
+输出: 0.25000
+解释: 2^-2 = 1/2^2 = 1/4 = 0.25
+```
+
+说明:
+
+`-100.0 < x < 100.0`
+
+n 是 32 位有符号整数，其数值范围是 `[−2^31, 2^31 − 1]` 。
+
+### 16.2 思路
+
+* **for循环**
+
+```java
+public double myPow(double x, int n) {
+    double val = 1;
+    // 注意int取正可能超过int的最大值
+    long absN = (long) n;
+    absN = absN < 0 ? -absN : absN;
+
+    if (x == 1) {
+        return 1;
+    } else if (x == -1 ) {
+        return absN % 2 == 0 ? 1 : -1;
+    }
+    x = n < 0 ? 1 / x : x;
+    for (int i = 0 ; i < absN ; i ++) {
+        val *= x;
+    }
+    return val;
+}
+```
+
+时间复杂度: O(n)
+
+* **利用二进制幂**
+
+<src img="./img/binary_pow.png" width="400" alt="二进制幂">
+
+```java
+public double myPow(double x, int n) {
+    double val = 1;
+    x = n < 0 ? 1 / x : x;
+    // 注意int取正可能超过int的最大值
+    long absN = (long) n;
+    absN = absN < 0 ? -absN : absN;
+    while (absN > 0) {
+        if ((absN & 1) == 1) {
+            val *= x;
+        }
+        x *= x;
+        absN >>= 1;
+    }
+    return val;
+}
+```
+
+时间复杂度: O(logn)
+
 ## 面试题43. 1-n整数中1出现的次数
 ### 43.1 问题
 输入一个整数 n ，求1～n这n个整数的十进制表示中1出现的次数。
