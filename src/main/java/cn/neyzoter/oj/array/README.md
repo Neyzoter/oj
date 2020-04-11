@@ -654,6 +654,80 @@ public List<List<Integer>> combinationSum(int[] candidates, int target) {
 }
 ```
 
+# 43. 字符串相乘 String Multiply
+## 1 问题
+给定两个以字符串形式表示的非负整数 num1 和 num2，返回 num1 和 num2 的乘积，它们的乘积也表示为字符串形式。
+
+示例 1:
+
+```
+输入: num1 = "2", num2 = "3"
+输出: "6"
+```
+
+示例 2:
+
+```
+输入: num1 = "123", num2 = "456"
+输出: "56088"
+```
+
+说明：
+
+1. num1 和 num2 的长度小于110。
+
+2. num1 和 num2 只包含数字 0-9。
+
+3. num1 和 num2 均不以零开头，除非是数字 0 本身。
+
+4. 不能使用任何标准库的大数类型（比如 BigInteger）或直接将输入转换为整数来处理。
+## 2.思路
+### 2.1 竖式计算
+1. 创建全零字符数组result，长度为两个字符串之和（相乘后数字不会超过该长度）
+
+2. 遍历两个字符串的每个字符，将两个字符串的字符相乘
+
+3. 根据字符所在下标，可以确定相乘的结果应该加到字符数组result的哪一位
+
+4. 考虑进位
+
+```java
+public String multiply(String num1, String num2) {
+    int num1Len = num1.length();
+    int num2Len = num2.length();
+    char[] result = new char[num1Len + num2Len];
+    for (int i = num1Len - 1 ; i >= 0 ; i --) {
+        for (int j = num2Len - 1 ; j >= 0 ; j --) {
+            int val1 = num1.charAt(i) - '0'; int val2 = num2.charAt(j) - '0';
+            int multi = val1 * val2;
+            int bit1 = multi % 10; int bit2 = multi / 10;
+            result[i + j + 1] += bit1;
+            int c = result[i + j + 1] / 10;
+            result[i + j + 1] %= 10;
+            result[i + j] += bit2 + c;
+            c = result[i + j] / 10;
+            result[i + j] %= 10;
+            if (c > 0) {
+                result[i + j - 1] += c;
+            }
+        }
+    }
+    int start = 0;boolean findNotZero = false;
+    for (int i = 0; i < num1Len + num2Len; i ++) {
+        if (result[i] != 0 && findNotZero == false) {
+            findNotZero = true;
+            start = i;
+        }
+        result[i] += '0';
+    }
+    if (findNotZero == true) {
+        return String.copyValueOf(result,start,result.length - start);
+    } else {
+        return "0";
+    }
+}
+```
+
 # 46. 全排列
 ## 1.问题
 给定一个没有重复数字的序列，返回其所有可能的全排列。
