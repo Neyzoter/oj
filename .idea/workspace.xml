@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb0abe79-672b-402f-8f02-f808b084a278" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,8 +21,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="92">
-                <caret line="693" column="7" selection-start-line="693" selection-start-column="7" selection-end-line="693" selection-end-column="7" />
+              <first_editor relative-caret-position="213">
+                <caret line="408" column="32" selection-start-line="408" selection-start-column="32" selection-end-line="408" selection-end-column="32" />
                 <folding>
                   <element signature="e#439#474#0" />
                   <element signature="e#723#781#0" />
@@ -35,9 +34,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/Divide.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="45" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/StringMultiply.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
+            <state relative-caret-position="138">
               <caret line="16" selection-start-line="16" selection-end-line="49" selection-end-column="5" />
             </state>
           </provider>
@@ -90,7 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/CombinationSum.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/test/testDeepShallowCopy.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/SearchTargetInIncrement.java" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -140,6 +147,7 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/MyPow.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/StringMultiply.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/Divide.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md" />
       </list>
     </option>
@@ -274,13 +282,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringMultiply">
-    <configuration name="LegendaryItems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.neyzoter.realq.microsoft.LegendaryItems" />
+  <component name="RunManager" selected="Application.Divide">
+    <configuration name="Divide" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.neyzoter.oj.array.Divide" />
       <module name="oj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.neyzoter.realq.microsoft.*" />
+          <option name="PATTERN" value="cn.neyzoter.oj.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -342,11 +350,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Divide" />
         <item itemvalue="Application.StringMultiply" />
         <item itemvalue="Application.MyPow" />
         <item itemvalue="Application.NthUglyNumber" />
         <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.LegendaryItems" />
       </list>
     </recent_temporary>
   </component>
@@ -423,12 +431,12 @@
       <workItem from="1586169174979" duration="2873000" />
       <workItem from="1586508585089" duration="729000" />
       <workItem from="1586509710925" duration="598000" />
-      <workItem from="1586564897644" duration="6115000" />
+      <workItem from="1586564897644" duration="12150000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="305919000" />
+    <option name="totallyTimeSpent" value="311954000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -440,7 +448,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-11" width="1867" height="1092" extended-state="6" />
+    <frame x="55" y="-4" width="1865" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21715228" />
@@ -452,15 +460,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2874618" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40978593" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19469929" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3598369" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32925585" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.38022426" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2833843" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.17940877" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.27522936" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -560,17 +568,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7830">
-          <caret line="565" column="30" selection-start-line="565" selection-start-column="30" selection-end-line="565" selection-end-column="30" />
-          <folding>
-            <element signature="e#44444#44445#0" expanded="true" />
-            <element signature="e#44501#44502#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/jre/lib/rt.jar!/sun/misc/Unsafe.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3900">
@@ -923,16 +920,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/StringMultiply.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
+        <state relative-caret-position="138">
           <caret line="16" selection-start-line="16" selection-end-line="49" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/Divide.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="45" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/array/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="92">
-            <caret line="693" column="7" selection-start-line="693" selection-start-column="7" selection-end-line="693" selection-end-column="7" />
+          <first_editor relative-caret-position="213">
+            <caret line="408" column="32" selection-start-line="408" selection-start-column="32" selection-end-line="408" selection-end-column="32" />
             <folding>
               <element signature="e#439#474#0" />
               <element signature="e#723#781#0" />

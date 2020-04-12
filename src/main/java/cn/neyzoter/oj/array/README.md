@@ -364,7 +364,116 @@ End
 
 *考虑到不能重复，使用Set<List<Integer>>保存数据，最后转化为List<List<Integer>>*
 
+# 29. 两数相除 Divide
+## 1.问题
+给定两个整数，被除数 dividend 和除数 divisor。将两数相除，要求不使用乘法、除法和 mod 运算符。
 
+返回被除数 dividend 除以除数 divisor 得到的商。
+
+整数除法的结果应当截去（truncate）其小数部分，例如：truncate(8.345) = 8 以及 truncate(-2.7335) = -2
+
+ 
+
+示例 1:
+
+```
+输入: dividend = 10, divisor = 3
+输出: 3
+解释: 10/3 = truncate(3.33333..) = truncate(3) = 3
+```
+
+示例 2:
+
+```
+输入: dividend = 7, divisor = -3
+输出: -2
+解释: 7/-3 = truncate(-2.33333..) = -2
+```
+
+提示：
+
+被除数和除数均为 32 位有符号整数。
+
+除数不为 0。
+
+假设我们的环境只能存储 32 位有符号整数，其数值范围是 `[−2^31,  2^31 − 1]`。本题中，如果除法结果溢出，则返回 `2^31 − 1`。
+
+## 2.思路
+### 2.1 递归法
+1. 除数不断乘2
+
+2. 直到结果超过被除数（需要考虑溢出问题）
+
+策略包括：比较大小时，`vabsDividend - sum <= sum`，防止`2 * sum`溢出；计算过程中都使用负数计算，随后再转化为正数
+
+3. 超过后计算得到剩下的，进一步进行递归操作，直到除以后等于0
+
+```java
+public int divide(int dividend, int divisor) {
+    int result = divideVabs(dividend, divisor);
+    boolean resultIsPos = (dividend < 0 && divisor < 0) || (dividend > 0 && divisor > 0);
+    if (resultIsPos) {
+        if (result == Integer.MIN_VALUE) {
+            result = Integer.MAX_VALUE;
+        } else {
+            result = -result;
+        }
+    }
+    return result;
+}
+public int divideVabs (int dividend, int divisor) {
+    // 转化为负数
+    int vabsDividend = dividend < 0 ? dividend : -dividend;
+    int vabsDivisor = divisor < 0 ? divisor : -divisor;
+    if (vabsDividend > vabsDivisor) {
+        return 0;
+    }
+    int sum = vabsDivisor;
+    int result = -1;
+    for (;vabsDividend - sum <= sum;) {
+        sum += sum;
+        result += result;
+    }
+    int res = vabsDividend - sum;
+    result = divideVabs(res, divisor) + result;
+    return result;
+}
+```
+### 2.2 暴力法
+不断使用除数加法实现超过被除数
+
+```java
+public int divide(int dividend, int divisor) {
+    if (divisor == 0) {
+        return Integer.MAX_VALUE;
+    }
+    int sum = 0;
+    // 转化为负数
+    int vabsDividend = dividend < 0 ? dividend : -dividend;
+    int vabsDivisor = divisor < 0 ? divisor : -divisor;
+    int result = 0;
+    for (result = 0; vabsDividend - sum <= vabsDivisor; result --) {
+        sum += vabsDivisor;
+    }
+    int sign;
+    if (dividend > 0 && divisor >0) {
+        sign = 1;
+    } else if (dividend < 0 && divisor < 0){
+        sign = 1;
+    } else {
+        sign = -1;
+    }
+    if (sign == -1) {
+        return result;
+    } else {
+        if (result != Integer.MIN_VALUE) {
+            return -result;
+        } else {
+            return Integer.MAX_VALUE;
+        }
+    }
+}
+```
 # 31.下一个排列（Next Permutation）
 ## 1.问题
 实现获取下一个排列的函数，算法需要将给定数字序列重新排列成字典序中下一个更大的排列。
