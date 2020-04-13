@@ -1077,3 +1077,92 @@ dp[str2.length][256]，行表示第i个字符，列表示ASCII字符。dp中存�
 
 2. 利用dp进行匹配
 
+# 647. 回文子串 CountSubstrings
+## 1.问题
+给定一个字符串，你的任务是计算这个字符串中有多少个回文子串。
+
+具有不同开始位置或结束位置的子串，即使是由相同的字符组成，也会被计为是不同的子串。
+
+示例 1:
+
+```
+输入: "abc"
+输出: 3
+解释: 三个回文子串: "a", "b", "c".
+```
+
+示例 2:
+
+```
+输入: "aaa"
+输出: 6
+说明: 6个回文子串: "a", "a", "a", "aa", "aa", "aaa".
+```
+
+注意:
+
+输入的字符串长度不会超过1000。
+
+## 2.思路
+### 2.1 中心对称法
+1. 遍历所有元素和两个元素中间
+
+2. 累加回文子串个数
+
+```java
+public int countSubstrings(String s) {
+    int sum;
+    switch (s.length()) {
+        case 0:
+            sum = 0;
+            return sum;
+        case 1:
+            sum = 1;
+            return sum;
+        default:
+            sum = 0;
+            break;
+    }
+
+    for (int i = 0 ; i < s.length(); i ++) {
+        sum ++;
+        // 1个字符为中心
+        for (int j = 1; ;j ++){
+            int left = i - j;
+            int right = i + j;
+            int inc = count(s, left, right);
+            if (inc == 0) {
+                break;
+            } else {
+                sum += inc;
+            }
+        }
+        // 2个字符为中心
+        for (int j = 1 ; ; j ++) {
+            int left = i + 1 - j;
+            int right = i + j;
+            int inc = count(s, left, right);
+            if (inc == 0) {
+                break;
+            } else {
+                sum += inc;
+            }
+        }
+    }
+    return sum;
+}
+
+public int count (String s , int left , int right) {
+    int sum = 0;
+    if ((left >= 0) && (right < s.length())) {
+        if (s.charAt(left) == s.charAt(right)) {
+            sum += 1;
+        }
+    }
+    return sum;
+}
+```
+
+### 2.2 拉马车法
+
+[拉马车法](https://www.cnblogs.com/bitzhuwei/p/Longest-Palindromic-Substring-Part-II.html)
