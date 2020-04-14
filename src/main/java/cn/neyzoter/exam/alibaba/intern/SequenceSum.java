@@ -5,11 +5,16 @@ import java.util.Scanner;
 public class SequenceSum {
     public static void main (String[] args) {
         Scanner sc = new Scanner(System.in);
-        String str = sc.nextLine();
-        String[] strings = str.split(" ");
-        int N = Integer.parseInt(strings[0]);
-        int L = Integer.parseInt(strings[1]);
-        SequenceSum.printSequence(N,L);
+        while (sc.hasNextInt()) {
+            int N = sc.nextInt();
+            int L = sc.nextInt();
+            SequenceSum.printSequence(N,L);
+        }
+//        String str = sc.nextLine();
+//        String[] strings = str.split(" ");
+//        int N = Integer.parseInt(strings[0]);
+//        int L = Integer.parseInt(strings[1]);
+
     }
 
     public static void printSequence(int N, int L) {
