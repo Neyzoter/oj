@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 /**
  * Alibaba Exam1<br/>
+ * 森林之王<br/>
  * 注意类名必须为Main, 不要有任何package xxx信息
  * @author Charles Song
  * @date 2020-3
