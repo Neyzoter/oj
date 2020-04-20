@@ -1,4 +1,4 @@
-package cn.neyzoter.oj.test;
+package cn.neyzoter.test;
 
 /**
  * test static String as String.format()

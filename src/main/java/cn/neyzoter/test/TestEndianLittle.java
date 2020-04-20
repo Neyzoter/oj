@@ -1,4 +1,4 @@
-package cn.neyzoter.oj.test;
+package cn.neyzoter.test;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

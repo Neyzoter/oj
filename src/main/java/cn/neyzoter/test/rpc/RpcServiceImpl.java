@@ -1,4 +1,4 @@
-package cn.neyzoter.oj.test.rpc;
+package cn.neyzoter.test.rpc;
 
 /**
  * RPC服务实现

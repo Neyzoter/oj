@@ -1,4 +1,4 @@
-package cn.neyzoter.oj.test;
+package cn.neyzoter.test;
 
 /**
  * 测试接口中的变量定义
