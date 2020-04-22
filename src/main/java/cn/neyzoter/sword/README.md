@@ -116,6 +116,46 @@ class Solution {
 }
 ```
 
+## 面试题05 替换空格
+### 1. 问题
+请实现一个函数，把字符串 s 中的每个空格替换成"%20"。
+
+示例 1：
+
+```
+输入：s = "We are happy."
+输出："We%20are%20happy."
+```
+
+限制：
+
+```
+0 <= s 的长度 <= 10000
+```
+
+### 2. 思路
+
+```java
+class Solution {
+    public static final char SPACE = ' ';
+    public String replaceSpace(String s) {
+        char[] ch = new char[s.length() * 3];
+        int j = 0;
+        for (int i = 0 ; i < s.length() ; i ++) {
+            char c = s.charAt(i);
+            if (c == SPACE) {
+                ch[j] = '%';j++;
+                ch[j] = '2';j++;
+                ch[j] = '0';j++;
+            } else {
+                ch[j] = c;j++;
+            }
+        }
+        return String.copyValueOf(ch, 0, j);
+    }
+}
+```
+
 ## 面试题07. 重建二叉树（Build Tree）
 ### 7.1 问题
 输入某二叉树的前序遍历和中序遍历的结果，请重建该二叉树。假设输入的前序遍历和中序遍历的结果中都不含重复的数字。
