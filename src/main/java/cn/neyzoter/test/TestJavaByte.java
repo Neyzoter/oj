@@ -11,7 +11,7 @@ public class TestJavaByte {
         Byte nagByte = -2;
         System.out.println(String.format("posByte = %s B", toBinary(posByte)));
         System.out.println(String.format("nagByte = %s B", toBinary(nagByte)));
-        System.out.println(String.format("Java中只能用short保存无符号byte，不存在unsigned byte"));
+        System.out.println("Java中只能用short保存无符号byte，不存在unsigned byte");
 
         int posInt = 1000;
         int nagInt = -1000;
