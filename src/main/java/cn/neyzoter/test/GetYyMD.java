@@ -19,6 +19,5 @@ public class GetYyMD {
         int d = Integer.parseInt(sdfD.format(date));
         int yymd = yy << 16 | m << 8 | d;
         System.out.println(String.format("[LITTLE ENDIAN] yymd = 0x%x", yymd));
-
     }
 }

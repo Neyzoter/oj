@@ -2,6 +2,7 @@ package cn.neyzoter.test;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -12,6 +13,7 @@ import java.util.List;
 public class TestCollection {
     public static void main (String[] args) {
         testCollecionRm();
+        testCompare();
     }
 
     /**
@@ -31,5 +33,27 @@ public class TestCollection {
         // list删除的obj
         list.remove("1");
         System.out.println("List remove \"1\" : " + list.size());
+    }
+
+    /**
+     * 测试Comparable和Comparator
+     */
+    public static void testCompare () {
+        List<Integer> list = new ArrayList<>();
+        list.add(1);list.add(5);list.add(3);
+        System.out.println(list);
+        list.sort(new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                if (o1.equals(o2)) {
+                    return 0;
+                } else if (o1 > o2) {
+                    return 1;
+                } else {
+                    return -1;
+                }
+            }
+        });
+        System.out.println(list);
     }
 }

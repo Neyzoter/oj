@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb0abe79-672b-402f-8f02-f808b084a278" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/neyzoter/test/GetYyMD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neyzoter/test/GetYyMD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/neyzoter/test/TestCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neyzoter/test/TestCollection.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,13 +21,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/test/TestCollection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="225">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/test/TestIntegerEquals.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/util/Comparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-179">
+              <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -34,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/test/GetYyMD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="45">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,12 +69,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="631">
-                <caret line="155" column="1" selection-start-line="155" selection-start-column="1" selection-end-line="155" selection-end-column="1" />
+              <first_editor relative-caret-position="421">
+                <caret line="150" column="30" lean-forward="true" selection-start-line="150" selection-start-column="30" selection-end-line="150" selection-end-column="30" />
               </first_editor>
               <second_editor />
             </state>
@@ -153,8 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/SimpleSelectionSorter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/DirectlyInsertSorter.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/BinarySearchSorter.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/HillSorter.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/sort/ShellSorter.java" />
@@ -199,11 +214,13 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/test/TestLock.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/test/TestIfVar.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/test/TestIfVar.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/test/GetYyMD.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/test/TestJavaByte.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/FindNumberIn2DArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/ReplaceSpace.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/test/GetYyMD.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/test/TestCollection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/test/TestIntegerEquals.java" />
       </list>
     </option>
   </component>
@@ -290,7 +307,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="neyzoter" type="462c0819:PsiDirectoryNode" />
-              <item name="sword" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -336,7 +353,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReplaceSpace">
+  <component name="RunManager" selected="Application.TestCollection">
     <configuration name="FindNumberIn2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.neyzoter.sword.FindNumberIn2DArray" />
       <module name="oj" />
@@ -376,6 +393,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.neyzoter.test.TestCollection" />
+      <module name="oj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.neyzoter.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestJavaByte" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.neyzoter.test.TestJavaByte" />
       <module name="oj" />
@@ -389,26 +419,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.neyzoter.test.TestLock" />
-      <module name="oj" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.neyzoter.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCollection" />
         <item itemvalue="Application.ReplaceSpace" />
         <item itemvalue="Application.FindNumberIn2DArray" />
         <item itemvalue="Application.TestJavaByte" />
         <item itemvalue="Application.GetYyMD" />
-        <item itemvalue="Application.TestLock" />
       </list>
     </recent_temporary>
   </component>
@@ -492,12 +509,12 @@
       <workItem from="1587240829822" duration="1124000" />
       <workItem from="1587324634938" duration="4523000" />
       <workItem from="1587402180978" duration="3184000" />
-      <workItem from="1587529383111" duration="7241000" />
+      <workItem from="1587529383111" duration="9743000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="355816000" />
+    <option name="totallyTimeSpent" value="358318000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -521,7 +538,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49917537" visible="true" weight="0.27319062" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49917537" visible="true" weight="0.30173293" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3598369" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -529,7 +546,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.38022426" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49972513" weight="0.25688073" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49972513" weight="0.27930683" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5002749" side_tool="true" weight="0.25688073" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49972513" weight="0.27522936" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -629,20 +646,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/CountDigitOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/dynamic/GenerateParenthesis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="90" column="41" selection-start-line="90" selection-start-column="41" selection-end-line="90" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/oj/hash/ValidSudoku.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -862,32 +865,10 @@
       </provider>
     </entry>
     <entry file="jar://C:/Softwares/Java/jdk8/src.zip!/java/text/DateFormat.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/test/TestCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/test/TestStaticStringAsFormat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/test/GetYyMD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -962,10 +943,44 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="631">
-            <caret line="155" column="1" selection-start-line="155" selection-start-column="1" selection-end-line="155" selection-end-column="1" />
+          <first_editor relative-caret-position="421">
+            <caret line="150" column="30" lean-forward="true" selection-start-line="150" selection-start-column="30" selection-end-line="150" selection-end-column="30" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/test/GetYyMD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-179">
+          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/test/TestCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/test/TestIntegerEquals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
     </entry>
