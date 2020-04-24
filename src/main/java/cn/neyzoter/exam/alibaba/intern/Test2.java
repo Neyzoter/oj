@@ -1,8 +1,6 @@
 package cn.neyzoter.exam.alibaba.intern;
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * Alibaba Exam2<br/>
@@ -14,15 +12,15 @@ public class Test2 {
     public static void main (String[] args) {
         /**
          * 测试样例
-         * 4 8 2
-         * 1 2 4
-         * 1 3 2
-         * 1 4 7
-         * 2 1 1
-         * 2 3 5
-         * 3 1 2
-         * 3 4 4
-         * 4 2 3
+4 8 2
+1 2 4
+1 3 2
+1 4 7
+2 1 1
+2 3 5
+3 1 2
+3 4 4
+4 2 3
          */
         Scanner sc = new Scanner(System.in);
         while (sc.hasNextInt()) {
@@ -33,6 +31,10 @@ public class Test2 {
                 path[i][1] = sc.nextInt();
                 path[i][2] = sc.nextInt();
             }
+            System.out.println("Dijkstra ...");
+            Dijkstra dijkstra = new Dijkstra(n, m, x, path);
+            dijkstra.findMax();
+            System.out.println("Internal Func ...");
             maxLen(n, m, x, path);
         }
     }
@@ -109,6 +111,121 @@ public class Test2 {
             }
 
         }
+    }
+}
+
+class Dijkstra {
+    /**
+     * 不连通
+     */
+    public static final int NOT_CONNECT = -1;
+    /**
+     * 城市数量
+     */
+    public int cityNum;
+    /**
+     * 路径数量
+     */
+    public int roadNum;
+    /**
+     * 目的地
+     */
+    public int dest;
+
+    /**
+     * scanner的路径信息
+     */
+    public int[][] path;
+
+    /**
+     * 连接图
+     */
+    public int[][] graph;
+    Dijkstra (int cityNum, int roadNum, int dest, int[][] path) {
+        this.cityNum = cityNum;
+        this.roadNum = roadNum;
+        this.dest = dest - 1;
+        this.path = path;
+        this.graph = new int[cityNum][cityNum];
+        // 初始值
+        for (int i = 0; i < cityNum; i ++) {
+            for (int j = 0; j < cityNum; j ++) {
+                if (i == j ) {
+                    this.graph[i][j] = 0;
+                } else {
+                    this.graph[i][j] = NOT_CONNECT;
+                }
+
+            }
+        }
+        // 初始化
+        for (int i = 0; i < roadNum; i ++) {
+            int source = this.path[i][0] - 1;
+            int destination = this.path[i][1] - 1;
+            int len = this.path[i][2];
+            this.graph[source][destination] = len;
+        }
+    }
+
+    /**
+     * 运行Dijstra算法
+     * @param source 起始地
+     */
+    public int[] get (int source) {
+        boolean[] used = new boolean[cityNum];
+        int[] result = new int[cityNum];
+        // 初始化权值
+        for (int i = 0; i < cityNum; i ++) {
+            used[i] = false;
+            result[i] = this.graph[source][i];
+        }
+        // 更新
+        for (int i = 0; i < cityNum; i ++) {
+            long min = Long.MAX_VALUE;
+            int idx = -1;
+            // 找到最小的
+            for (int j = 0; j < cityNum; j ++) {
+                // 未被使用
+                boolean update = !used[j] && result[j] < min;
+                if (update) {
+                    idx = j;
+                    min = result[j];
+                }
+            }
+            // 如果找到了最小
+            if (idx != -1) {
+                used[idx] = true;
+                for (int j = 0; j < cityNum; j ++) {
+                    int len = this.graph[idx][j];
+                    // 长度不是未连接  新的长度小于原来的  或者原来的是未连接状态
+                    boolean update = len != NOT_CONNECT && (result[j] > min + len || result[j] == NOT_CONNECT);
+                    if (update) {
+                        result[j] = (int)min + len;
+                    }
+                }
+            } else {
+                break;
+            }
+        }
+        return result;
+    }
+
+    public void findMax () {
+        int max = NOT_CONNECT;
+        int[] dest2sc = get(dest);
+        for (int i = 0; i < cityNum; i ++) {
+            int[] result = get(i);
+            int len = result[dest] + dest2sc[i];
+            if (len  > max) {
+                max = len;
+            }
+        }
+        if (max != NOT_CONNECT) {
+            System.out.println(max);
+        } else {
+            System.out.println("Not Connect");
+        }
+
     }
 }
 

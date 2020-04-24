@@ -293,7 +293,7 @@ public double myPow(double x, int n) {
 
 * **利用二进制幂**
 
-<src img="./img/binary_pow.png" width="400" alt="二进制幂">
+<img src="./img/binary_pow.png" width="400" alt="二进制幂">
 
 ```java
 public double myPow(double x, int n) {

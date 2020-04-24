@@ -255,3 +255,17 @@ class Good {
 
 
 }
+
+class EvalUtil {
+    /**
+     * 分数获取
+     * @param bw 没有被分配的货物重量
+     */
+    public static Double score (List<Double> bw) {
+        Double score = 0.0;
+        for (Double w : bw) {
+            score += (1 + w / 100);
+        }
+        return score;
+    }
+}
