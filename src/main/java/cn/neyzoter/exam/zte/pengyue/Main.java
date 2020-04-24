@@ -1,11 +1,8 @@
 package cn.neyzoter.exam.zte.pengyue;
 
-import io.netty.handler.codec.http.HttpServerKeepAliveHandler;
-
 import java.io.FileInputStream;
 import java.io.InputStream;
-import java.util.HashMap;
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * 中兴捧月比赛
@@ -14,7 +11,12 @@ import java.util.Scanner;
  */
 public class Main {
     public static void main (String[] args) {
-        Information info = new Information();
+        try {
+            Information info = new Information("/home/scc/code/java/oj/src/main/java/cn/neyzoter/exam/zte/pengyue/test/case1/topoAndRequest1.txt");
+            System.out.println(info);
+        } catch (Exception e) {
+            System.err.println(e);
+        }
     }
 }
 
@@ -30,6 +32,10 @@ class Information {
      * 两个站点间的分隔符，用于创建HashMap的Key
      */
     private static final String STATE_SPLITER = "_";
+    /**
+     * 没有必须要到达的站点
+     */
+    private static final String NULL_MUST_ARRIVED_STATE = "null";
     /**
      * 站点个数
      */
@@ -50,11 +56,16 @@ class Information {
     /**
      * 每个站点的拣货员
      */
-    private HashMap<String, Integer> stateStuff;
+    private Map<String, Integer> stateStuff;
     /**
      * 站点连接信息
      */
-    private HashMap<String, String> stateCon;
+    private Map<String, String> stateCon;
+
+    /**
+     * 货物的信息
+     */
+    private Map<String, Good> goodMap;
 
     Information () {
         InputStream is = System.in;
@@ -102,10 +113,24 @@ class Information {
 
         }
         // 货物数目
-        int goodNum = sc.nextInt();
+        int goodNum = Integer.parseInt(sc.nextLine());
+        goodMap = new HashMap<>(goodNum);
         for (int i = 0 ; i < goodNum ; i ++) {
             String goodInfo = sc.nextLine();
             String[] goodInfoSpl = goodInfo.split(IN_SPLITER);
+            String goodName = goodInfoSpl[0];
+            String sourceState = goodInfoSpl[1];
+            String destState = goodInfoSpl[2];
+            Double goodWeight = Double.parseDouble(goodInfoSpl[3]);
+            Set<String> mustArrived = new HashSet<>();
+            if (!NULL_MUST_ARRIVED_STATE.equals(goodInfoSpl[4])) {
+                int mustArrivedNum = goodInfoSpl.length;
+                for (int j = 4 ; j < mustArrivedNum ; j ++) {
+                    mustArrived.add(goodInfoSpl[j]);
+                }
+            }
+            Good good = new Good(goodName, sourceState, destState, goodWeight, mustArrived);
+            goodMap.put(goodName, good);
         }
     }
 
@@ -141,7 +166,92 @@ class Information {
         this.trainCap = trainCap;
     }
 
-    public HashMap<String, Integer> getStateStuff() {
+    public Map<String, Integer> getStateStuff() {
         return stateStuff;
     }
+
+    public Map<String, String> getStateCon() {
+        return stateCon;
+    }
+
+    public Map<String, Good> getGoodMap() {
+        return goodMap;
+    }
+}
+
+/**
+ * 货物信息
+ * @author Charles Song
+ * @date 2020-4-24
+ */
+class Good {
+    /**
+     * 货物名称
+     */
+    private String name;
+    /**
+     * 开始车站
+     */
+    private String sourceState;
+    /**
+     * 目的车站
+     */
+    private String destState;
+    /**
+     * 货物重量 T
+     */
+    private Double weight;
+    /**
+     * 必须到达的站点
+     */
+    private Set<String> mustArrivedState;
+
+    Good (String name, String sc, String dest, Double weight, Set<String> mustArrivedState) {
+        this.name = name;
+        this.sourceState = sc;
+        this.destState = dest;
+        this.weight = weight;
+        this.mustArrivedState = mustArrivedState;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+    public String getSourceState() {
+        return sourceState;
+    }
+
+    public void setSourceState(String sourceState) {
+        this.sourceState = sourceState;
+    }
+
+    public String getDestState() {
+        return destState;
+    }
+
+    public void setDestState(String destState) {
+        this.destState = destState;
+    }
+
+    public Double getWeight() {
+        return weight;
+    }
+
+    public void setWeight(Double weight) {
+        this.weight = weight;
+    }
+
+    public Set<String> getMustArrivedState() {
+        return mustArrivedState;
+    }
+
+    public void setMustArrivedState(Set<String> mustArrivedState) {
+        this.mustArrivedState = mustArrivedState;
+    }
+
+
 }
