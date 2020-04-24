@@ -1,4 +1,4 @@
-package cn.neyzoter.oj.others.nio.bytebuff;
+package cn.neyzoter.module.nio.bytebuff;
 
 import java.io.RandomAccessFile;
 import java.nio.MappedByteBuffer;

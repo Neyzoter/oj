@@ -1,4 +1,4 @@
-package cn.neyzoter.oj.others.concurrent.thread;
+package cn.neyzoter.module.concurrent.thread;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

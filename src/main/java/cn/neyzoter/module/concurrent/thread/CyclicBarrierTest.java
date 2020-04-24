@@ -1,6 +1,5 @@
-package cn.neyzoter.oj.others.concurrent.thread;
+package cn.neyzoter.module.concurrent.thread;
 
-import java.util.Timer;
 import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.TimeUnit;
 

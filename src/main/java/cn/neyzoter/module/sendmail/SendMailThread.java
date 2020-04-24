@@ -1,4 +1,4 @@
-package cn.neyzoter.oj.others.sendmail;
+package cn.neyzoter.module.sendmail;
 
 import java.util.Properties;
 

@@ -1,4 +1,4 @@
-package cn.neyzoter.oj.others.util;
+package cn.neyzoter.module.util;
 
 /***
  * time util

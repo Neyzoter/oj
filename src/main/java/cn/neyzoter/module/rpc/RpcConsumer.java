@@ -1,4 +1,4 @@
-package cn.neyzoter.oj.others.rpc;
+package cn.neyzoter.module.rpc;
 
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;

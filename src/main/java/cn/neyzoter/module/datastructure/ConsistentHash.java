@@ -1,4 +1,4 @@
-package cn.neyzoter.oj.others.datastructure;
+package cn.neyzoter.module.datastructure;
 
 import java.util.*;
 

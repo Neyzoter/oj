@@ -39,6 +39,8 @@ public class TestCollection {
      * 测试Comparable和Comparator
      */
     public static void testCompare () {
+        // Integer必须实现Comparable接口(compareTo方法)才可以加入到List
+        //     compareTo实现了自己和别人的对比
         List<Integer> list = new ArrayList<>();
         list.add(1);list.add(5);list.add(3);
         System.out.println(list);
