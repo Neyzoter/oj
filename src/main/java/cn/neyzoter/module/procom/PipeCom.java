@@ -1,4 +1,4 @@
-package cn.neyzoter.test;
+package cn.neyzoter.module.procom;
 
 import java.io.PipedInputStream;
 import java.io.PipedOutputStream;
@@ -10,7 +10,7 @@ import static java.lang.Thread.sleep;
  * @author Charles Song
  * @date 2020-4-26
  */
-public class TestPipe {
+public class PipeCom {
     public static void main (String[] args) {
         try {
             PipedOutputStream pipedOutputStream = new PipedOutputStream();
