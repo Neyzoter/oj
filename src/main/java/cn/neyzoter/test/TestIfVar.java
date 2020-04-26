@@ -23,6 +23,14 @@ public interface TestIfVar {
      * 打印
      */
     void print () ;
+
+    /**
+     * 实现方法
+     * @return String
+     */
+    default String getIfName () {
+        return "TestIfVal";
+    }
 }
 
 class IfImpl implements TestIfVar {
