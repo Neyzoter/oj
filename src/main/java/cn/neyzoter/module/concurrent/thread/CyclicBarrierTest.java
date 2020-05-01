@@ -4,7 +4,8 @@ import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.TimeUnit;
 
 /**
- * test cyclic barries test
+ * test cyclic barries test<br/>
+ * 多个线程之间 互相等待，然后一起同时继续执行
  * @author Neyzoter Song
  * @date 2020-2-18
  */
