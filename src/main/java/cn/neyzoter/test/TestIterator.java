@@ -10,6 +10,10 @@ import java.util.*;
  */
 public class TestIterator {
     public static void main (String[] args) {
+        testIter();
+        testListIter();
+    }
+    public static void testIter () {
         /**
          * Iterator测试
          */
@@ -32,7 +36,9 @@ public class TestIterator {
         System.out.println("* Removed \"123\"");
         iter = col.iterator();
         iter.forEachRemaining(System.out::println);
+    }
 
+    public static void testListIter () {
         /**
          * ListIterator测试
          */
