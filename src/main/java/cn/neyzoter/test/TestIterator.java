@@ -1,9 +1,7 @@
 package cn.neyzoter.test;
 
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
+import java.util.*;
 
 /**
  * 测试Enumeration
@@ -12,6 +10,9 @@ import java.util.Iterator;
  */
 public class TestIterator {
     public static void main (String[] args) {
+        /**
+         * Iterator测试
+         */
         Collection<String> col = new ArrayList<>(10);
         col.add("123");col.add("234");col.add("345");col.add("456");
         Iterator<String> iter = col.iterator();
@@ -31,5 +32,24 @@ public class TestIterator {
         System.out.println("* Removed \"123\"");
         iter = col.iterator();
         iter.forEachRemaining(System.out::println);
+
+        /**
+         * ListIterator测试
+         */
+        List<String> list = new LinkedList<>();
+        list.add("123");list.add("234");list.add("345");list.add("456");
+        ListIterator<String> listIterator = list.listIterator();
+        listIterator.next();listIterator.next();
+        System.out.println("previous index : " + listIterator.previousIndex());
+        // previous可以将index向前移动
+        System.out.println("previous(index --) : " + listIterator.previous());
+        System.out.println("previous index : " + listIterator.previousIndex());
+        for (;listIterator.hasNext();) {
+            String str = listIterator.next();
+            if (str.equals("345")) {
+                System.out.println("Get \"345\"");
+            }
+
+        }
     }
 }
