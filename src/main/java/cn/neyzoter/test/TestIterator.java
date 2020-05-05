@@ -44,6 +44,8 @@ public class TestIterator {
         // previous可以将index向前移动
         System.out.println("previous(index --) : " + listIterator.previous());
         System.out.println("previous index : " + listIterator.previousIndex());
+        System.out.println("next index : " + listIterator.nextIndex());
+        System.out.println("(List)Iterator 可以看作在元素之间的一个元素，next和previous的Index只相差1");
         for (;listIterator.hasNext();) {
             String str = listIterator.next();
             if (str.equals("345")) {
@@ -51,5 +53,16 @@ public class TestIterator {
             }
 
         }
+        // 123 234 | 345 456   <-
+        listIterator.previous();listIterator.previous();
+        // 123 234 | 101010 456
+        listIterator.set("101010");
+        // 123 234 101010 456 | ->
+        listIterator.next();listIterator.next();
+        // 123 234 101010 202020 |
+        listIterator.set("202020");
+        listIterator = list.listIterator();
+        listIterator.forEachRemaining(System.out::println);
+        System.out.println("ListIterator.set 设置的是Iterator当前所获取的元素(A|B，上次调用的next则为A，上次调用的previous则为B)");
     }
 }
