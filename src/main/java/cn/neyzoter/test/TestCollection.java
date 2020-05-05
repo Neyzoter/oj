@@ -9,8 +9,8 @@ import java.util.*;
  */
 public class TestCollection {
     public static void main (String[] args) {
-//        testCollecionRm();
-//        testCompare();
+        testCollecionRm();
+        testCompare();
         testCollectionNotAllowSame();
     }
 
