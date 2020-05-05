@@ -1,9 +1,6 @@
 package cn.neyzoter.test;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 /**
  * 测试集合
@@ -12,8 +9,9 @@ import java.util.List;
  */
 public class TestCollection {
     public static void main (String[] args) {
-        testCollecionRm();
-        testCompare();
+//        testCollecionRm();
+//        testCompare();
+        testCollectionNotAllowSame();
     }
 
     /**
@@ -57,5 +55,24 @@ public class TestCollection {
             }
         });
         System.out.println(list);
+    }
+
+    /**
+     * 在Collection中有的是可以重复对象（比如ArrayList），有的不可以（比如set）
+     */
+    public static void testCollectionNotAllowSame () {
+        String var = "123";
+        Collection<String> col = new ArrayList<>(10);
+        System.out.println(col.add(var));
+        System.out.println(col.add(var));
+        System.out.println(col);
+        Iterator v = col.iterator();
+        String var1 = (String) v.next();
+        String var2 = (String) v.next();
+        if (var1 == var2) {
+            System.out.println("var1 == var2");
+        } else {
+            System.out.println("var1 != var2");
+        }
     }
 }
