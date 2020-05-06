@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cb0abe79-672b-402f-8f02-f808b084a278" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/neyzoter/test/TestIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neyzoter/test/TestIterator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,11 +40,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/LinkedListReversePrint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+            <state relative-caret-position="624">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/StackQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/util/Stack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -59,12 +80,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="165">
-                <caret line="158" column="3" lean-forward="true" selection-start-line="158" selection-start-column="3" selection-end-line="158" selection-end-column="18" />
+              <first_editor relative-caret-position="519">
+                <caret line="262" column="63" selection-start-line="262" selection-start-column="63" selection-end-line="262" selection-end-column="63" />
               </first_editor>
               <second_editor />
             </state>
@@ -126,7 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/exam/microsoft/intern/Test2.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/realq/microsoft/LegendaryItems.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/GetIntersectionNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/NthUglyNumber.java" />
@@ -175,8 +195,9 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/test/TestCollection.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/test/TestQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/test/TestIterator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/LinkedListReversePrint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/StackQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/README.md" />
       </list>
     </option>
   </component>
@@ -461,12 +482,12 @@
       <workItem from="1587949847433" duration="1803000" />
       <workItem from="1588294253664" duration="2027000" />
       <workItem from="1588321715370" duration="1973000" />
-      <workItem from="1588649992240" duration="10355000" />
+      <workItem from="1588649992240" duration="12916000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="408010000" />
+    <option name="totallyTimeSpent" value="410571000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -481,7 +502,7 @@
     <frame x="54" y="-11" width="1867" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20395821" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20395821" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -490,7 +511,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49917537" visible="true" weight="0.28848115" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49917537" weight="0.28848115" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.20795107" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -499,7 +520,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.38022426" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5002749" side_tool="true" weight="0.25688073" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49972513" weight="0.4046891" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49972513" visible="true" weight="0.21916412" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49972513" weight="0.27522936" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -598,14 +619,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/exam/zte/pengyue/Information.java" />
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/io/Reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/io/BufferedReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="625">
@@ -960,16 +973,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="165">
-            <caret line="158" column="3" lean-forward="true" selection-start-line="158" selection-start-column="3" selection-end-line="158" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/GetIntersectionNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -979,8 +982,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/LinkedListReversePrint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        <state relative-caret-position="624">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/StackQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neyzoter/sword/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="519">
+            <caret line="262" column="63" selection-start-line="262" selection-start-column="63" selection-end-line="262" selection-end-column="63" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

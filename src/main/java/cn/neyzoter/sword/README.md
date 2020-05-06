@@ -228,6 +228,39 @@ class Solution {
 
 `2 <= n <= 58`
 
+## 面试题09. 用两个栈实现队列
+### 9.1 问题
+用两个栈实现一个队列。队列的声明如下，请实现它的两个函数 appendTail 和 deleteHead ，分别完成在队列尾部插入整数和在队列头部删除整数的功能。(若队列中没有元素，deleteHead 操作返回 -1 )
+
+
+示例 1：
+
+```
+输入：
+["CQueue","appendTail","deleteHead","deleteHead"]
+[[],[3],[],[]]
+输出：[null,null,3,-1]
+```
+
+示例 2：
+
+```
+输入：
+["CQueue","deleteHead","appendTail","appendTail","deleteHead","deleteHead"]
+[[],[],[5],[2],[],[]]
+输出：[null,-1,null,null,5,2]
+```
+
+提示：
+
+`1 <= values <= 10000`
+
+最多会对 appendTail、deleteHead 进行 10000 次调用
+
+### 9.2 思路
+一个stack按照加入顺序保存数据，当要删除尾部时，直接pop
+
+一个stack用于删除头部时，从第一个stack拷贝出数据，即可实现将第一个stack的数据反过来存储，进而可以pop删除头部
 ### 14.2 思路
 #### 14.2.1 动态规划
 **注意：不可以不裁剪，在动态规划时，需要考虑该问题。**
