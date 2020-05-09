@@ -1,6 +1,7 @@
 package cn.neyzoter.module.proxy;
 
 
+import net.sf.cglib.core.DebuggingClassWriter;
 import net.sf.cglib.proxy.Enhancer;
 import sun.misc.ProxyGenerator;
 
@@ -25,23 +26,6 @@ public class TestProxy {
         FruitInvocationHandler handler = new FruitInvocationHandler(apple);
         Fruit fruitInstance1 = (Fruit) Proxy.newProxyInstance(apple.getClass().getClassLoader(), apple.getClass().getInterfaces(), handler);
         fruitInstance1.getName();
-
-        /**
-         * cglib testnewProxyInstance
-         */
-        FruitMethodInterceptor interceptor = new FruitMethodInterceptor();
-        // 增强类
-        Enhancer enhancer = new Enhancer();
-        // 设置父类（委托类），生成子类
-        enhancer.setSuperclass(Apple.class);
-        // 设置回调对象
-        enhancer.setCallback(interceptor);
-        // 设置代理对象
-        Fruit fruitInstance2 = (Fruit) enhancer.create();
-        // 通过代理对象调用目标方法
-        fruitInstance2.getName();
-
-
         /**
          * 生成代理类到文件
          */
@@ -53,7 +37,7 @@ public class TestProxy {
                 packAge + "." + className, new Class[]{Fruit.class}, Modifier.PUBLIC);
         FileOutputStream fos = null;
         try {
-            fos = new FileOutputStream(new File("/home/scc/code/java/oj/src/main/java/cn/neyzoter/module/proxy", fileName));
+            fos = new FileOutputStream(new File("./src/main/java/cn/neyzoter/module/proxy", fileName));
             fos.write(proxyClassFile);
             fos.flush();
         } catch (FileNotFoundException e) {
@@ -67,5 +51,26 @@ public class TestProxy {
                 e.printStackTrace();
             }
         }
+
+
+        /**
+         * cglib test newProxyInstance
+         */
+        FruitMethodInterceptor interceptor = new FruitMethodInterceptor();
+        // 写入到磁盘
+        System.setProperty(DebuggingClassWriter.DEBUG_LOCATION_PROPERTY, "./src/main/java/cn/neyzoter/module/proxy");
+        // 增强类
+        Enhancer enhancer = new Enhancer();
+        // 设置父类（委托类），生成子类
+        enhancer.setSuperclass(Apple.class);
+        // 设置回调对象
+        enhancer.setCallback(interceptor);
+        // 设置代理对象
+        Fruit fruitInstance2 = (Fruit) enhancer.create();
+        // 通过代理对象调用目标方法
+        fruitInstance2.getName();
+
+
+
     }
 }
