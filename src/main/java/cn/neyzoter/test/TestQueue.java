@@ -1,6 +1,7 @@
 package cn.neyzoter.test;
 
 import java.util.ArrayDeque;
+import java.util.PriorityQueue;
 import java.util.Queue;
 
 /**
@@ -10,6 +11,13 @@ import java.util.Queue;
  */
 public class TestQueue {
     public static void main (String[] args) {
+        System.out.println("===  testQueueFunc  ===");
+        testQueueFunc();
+        System.out.println("===  testPriorityQueue  ===");
+        testPriorityQueue();
+    }
+
+    public static void testQueueFunc () {
         Queue<Integer> queue = new ArrayDeque<>(10);
         queue.add(1);queue.add(3);queue.add(5);queue.add(10);queue.add(7);
         /**
@@ -31,5 +39,18 @@ public class TestQueue {
         System.out.println(queue.remove());
         // 获取第一个元素，不删除，不抛出异常
         System.out.println(queue.peek());
+    }
+
+    public static void testPriorityQueue () {
+        PriorityQueue<Integer> queue = new PriorityQueue<>(10);
+        queue.add(1);
+        queue.add(3);
+        queue.add(4);
+        queue.add(2);
+        int size = queue.size();
+        // 按照大小排列
+        for (int i = 0 ; i < size; i ++) {
+            System.out.println(queue.poll());
+        }
     }
 }

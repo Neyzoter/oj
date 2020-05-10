@@ -16,6 +16,14 @@ public class FruitInvocationHandler implements InvocationHandler {
         this.target = target;
     }
 
+    /**
+     * 针对不同的方法，是哟给你不同的增强方法
+     * @param o 代理类对象
+     * @param method 方法
+     * @param args 参数
+     * @return 调用结果
+     * @throws Throwable
+     */
     @Override
     public Object invoke (Object o, Method method, Object[] args) throws Throwable {
         Object result;
