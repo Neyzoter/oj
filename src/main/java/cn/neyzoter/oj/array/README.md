@@ -1091,8 +1091,10 @@ class Kmps {
         int j = 0;
         int k = -1;
         while (j < p.length - 1) {
+            // 情况1,p[j] == p[k]，next是往后推进的
             if (k == -1 || p[j] == p[k]) {
                 next[++j] = ++k;
+            // 情况2,p[j] != p[k]，k需要回退
             } else {
                 k = next[k];
             }
