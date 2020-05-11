@@ -1077,6 +1077,62 @@ dp[str2.length][256]，行表示第i个字符，列表示ASCII字符。dp中存�
 
 2. 利用dp进行匹配
 
+```java
+class Kmps {
+    /**
+     * 获取next数组（状态机）
+     * @param ps 字符串
+     * @return next数组
+     */
+    private static int[] getNext(String ps) {
+        char[] p = ps.toCharArray();
+        int[] next = new int[p.length];
+        next[0] = -1;
+        int j = 0;
+        int k = -1;
+        while (j < p.length - 1) {
+            if (k == -1 || p[j] == p[k]) {
+                next[++j] = ++k;
+            } else {
+                k = next[k];
+            }
+        }
+        return next;
+    }
+
+    /**
+     * str2在str1的起始位置
+     * @param str1 字符串2
+     * @param str2 字符串1
+     * @return str2在str1的起始位置
+     */
+    public static int getIndex (String str1, String str2) {
+        int[] next = getNext(str2);
+        int i = 0, j = 0;
+        for (; i < str1.length() && j < str2.length(); ) {
+            char ch1 = str1.charAt(i);
+            char ch2 = str2.charAt(j);
+            if (ch1 != ch2) {
+                if (next[j] < 0) {
+                    i ++;
+                } else {
+                    j = next[j];
+                }
+
+            } else {
+                j ++;
+                i ++;
+            }
+        }
+        if (j >= str2.length()) {
+            return i - str2.length();
+        } else {
+            return -1;
+        }
+    }
+}
+```
+
 # 647. 回文子串 CountSubstrings
 ## 1.问题
 给定一个字符串，你的任务是计算这个字符串中有多少个回文子串。
