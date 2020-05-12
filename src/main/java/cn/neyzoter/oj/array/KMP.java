@@ -8,7 +8,7 @@ public class KMP {
     private String pat;
 
     public static void main (String[] args) {
-        String str1 = "ababa";
+        String str1 = "ababaabababab";
         String str2 = "12daaaaababacd";
         KMP kmp = new KMP(str1);
         int idx = kmp.search(str2);
