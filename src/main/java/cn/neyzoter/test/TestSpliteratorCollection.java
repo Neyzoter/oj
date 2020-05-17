@@ -23,7 +23,7 @@ public class TestSpliteratorCollection {
         Spliterator<String> spliterator = col.spliterator();
 
         class Task implements Runnable {
-            public int runtime = 0;
+            private int runtime = 0;
             @Override
             public void run () {
                 String threadName = Thread.currentThread().getName();
