@@ -12,6 +12,12 @@ public class TestThreadLocal {
             return 0;
         }
     };
+    public static ThreadLocal<Double> threadLocalD = new ThreadLocal<Double>() {
+        @Override
+        public Double initialValue () {
+            return 0.0;
+        }
+    };
     public static void main (String[] args) {
         for (int i = 0; i < 3; i ++) {
             Thread t = new Thread() {
@@ -28,7 +34,11 @@ public class TestThreadLocal {
             Integer n = threadLocal.get();
             n += 1;
             threadLocal.set(n);
-            System.out.println(Thread.currentThread().getName() + " : num = " + threadLocal.get());
+            Double d = threadLocalD.get();
+            d += 2.0;
+            threadLocalD.set(d);
+            System.out.println(Thread.currentThread().getName() + " : threadLocal = " + threadLocal.get());
+            System.out.println(Thread.currentThread().getName() + " : threadLocalD = " + threadLocalD.get());
         }
     }
 }
