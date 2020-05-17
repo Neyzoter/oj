@@ -41,6 +41,10 @@ public class TestByteBuf {
         }
         System.out.println();
         System.out.println(compositeBuffer);
+
+        /**
+         * slice
+         */
         /*重置*/
         byteBuf1.resetReaderIndex();
         // i：起始index
