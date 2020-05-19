@@ -11,7 +11,6 @@ import java.util.concurrent.*;
  * @date 2020-1-29
  */
 public class ThreadPool {
-    private final static Logger logger = LoggerFactory.getLogger(ThreadPool.class);
     private BlockingQueue<Runnable> workQueue = new LinkedBlockingDeque(10);
     /**
      * corePoolSize: 线程池的一直存在着的线程数量，如果线程个数超过这个数目，则需要创建新的线程
@@ -59,19 +58,55 @@ public class ThreadPool {
 
     public static void main(String[] args) {
         ThreadPool threadPool = new ThreadPool();
-        System.out.println(" ======  ThreadPoolExecutor  Test  =====");
+//        testThreadPoolExecutor(threadPool);
+//        testSubmit(threadPool);
+
+        testFutureTask(threadPool);
+    }
+
+    public static void testSubmit (ThreadPool threadPool) {
+        System.out.println("\n ======  testSubmit Start  =====");
+        Future<?> future = threadPool.threadPoolExecutor.submit(new Task(10 * 100000 * (int)Math.pow(-1,10)));
+        getFutureInfo (future);
+
+    }
+
+    public static void testThreadPoolExecutor (ThreadPool threadPool) {
+        System.out.println(" ======  testThreadPoolExecutor Start  =====");
         for (int i = 1; i < 20 ; i++) {
             try {
                 threadPool.threadPoolExecutor.execute(new Task(i * 100000 * (int)Math.pow(-1,i)));
-                logger.info(String.format("[i = %d] active count = %d , completed = %d",i,threadPool.threadPoolExecutor.getActiveCount(),threadPool.threadPoolExecutor.getCompletedTaskCount()));
+                System.out.println(String.format("[i = %d] active count = %d , completed = %d",i,threadPool.threadPoolExecutor.getActiveCount(),threadPool.threadPoolExecutor.getCompletedTaskCount()));
             }catch (Exception e) {
-                logger.error("",e);
+                e.printStackTrace();
             }
-
         }
-        System.out.println("\n ======  newCachedThreadPool  Test  =====");
     }
 
+    public static void testFutureTask (ThreadPool threadPool) {
+        System.out.println(" ======  testFutureTask Start  =====");
+        // FutureTask 继承了Future和Runnable
+        FutureTask<String> futureTask = new FutureTask<>(new Call(10000));
+        threadPool.threadPoolExecutor.submit(futureTask);
+        // 不再接受新的任务
+//        threadPool.threadPoolExecutor.shutdown();
+
+        getFutureInfo(futureTask);
+    }
+
+    public static void getFutureInfo (Future future) {
+        System.out.println("isDone?" + future.isDone());
+        while (!future.isDone()) {
+
+        }
+        System.out.println("isDone?" + future.isDone());
+        try {
+            // future.get()会阻塞到返回结果
+            System.out.println("Future result : " + future.get());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }
 
 /**
@@ -93,10 +128,38 @@ class Task implements Runnable{
             } else if (count < 0) {
                 count ++;
             } else {
-                logger.info(String.format("[Task(%d)] count dec to 0", maxcount));
+                System.out.println(String.format("[Task(%d)] count dec to 0", maxcount));
                 break;
             }
         }
 
     }
 }
+
+/**
+ * 任务
+ */
+class Call implements Callable<String> {
+    private final static Logger logger = LoggerFactory.getLogger(Task.class);
+    int count;
+    int maxcount;
+    public Call(int cnt) {
+        count = cnt;
+        maxcount = cnt;
+    }
+    @Override
+    public String call() {
+        while (true) {
+            if (count > 0) {
+                count --;
+            } else if (count < 0) {
+                count ++;
+            } else {
+                System.out.println(String.format("[Call(%d)] count dec to 0", maxcount));
+                break;
+            }
+        }
+        return "Finished";
+    }
+}
+
