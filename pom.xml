@@ -111,7 +111,11 @@
             <artifactId>grpc-netty-shaded</artifactId>
             <version>1.28.0</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.eclipse.paho</groupId>
+            <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
+            <version>1.2.2</version>
+        </dependency>
     </dependencies>
 
     <build>
