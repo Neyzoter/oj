@@ -3,7 +3,6 @@ package cn.neyzoter.module.mqtt;
 import org.eclipse.paho.client.mqttv3.MqttClient;
 import org.eclipse.paho.client.mqttv3.MqttConnectOptions;
 import org.eclipse.paho.client.mqttv3.MqttException;
-import org.eclipse.paho.client.mqttv3.MqttMessage;
 import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 
 /**
@@ -14,7 +13,8 @@ import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 public class MqttSubscriber {
     public static void main (String[] args) {
         String subTopic = "testtopic/#";
-        String broker = "tcp://114.55.104.50:1883";
+        // 自行在hosts文件中配置emqx
+        String broker = "tcp://emqx:1883";
         String clientId = "emqx_subscriber";
         MemoryPersistence persistence = new MemoryPersistence();
         try {

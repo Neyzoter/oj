@@ -17,7 +17,8 @@ public class MqttPublisher {
         String content = "Hello World";
         // Qos2 : exactly once
         int qos = 2;
-        String broker = "tcp://114.55.104.50:1883";
+        // 自行在hosts文件中配置emqx
+        String broker = "tcp://emqx:1883";
         String clientId = "emqx_publisher";
         MemoryPersistence persistence = new MemoryPersistence();
         try {
