@@ -1,10 +1,5 @@
 package cn.neyzoter.leetcode.thread;
 
-import javafx.beans.binding.ObjectExpression;
-
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.ReentrantLock;
-
 /**
  * 1114. 按序打印
  */
