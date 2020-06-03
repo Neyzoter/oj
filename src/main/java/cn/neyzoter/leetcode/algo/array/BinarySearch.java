@@ -1,4 +1,4 @@
-package cn.neyzoter.oj.array;
+package cn.neyzoter.leetcode.algo.array;
 
 /**
  * 704. 二分查找

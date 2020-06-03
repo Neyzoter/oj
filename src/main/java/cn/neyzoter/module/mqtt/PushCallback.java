@@ -23,5 +23,7 @@ public class PushCallback implements MqttCallback {
         System.out.println("接收消息主题 : " + topic);
         System.out.println("接收消息Qos : " + message.getQos());
         System.out.println("接收消息内容 : " + new String(message.getPayload()));
+        System.out.println("Id: " + message.getId());
+        System.out.println();
     }
 }

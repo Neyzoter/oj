@@ -13,8 +13,8 @@ import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
  */
 public class MqttPublisher {
     public static void main (String[] args) {
-        String pubTopic = "testtopic/1";
-        String content = "Hello World";
+        String pubTopic = "MQTT Example/1";
+        String content = "MqttPublisher";
         // Qos2 : exactly once
         int qos = 2;
         // 自行在hosts文件中配置emqx
