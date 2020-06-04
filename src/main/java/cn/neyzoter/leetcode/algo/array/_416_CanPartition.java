@@ -43,6 +43,45 @@ class Sol1_CanPartition {
             }
         }
         return dp[nums.length][half];
+
+    }
+    public static int sum (int[] nums) {
+        int sum = 0;
+        for (int num : nums) {
+            sum += num;
+        }
+        return sum;
+    }
+}
+
+/**
+ * sol1的状态压缩版本
+ */
+class Sol2_CanPartition {
+    public boolean canPartition(int[] nums) {
+        if (nums.length == 0) {
+            return true;
+        }
+        int sum = sum(nums);
+        if (sum % 2 != 0) {
+            return false;
+        }
+        int half = sum / 2;
+
+        boolean[] dp = new boolean[half + 1];
+        dp[0] = true;
+        for (int i = 1; i < nums.length + 1; i ++) {
+            // 注意j从half开始，防止一个数字被使用多次
+            for (int j = half; j > 0; j --) {
+                if (dp[j]) {
+                    break;
+                }
+                if (j >= nums[i - 1]) {
+                    dp[j] = dp[j] || dp[j - nums[i - 1]];
+                }
+            }
+        }
+        return dp[half];
     }
     public static int sum (int[] nums) {
         int sum = 0;
