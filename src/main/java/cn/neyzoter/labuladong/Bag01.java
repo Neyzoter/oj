@@ -28,8 +28,10 @@ public class Bag01 {
             // 背包容量不断增加
             for (int j = 1; j <= w; j ++) {
                 if (wt[i - 1] > j) {
+                    // 不能放，只能取决于前一次情况
                     dp[i][j] = dp[i - 1][j];
                 } else {
+                    // 放或者不放，两种情况
                     dp[i][j] = Math.max(dp[i - 1][j], dp[i - 1][j - wt[i - 1]] + val[i - 1]);
                 }
             }
