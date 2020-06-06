@@ -6,13 +6,9 @@ package cn.neyzoter.leetcode.algo.link;
  * @date 2020-6-6
  */
 public class _23_MergeKLists {
-    class ListNode {
-        int val;
-        Sol1_MergeKLists.ListNode next;
-        ListNode(int x) { val = x; }
-    }
+
     public static void main (String[] args) {
-        ListNode node1 =
+
     }
 }
 
