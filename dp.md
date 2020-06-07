@@ -36,10 +36,34 @@ for (int i = 1; i < GOODS_NUM; i ++) {
 
 ## 典型问题
 
-**（1）子序列问题**
+**子序列问题**
 
-LeetCode 1143. 最长公共子序列
+模板
 
-**（2）最值问题**
+```python
+
+int	n = arr.length;
+int[][] dp = new dp[n][n];
+for	(int i = 0; i < n; i++) {
+    for	(int j = 0; j < n; j++) {
+    if	(arr[i] == arr[j])	
+        dp[i][j] = dp[i][j]	+ ...
+    else
+        dp[i][j] = 最值(...)
+    }
+}
+```
+
+（1）涉及到两个字符串
+
+LeetCode 1143 最长公共子序列
+
+（2）涉及一个字符串
+
+LeetCode 516 最⻓回文子序列
+
+
+
+**最值问题**
 
 0-1背包问题
