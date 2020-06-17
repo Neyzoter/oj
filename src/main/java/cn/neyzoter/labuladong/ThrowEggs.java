@@ -82,6 +82,22 @@ public class ThrowEggs {
         return res;
     }
 
+//    public static int superEggDrop3 (int K, int N) {
+//        int[][] dp = new int[K + 1][N + 1];
+//        for (int n = 0 ; n < N ; n ++) {
+//            dp[1][n] = n;
+//        }
+//
+//        for (int k = 2; k < K + 1; k ++) {
+//            for (int subN = 1; subN < N + 1; subN ++) {
+//                for (int n = 0; n < subN; n ++) {
+//                    dp[k][n] = dp[k - 1][subN - n]
+//                }
+//
+//            }
+//        }
+//    }
+
     public static String getKey (int K,int N) {
         return String.format("%d_%d", K, N);
     }
