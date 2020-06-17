@@ -13,5 +13,6 @@ public class TestMsgType {
         System.out.println(optional);
         optional = BuiltinJt808MsgType.CLIENT_AUTH.parseFromInt(0x0100);
         System.out.println(optional);
+        System.out.println(optional.get());
     }
 }
