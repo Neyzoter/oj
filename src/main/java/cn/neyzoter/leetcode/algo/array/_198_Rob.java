@@ -8,7 +8,7 @@ package cn.neyzoter.leetcode.algo.array;
 public class _198_Rob {
     public static void main (String[] args) {
         int[] nums = {1,2,3,1};
-        Sol1_198_Rob rob = new Sol1_198_Rob();
+        Sol2_198_Rob rob = new Sol2_198_Rob();
         System.out.println(rob.rob(nums));
     }
 }
@@ -34,4 +34,19 @@ class Sol1_198_Rob {
             return dp[i][j];
         }
     }
+}
+
+class Sol2_198_Rob {
+    public int rob(int[] nums) {
+        int dp0 = 0;
+        int dp1 = 0;
+        for (int i = 0; i < nums.length; i ++) {
+            int dp0temp = dp0;
+            dp0 = Math.max(dp1, dp0);
+            dp1 = dp0temp + nums[i];
+        }
+        int bigger = dp0 > dp1 ? dp0 : dp1;
+        return bigger;
+    }
+
 }
