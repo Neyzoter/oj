@@ -13,8 +13,11 @@ import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 public class MqttSubscriber {
     public static void main (String[] args) {
         String subTopic = "MQTT Examples/#";
-        // 自行在hosts文件中配置emqx
-        String broker = "tcp://emqx:1883";
+        // 自行在hosts文件中配置emqx和slb
+        // emqx表示直接和服务器连接
+        // slb表示负载均衡服务器
+        String broker = "tcp://slb:1883";
+//        String broker = "tcp://emqx:1883";
         String clientId = "emqx_subscriber";
         MemoryPersistence persistence = new MemoryPersistence();
         try {

@@ -13,12 +13,15 @@ import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
  */
 public class MqttPublisher {
     public static void main (String[] args) {
-        String pubTopic = "MQTT Example/1";
+        String pubTopic = "MQTT Examples/1";
         String content = "MqttPublisher";
         // Qos2 : exactly once
         int qos = 2;
         // 自行在hosts文件中配置emqx
-        String broker = "tcp://emqx:1883";
+        // emqx表示直接和服务器连接
+        // slb表示负载均衡服务器
+        String broker = "tcp://slb:1883";
+//        String broker = "tcp://emqx:1883";
         String clientId = "emqx_publisher";
         MemoryPersistence persistence = new MemoryPersistence();
         try {
