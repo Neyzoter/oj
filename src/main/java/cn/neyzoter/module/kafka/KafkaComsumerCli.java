@@ -40,9 +40,9 @@ public class KafkaComsumerCli extends ShutdownableThread{
     public void doWork() {
         if (!got) {
             consumer.subscribe(Collections.singletonList(this.topic));
-            System.out.println(String.format("Current time : %d s" + System.currentTimeMillis() / 1000));
+//            System.out.println(String.format("Current time : %d s" + System.currentTimeMillis() / 1000));
             ConsumerRecords<Integer, String> records = consumer.poll(Duration.ofSeconds(1));
-            System.out.println(String.format("Current time : %d s" + System.currentTimeMillis() / 1000));
+//            System.out.println(String.format("Current time : %d s" + System.currentTimeMillis() / 1000));
             for (ConsumerRecord<Integer, String> record : records) {
 //                got = true;
                 System.out.println("[ " + this.name + " ] Received message: (" + record.key() + ", " + record.value() + ") at offset " + record.offset() + " from partition " + record.partition());
