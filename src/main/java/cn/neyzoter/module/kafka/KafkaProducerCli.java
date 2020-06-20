@@ -5,6 +5,7 @@ import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.clients.producer.RecordMetadata;
 import org.apache.kafka.clients.producer.ProducerConfig;
+import org.apache.kafka.clients.producer.internals.DefaultPartitioner;
 import org.apache.kafka.common.serialization.IntegerSerializer;
 import org.apache.kafka.common.serialization.StringSerializer;
 
@@ -22,6 +23,7 @@ public class KafkaProducerCli extends Thread {
         props.put(ProducerConfig.CLIENT_ID_CONFIG, "DemoProducer");
         props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, IntegerSerializer.class.getName());
         props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
+        props.put(ProducerConfig.PARTITIONER_CLASS_CONFIG, "cn.neyzoter.module.kafka.AllocationPartitioner");
         producer = new KafkaProducer<>(props);
         this.topic = topic;
         this.isAsync = isAsync;
@@ -31,6 +33,12 @@ public class KafkaProducerCli extends Thread {
     public void run() {
         int messageNo = 1;
         while (true) {
+            try {
+                Thread.sleep(1000);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
             String messageStr = "Message_" + messageNo;
             long startTime = System.currentTimeMillis();
             if (isAsync) { // Send asynchronously

@@ -5,13 +5,15 @@ package cn.neyzoter.module.kafka;
  * @author Charles Song
  * @date 2020-6-20
  */
-public class App {
+public class KafkaApp {
     public static void main (String[] args) {
         boolean isAsync = args.length == 0 || !args[0].trim().equalsIgnoreCase("sync");
         KafkaProducerCli producerThread = new KafkaProducerCli(KafkaProperties.TOPIC, isAsync);
         producerThread.start();
 
-        KafkaComsumerCli consumerThread = new KafkaComsumerCli(KafkaProperties.TOPIC);
-        consumerThread.start();
+        KafkaComsumerCli consumerThread1 = new KafkaComsumerCli(KafkaProperties.TOPIC, "consumer1");
+        consumerThread1.start();
+        KafkaComsumerCli consumerThread2 = new KafkaComsumerCli(KafkaProperties.TOPIC, "consumer2");
+        consumerThread2.start();
     }
 }
