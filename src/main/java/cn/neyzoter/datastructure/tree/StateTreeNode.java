@@ -1,4 +1,4 @@
-package cn.neyzoter.module.tree;
+package cn.neyzoter.datastructure.tree;
 
 public class StateTreeNode {
     private boolean isFirst = true;

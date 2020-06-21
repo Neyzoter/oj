@@ -1,4 +1,4 @@
-package cn.neyzoter.module.tree;
+package cn.neyzoter.datastructure.tree;
 
 
 import java.util.Stack;

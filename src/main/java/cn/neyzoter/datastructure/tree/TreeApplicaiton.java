@@ -1,4 +1,4 @@
-package cn.neyzoter.module.tree;
+package cn.neyzoter.datastructure.tree;
 
 /**
  * 测试app
@@ -12,6 +12,13 @@ public class TreeApplicaiton {
         TreeNode node3 = new TreeNode(3);
         TreeNode node4 = new TreeNode(4);
         TreeNode node5 = new TreeNode(5);
+        /**
+         * <pre>
+         *        3
+         *   2        4
+         *       1        5
+         * </pre>
+         */
         node3.left = node2;node2.right = node1;
         node3.right = node4; node4.right = node5;
         PreorderTraversal.traversalIterate(node3);
