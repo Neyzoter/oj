@@ -13,6 +13,7 @@ public class KafkaProperties {
     public static final String TOPIC2 = "topic2";
     public static final String TOPIC3 = "topic3";
     public static final String CLIENT_ID = "SimpleConsumerDemoClient";
+    public static final String GROUP_ID = "DemoConsumer";
 
     private KafkaProperties() {}
 }

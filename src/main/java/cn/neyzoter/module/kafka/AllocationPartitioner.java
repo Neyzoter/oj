@@ -15,7 +15,7 @@ public class AllocationPartitioner implements Partitioner {
     @Override
     public int partition(String topic, Object key, byte[] keyBytes, Object value, byte[] valueBytes, Cluster cluster) {
         int num = cluster.availablePartitionsForTopic(topic).size();
-        System.out.println("Partition num is " + num);
+//        System.out.println("Partition num is " + num);
         int keyHash = key.hashCode();
         // 固定
 //        return 1;

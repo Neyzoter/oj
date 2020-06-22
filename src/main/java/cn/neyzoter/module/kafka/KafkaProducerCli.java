@@ -5,7 +5,6 @@ import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.clients.producer.RecordMetadata;
 import org.apache.kafka.clients.producer.ProducerConfig;
-import org.apache.kafka.clients.producer.internals.DefaultPartitioner;
 import org.apache.kafka.common.serialization.IntegerSerializer;
 import org.apache.kafka.common.serialization.StringSerializer;
 
@@ -49,7 +48,7 @@ public class KafkaProducerCli extends Thread {
         int messageNo = 1;
         while (true) {
             try {
-                Thread.sleep(1000);
+                Thread.sleep(10);
             } catch (Exception e) {
                 e.printStackTrace();
             }

@@ -13,7 +13,9 @@ public class KafkaApp {
 
         KafkaComsumerCli consumerThread1 = new KafkaComsumerCli(KafkaProperties.TOPIC, "consumer1");
         consumerThread1.start();
-        KafkaComsumerCli consumerThread2 = new KafkaComsumerCli(KafkaProperties.TOPIC, "consumer2");
-        consumerThread2.start();
+//        KafkaConsumerCliCommit consumerCliCommitThread = new KafkaConsumerCliCommit(KafkaProperties.TOPIC, "Commit2");
+//        consumerCliCommitThread.start();
+//        KafkaComsumerCli consumerThread2 = new KafkaComsumerCli(KafkaProperties.TOPIC, "consumer2");
+//        consumerThread2.start();
     }
 }
