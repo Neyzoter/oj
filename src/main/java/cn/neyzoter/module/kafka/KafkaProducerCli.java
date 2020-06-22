@@ -26,7 +26,9 @@ public class KafkaProducerCli extends Thread {
         // 设置分区未发送的消息个数，每个分区都会对应一个缓存区来存储这些消息
         props.put(ProducerConfig.BATCH_SIZE_CONFIG, 1000);
         // 生产者在发送请求前等待一段时间，希望更多的消息填补到未满得到批中
-        props.put(ProducerConfig.LINGER_MS_CONFIG, 1);
+        // 此处设置500ms发送一次，则在数据存储到缓存区后，会等待500ms
+        // 不过也不绝对，如果缓存区中已经有其他的消息，可能跟着其他的消息一块发出去了
+        props.put(ProducerConfig.LINGER_MS_CONFIG, 500);
         // 生产者可用的缓存总量，如果消息发送速度比其传输到服务器的快，
         // 将会耗尽这个缓存空间。当缓存空间耗尽，其他发送调用将被阻塞，
         // 阻塞时间的阈值通过max.block.ms设定，之后它将抛出一个TimeoutException。
