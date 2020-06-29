@@ -1,7 +1,5 @@
 package cn.neyzoter.leetcode.algo.array;
 
-import scala.Int;
-
 import java.util.*;
 
 /**
@@ -12,7 +10,6 @@ import java.util.*;
 public class _56_MergeRange {
     public static void main (String[] args) {
         int[][] intervals = {{2,6},{1,3},{8,10},{15,18}};
-        Sol1_56_MergeRange.sort(intervals);
         Sol1_56_MergeRange sol = new Sol1_56_MergeRange();
         int[][] r = sol.merge(intervals);
         System.out.println(r);
