@@ -11,6 +11,9 @@ public class _37_SolveSudoku {
     }
 }
 
+/**
+ * 时间复杂度（最坏）：O(9^M)，M表示空出来的格子个数
+ */
 class Sol1_37_SolveSudoku {
     public void solveSudoku(char[][] board) {
         sol(board, 0, 0);
