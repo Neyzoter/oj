@@ -3,7 +3,7 @@ package cn.neyzoter.module.kafka;
 /**
  * Kafka应用
  * @author Charles Song
- * @date 2020-6-20
+ * @date 2020-7-4
  */
 public class KafkaApp {
     public static void main (String[] args) {

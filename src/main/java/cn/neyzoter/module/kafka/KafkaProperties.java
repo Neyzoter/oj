@@ -1,5 +1,11 @@
 package cn.neyzoter.module.kafka;
 
+
+/**
+ * Kafka属性
+ * @author Charles Song
+ * @date 2020-7-4
+ */
 public class KafkaProperties {
     public static final String TOPIC = "topic1";
     /**

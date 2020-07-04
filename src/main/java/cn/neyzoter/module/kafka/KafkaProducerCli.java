@@ -11,6 +11,11 @@ import org.apache.kafka.common.serialization.StringSerializer;
 import java.util.Properties;
 import java.util.concurrent.ExecutionException;
 
+/**
+ * Kafka生产者
+ * @author Charles Song
+ * @date 2020-7-4
+ */
 public class KafkaProducerCli extends Thread {
     private final KafkaProducer<Integer, String> producer;
     private final String topic;

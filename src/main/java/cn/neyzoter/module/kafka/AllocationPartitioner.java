@@ -5,6 +5,11 @@ import org.apache.kafka.common.Cluster;
 
 import java.util.Map;
 
+/**
+ * 分区分配器
+ * @author Charles Song
+ * @date 2020-7-4
+ */
 public class AllocationPartitioner implements Partitioner {
     public AllocationPartitioner () {
 

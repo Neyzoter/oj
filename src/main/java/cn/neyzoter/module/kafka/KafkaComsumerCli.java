@@ -7,6 +7,11 @@ import org.apache.kafka.common.TopicPartition;
 import java.time.Duration;
 import java.util.*;
 
+/**
+ * Kafka消费者客户端
+ * @author Charles Song
+ * @date 2020-7-4
+ */
 public class KafkaComsumerCli extends ShutdownableThread{
     private final KafkaConsumer<Integer, String> consumer;
     private final String topic;

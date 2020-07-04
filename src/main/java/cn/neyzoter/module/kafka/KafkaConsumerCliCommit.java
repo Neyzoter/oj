@@ -2,7 +2,6 @@ package cn.neyzoter.module.kafka;
 
 import kafka.utils.ShutdownableThread;
 import org.apache.kafka.clients.consumer.*;
-import org.apache.kafka.common.PartitionInfo;
 import org.apache.kafka.common.TopicPartition;
 import org.apache.kafka.common.errors.TimeoutException;
 
@@ -10,9 +9,9 @@ import java.time.Duration;
 import java.util.*;
 
 /**
- * 需要手动提交commit的消费者
+ * 需要手动提交commit的消费者客户端
  * @author Charles Song
- * @date 2020-6-22
+ * @date 2020-7-4
  */
 public class KafkaConsumerCliCommit extends ShutdownableThread {
     private final KafkaConsumer<Integer, String> consumer;
