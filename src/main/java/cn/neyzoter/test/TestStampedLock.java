@@ -10,6 +10,7 @@ import java.util.concurrent.locks.StampedLock;
 public class TestStampedLock {
     private double x, y;
     private final StampedLock sl = new StampedLock();
+
     public static void main (String[] args) {
         TestStampedLock test = new TestStampedLock();
 //        test.moveIfAtOrigin(2.0, 5.0);
