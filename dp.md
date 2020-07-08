@@ -56,11 +56,19 @@ for	(int i = 0; i < n; i++) {
 
 （1）涉及到两个字符串
 
-LeetCode 1143 最长公共子序列
+LeetCode 1143 最长公共子序列（LCS, Longest Common Subsequence）
+
+![最长公共子序列](./img/LCS1.png)
+
+`dp[i][j]`的含义是:对于`s1[1..i]`和`s2[1..j]`,它们的LCS⻓度是`dp[i][j]`
 
 （2）涉及一个字符串
 
-LeetCode 516 最⻓回文子序列
+LeetCode 516 最⻓回文子序列（LSI）
+
+![最长回文子序列](./img/LSI1.png)
+
+![最长回文子序列](./img/LSI2.png)
 
 ### 备忘录（数组）形式的动态规划
 
