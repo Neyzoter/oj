@@ -1,5 +1,7 @@
 package cn.neyzoter.leetcode.algo.array;
 
+import java.util.*;
+
 /**
  * 354. 俄罗斯套娃信封问题
  * @author Charles Song
@@ -9,6 +11,8 @@ public class _354_MaxEnvelopes {
     public static void main(String[] args) {
         int[][] e = {{5,4},{6,4},{6,7},{6,5},{3,4}};
         Sol1_354_MaxEnvelopes.sort(e, 0, e.length - 1, 0);
+        HashMap<Integer, Integer> map = new HashMap<>();
+        List<Integer> list = new ArrayList<>();
         int base = 0;
         for (int i = 1; i < e.length; i ++) {
             if (e[base][0] != e[i][0] || (i == e.length - 1)) {
