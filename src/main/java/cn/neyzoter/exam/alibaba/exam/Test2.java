@@ -30,49 +30,20 @@ public class Test2 {
         // 四个方向
         int nx, ny;
         int p = Integer.MAX_VALUE;
-        // 上
-        nx = bx;ny = by - 1;
-        if (valid(map, arived, nx, ny)) {
-            arived[nx][ny] = true;
-            int np = minLen(map, arived, nx, ny, ex, ey);
-            if (np != Integer.MAX_VALUE) {
-                np = np + power(map, bx, by, ex, ey);
+        int[][] dir = {{0, -1}, {-1, 0}, {0, 1}, {1, 0}};
+        for (int i = 0; i < dir.length; i++) {
+            int[] d = dir[i];
+            nx = bx + d[0];
+            ny = by + d[1];
+            if (valid(map, arived, nx, ny)) {
+                arived[nx][ny] = true;
+                int np = minLen(map, arived, nx, ny, ex, ey);
+                if (np != Integer.MAX_VALUE) {
+                    np = np + power(map, bx, by, ex, ey);
+                }
+                p = Math.min(p, np) ;
+                arived[nx][ny] = false;
             }
-            p = Math.min(p, np) ;
-            arived[nx][ny] = false;
-        }
-        // 下
-        ny = by + 1;
-        if (valid(map, arived, nx, ny)) {
-            arived[nx][ny] = true;
-            int np = minLen(map, arived, nx, ny, ex, ey);
-            if (np != Integer.MAX_VALUE) {
-                np = np + power(map, bx, by, ex, ey);
-            }
-            p = Math.min(p, np);
-            arived[nx][ny] = false;
-        }
-        // 左
-        nx = bx - 1;ny = by;
-        if (valid(map, arived, nx, ny)) {
-            arived[nx][ny] = true;
-            int np = minLen(map, arived, nx, ny, ex, ey);
-            if (np != Integer.MAX_VALUE) {
-                np = np + power(map, bx, by, ex, ey);
-            };
-            p = Math.min(p, np);
-            arived[nx][ny] = false;
-        }
-        // 右
-        nx = bx + 1;
-        if (valid(map, arived, nx, ny)) {
-            arived[nx][ny] = true;
-            int np = minLen(map, arived, nx, ny, ex, ey);
-            if (np != Integer.MAX_VALUE) {
-                np = np + power(map, bx, by, ex, ey);
-            }
-            p = Math.min(p, np);
-            arived[nx][ny] = false;
         }
         return p;
     }
