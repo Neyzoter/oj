@@ -18,6 +18,14 @@ public class Test1 {
             System.out.println(num);
         }
     }
+
+    /**
+     * 实现1
+     * @param m
+     * @param n
+     * @param mod
+     * @return
+     */
     public static long pow(int m, int n, int mod) {
         m %= mod;
         long res = 1;
@@ -30,7 +38,6 @@ public class Test1 {
         }
         return res % mod;
     }
-
     public static long pow(int m, int n) {
         if (n == 0) {
             return 1;
@@ -41,5 +48,19 @@ public class Test1 {
             res = res * m % mod;
         }
         return res;
+    }
+    public static int powMod(int a, int k, int mod) {
+        if (k == 0) {
+            return 1;
+        }
+        a %= mod;
+        if (k % 2 == 1) {
+            // k 是奇数
+            return (a * powMod(a, k - 1, mod)) % mod;
+        } else {
+            // k 是偶数
+            int sub = powMod(a, k / 2, mod);
+            return (sub * sub) % mod;
+        }
     }
 }
