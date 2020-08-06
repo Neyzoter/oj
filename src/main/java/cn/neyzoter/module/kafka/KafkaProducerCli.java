@@ -53,7 +53,7 @@ public class KafkaProducerCli extends Thread {
         int messageNo = 1;
         while (true) {
             try {
-                Thread.sleep(10);
+                Thread.sleep(100);
             } catch (Exception e) {
                 e.printStackTrace();
             }
