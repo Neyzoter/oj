@@ -24,6 +24,7 @@ public class KafkaProducerCli extends Thread {
     public KafkaProducerCli(String topic, Boolean isAsync) {
         Properties props = new Properties();
         // 判别请求是否为完整的条件，是否成功发送
+        // all：服务端会等所有的 follower 的副本受到数据后才会受到 leader 发出的ack，这样数据不会丢失
         props.put(ProducerConfig.ACKS_CONFIG, "all");
         // 如果请求失败，生产者自动重试，这里设置重试次数为0
         props.put(ProducerConfig.RETRIES_CONFIG, 0);

@@ -13,14 +13,14 @@ import static java.lang.Thread.sleep;
  * @date 2020-4-21
  */
 public class TestLock {
-    public static final ReentrantLock lock = new ReentrantLock();
+    // 公平锁
+    public static final ReentrantLock lock = new ReentrantLock(true);
     public static final Condition condition = lock.newCondition();
     public static void main (String[] args) {
         Task1 task1 = new Task1(condition, lock);
         Task2 task2 = new Task2(condition, lock);
         task1.start();
         task2.start();
-
     }
 }
 

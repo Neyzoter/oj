@@ -12,8 +12,10 @@ import java.nio.channels.FileChannel;
 public class MappedByteBuffTest {
     private static int count = 10;
 
+    static String path = "/Users/neyzoter/code/java/oj/src/main/java/cn/neyzoter/module/nio/bytebuff/largeFile.txt";
+
     public static void main(String[] args) throws Exception {
-        RandomAccessFile memoryMappedFile = new RandomAccessFile("/home/scc/code/java/oj/src/main/java/cn/neyzoter/oj/others/nio/bytebuff/largeFile.txt", "rw");
+        RandomAccessFile memoryMappedFile = new RandomAccessFile(path, "rw");
         // 将文件映射到内存
         MappedByteBuffer out = memoryMappedFile.getChannel().map(FileChannel.MapMode.READ_WRITE, 0, count);
         // 将文本写入到内存映射文件
