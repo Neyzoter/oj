@@ -3,7 +3,7 @@ package cn.neyzoter.module.concurrent.queue;
 
 public class TestQueue {
     public static void main(String[] args) {
-        MyQueue<Integer> q = new MyQueue<>(5);
+        MyQueueByLock<Integer> q = new MyQueueByLock<>(5);
         try {
             q.pop();
         } catch (Exception e) {
