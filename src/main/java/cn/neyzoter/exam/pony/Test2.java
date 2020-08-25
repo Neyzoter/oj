@@ -1,8 +1,9 @@
 package cn.neyzoter.exam.pony;
 
-import javafx.util.Pair;
-
-import java.util.*;
+import java.util.ArrayDeque;
+import java.util.HashMap;
+import java.util.Queue;
+import java.util.Scanner;
 
 public class Test2 {
     public static void main(String[] args) {

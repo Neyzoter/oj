@@ -1,9 +1,7 @@
 package cn.neyzoter.exam.sensetime;
 
 import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
-import java.util.Set;
 
 /**
  * 测试1
