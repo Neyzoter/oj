@@ -1,5 +1,6 @@
 package cn.neyzoter.sword;
 
+import java.util.LinkedList;
 import java.util.Stack;
 
 public class _31_StackPushPop {
