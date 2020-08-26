@@ -1,5 +1,7 @@
 package cn.neyzoter.leetcode.algo.array;
 
+import java.util.Stack;
+
 /**
  * AC 100%
  * leetcode 743
@@ -12,6 +14,7 @@ public class _743_NetDelay {
         Sol_743_NetDelay sol = new Sol_743_NetDelay();
         int max = sol.networkDelayTime(times, 2, 1);
         System.out.println(max);
+        Stack<Integer> s = new Stack<>();
     }
 }
 
