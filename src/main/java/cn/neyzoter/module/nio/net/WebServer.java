@@ -46,7 +46,6 @@ public class WebServer {
                     // interestOps == 16
                     if (key.isAcceptable()) {
                         // 创建新的连接，并且把连接注册到selector上，而且，
-                        // 声明这个channel只对读操作感兴趣。
                         SocketChannel socketChannel = ssc.accept();
                         socketChannel.configureBlocking(false);
                         // 该socket设置为对读感兴趣
