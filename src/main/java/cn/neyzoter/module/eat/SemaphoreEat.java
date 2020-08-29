@@ -1,9 +1,7 @@
 package cn.neyzoter.module.eat;
 
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.Semaphore;
-import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.*;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * 哲学家进餐问题
@@ -17,6 +15,7 @@ public class SemaphoreEat {
             semaphore[i] = new Semaphore(1);
         }
         ThreadPoolExecutor executor = new ThreadPoolExecutor(5, 5, 10, TimeUnit.MICROSECONDS, new ArrayBlockingQueue<>(5));
+        executor.setThreadFactory(new OpJobThreadFactory(Thread.NORM_PRIORITY-2));
         Eater e1 = new Eater(0, semaphore);
         Eater e2 = new Eater(1, semaphore);
         Eater e3 = new Eater(2, semaphore);
@@ -25,6 +24,29 @@ public class SemaphoreEat {
         executor.submit(e1);executor.submit(e2);executor.submit(e3);executor.submit(e4);executor.submit(e5);
     }
 
+}
+
+class OpJobThreadFactory implements ThreadFactory {
+    private int priority;
+    private boolean daemon;
+    private final String namePrefix;
+    private static final AtomicInteger poolNumber = new AtomicInteger(1);
+    private final AtomicInteger threadNumber = new AtomicInteger(1);
+    public OpJobThreadFactory(int priority) {
+        this(priority, true);
+    }
+    public OpJobThreadFactory(int priority, boolean daemon) {
+        this.priority = priority;
+        this.daemon = daemon;
+        namePrefix = "jobpool-" +poolNumber.getAndIncrement() + "-thread-";
+    }
+    @Override
+    public Thread newThread(Runnable r) {
+        Thread t = new Thread(r, namePrefix + threadNumber.getAndIncrement());
+        t.setDaemon(daemon);
+        t.setPriority(priority);
+        return t;
+    }
 }
 
 class Eater implements Runnable {

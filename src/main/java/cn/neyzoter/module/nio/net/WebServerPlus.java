@@ -1,7 +1,5 @@
 package cn.neyzoter.module.nio.net;
 
-import lombok.extern.slf4j.Slf4j;
-
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
@@ -60,8 +58,16 @@ class ListenTask implements Runnable {
             // 注册 channel，并且指定感兴趣的事件是 Accept
             ssc.register(selector, SelectionKey.OP_ACCEPT);
             while (run) {
+                // 阻塞方式实现，如果是epoll，则会通过
                 int nReady = selector.select();
-                System.out.println(String.format("\n------------\nSelector Probed One \n"));
+                if (nReady <= 0) {
+                    // 会一直输出
+                    System.out.println("nReady == 0");
+                    // 交出CPU资源
+                    Thread.yield();
+                    continue;
+                }
+                System.out.println("\n------------\nSelector Probed Msg \n");
                 Set<SelectionKey> keys = selector.selectedKeys();
                 Iterator<SelectionKey> it = keys.iterator();
                 while (it.hasNext()) {
@@ -109,8 +115,14 @@ class HandlerTask implements Runnable {
         while (run) {
             try {
                 // selectNow 非阻塞
+                // 不断轮询
+                // 返回当前有几个文件描述符可以操作
                 int nReady = handSelector.selectNow();
                 if (nReady == 0) {
+                    // 会一直输出
+                    System.out.println("nReady == 0");
+                    // 交出CPU资源
+                    Thread.yield();
                     continue;
                 }
                 Set<SelectionKey> keys = handSelector.selectedKeys();
@@ -138,7 +150,6 @@ class HandlerTask implements Runnable {
                         key.interestOps(SelectionKey.OP_READ);
                     }
                 }
-                Thread.yield();
             } catch (Exception e) {
                 e.printStackTrace();
             }
