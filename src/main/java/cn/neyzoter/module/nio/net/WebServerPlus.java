@@ -62,7 +62,7 @@ class ListenTask implements Runnable {
                 int nReady = selector.select();
                 if (nReady <= 0) {
                     // 会一直输出
-                    System.out.println("nReady == 0");
+//                    System.out.println("nReady == 0");
                     // 交出CPU资源
                     Thread.yield();
                     continue;
@@ -90,6 +90,17 @@ class ListenTask implements Runnable {
 
         } catch (Exception e) {
             e.printStackTrace();
+        } finally {
+            try {
+                if (handSelector != null) {
+                    handSelector.close();
+                }
+                if (selector != null) {
+                    selector.close();
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
     }
 
@@ -112,20 +123,21 @@ class HandlerTask implements Runnable {
         ByteBuffer writeBuff = ByteBuffer.allocate(128);
         writeBuff.put("received".getBytes());
         writeBuff.flip();
-        while (run) {
-            try {
+        try {
+            while (run) {
                 // selectNow 非阻塞
                 // 不断轮询
                 // 返回当前有几个文件描述符可以操作
                 int nReady = handSelector.selectNow();
                 if (nReady == 0) {
                     // 会一直输出
-                    System.out.println("nReady == 0");
+//                    System.out.println("nReady == 0");
                     // 交出CPU资源
                     Thread.yield();
                     continue;
                 }
                 Set<SelectionKey> keys = handSelector.selectedKeys();
+                System.out.println("SelectionKey Set Size : " + keys.size());
                 Iterator<SelectionKey> it = keys.iterator();
                 while (it.hasNext()) {
                     SelectionKey key = it.next();
@@ -149,6 +161,14 @@ class HandlerTask implements Runnable {
                         // 如果此处OP_WRITE，也就是会一直写
                         key.interestOps(SelectionKey.OP_READ);
                     }
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                if (handSelector != null) {
+                    handSelector.close();
                 }
             } catch (Exception e) {
                 e.printStackTrace();
