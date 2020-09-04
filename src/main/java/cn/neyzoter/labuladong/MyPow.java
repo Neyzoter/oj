@@ -1,8 +1,5 @@
 package cn.neyzoter.labuladong;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
-
 /**
  * fast pow
  */

@@ -3,7 +3,6 @@ package cn.neyzoter.labuladong;
 /**
  * 01背包问题
  * @author Charles Song
- * @date 2020-6-4
  */
 public class Bag01 {
     public static void main (String[] args) {
