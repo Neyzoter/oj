@@ -1,4 +1,4 @@
-package cn.neyzoter.exam.pdd;
+package cn.neyzoter.exam.pdd.round1;
 
 import java.util.Arrays;
 import java.util.Scanner;

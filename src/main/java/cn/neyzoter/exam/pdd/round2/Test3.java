@@ -6,8 +6,8 @@ import java.util.Scanner;
 import java.util.Set;
 
 /**
- * pdd测试1
- * AC 100%
+ * pdd测试3
+ * AC 60%
  * @author neyzoter
  */
 public class Test3 {

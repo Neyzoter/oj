@@ -3,7 +3,8 @@ package cn.neyzoter.exam.pdd.round2;
 import java.util.Scanner;
 
 /**
- * pdd测试1
+ * pdd测试4
+ * AC 50%
  * @author neyzoter
  */
 public class Test4 {
