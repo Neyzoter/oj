@@ -51,6 +51,5 @@ class Sol1_207_ClassTable {
             }
         }
         visited[num] = 2;
-        return;
     }
 }
