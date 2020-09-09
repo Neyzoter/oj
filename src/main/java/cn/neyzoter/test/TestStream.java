@@ -3,6 +3,8 @@ package cn.neyzoter.test;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Function;
+import java.util.stream.IntStream;
+import java.util.stream.LongStream;
 import java.util.stream.Stream;
 
 /**
@@ -21,5 +23,22 @@ public class TestStream {
             return obj.toUpperCase();
         });
         stream.forEach(System.out::println);
+
+        int n = 10000;
+        long[] num = new long[n];
+        for (int i = 0; i < n; i++) {
+            num[i] = i;
+        }
+        long time = System.currentTimeMillis();
+        LongStream addStream = Arrays.stream(num);
+        long sum = addStream.parallel().reduce(0, Long::sum);
+        System.out.println(System.currentTimeMillis() - time + " " + sum);
+
+        sum = 0;
+        time = System.currentTimeMillis();
+        for (int i = 0; i < n; i++) {
+            sum += num[i];
+        }
+        System.out.println(System.currentTimeMillis() - time + " " + sum);
     }
 }
