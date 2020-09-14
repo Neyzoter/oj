@@ -1,3 +1,4 @@
+package cn.neyzoter.exam.xinlang;
 
 import java.util.*;
 import java.util.Queue;
