@@ -3,55 +3,58 @@ package cn.neyzoter.leetcode.algo.link;
 import java.util.HashMap;
 
 public class _124_MaxPathInTreeNode {
+    public static void main(String[] args) {
+
+    }
 }
 
 /**
  * AC
  * 时间：5.21%
- * 空间：5.21%
+ * 空间：62.32%
  */
 class Sol1_124_MaxPathInTreeNode {
     Integer max = Integer.MIN_VALUE;
     // 保存非root的最大路径，只能选择一个左子树或者右子树
-    HashMap<TreeNode, Integer> hm = new HashMap<>();
+    HashMap<TreeNode, Integer> notRootHm = new HashMap<>();
     public int maxPathSum(TreeNode root) {
-        if (root.left != null) {
-            maxPathSum(root.left);
+        int left = track(root.left);
+        int right = track(root.right);
+        int thisVal = root.val;
+        // root可以两边都加上
+        if (left > 0) {
+            thisVal += left;
         }
-        if (root.right != null) {
-            maxPathSum(root.right);
+        if (right > 0) {
+            thisVal += right;
         }
-        int thisVal = track(root, true);
-        max = Math.max(max, thisVal);
-        return max;
+        return max = Math.max(thisVal, max);
     }
-    public int track(TreeNode root, boolean isRoot) {
+    public int track(TreeNode root) {
         if (root == null) {
             return 0;
         }
-        if (!isRoot && hm.containsKey(root)) {
-            return hm.get(root);
+        if (notRootHm.containsKey(root)) {
+            return notRootHm.get(root);
         }
-        int left = track(root.left, false);
-        int right = track(root.right, false);
-        int thisVal = root.val;
-        if (isRoot) {
-            if (left > 0) {
-                thisVal += left;
-            }
-            if (right > 0) {
-                thisVal += right;
-            }
-        } else {
-            int bigger = Math.max(left, right);
-            if (bigger > 0) {
-                thisVal += bigger;
-            }
+        int left = track(root.left);
+        int right = track(root.right);
+        int rootVal = root.val;
+        int notRootVal = root.val;
+        // root可以两边都加上
+        if (left > 0) {
+            rootVal += left;
         }
-        max = Math.max(max, thisVal);
-        if (!isRoot) {
-            hm.put(root, thisVal);
+        if (right > 0) {
+            rootVal += right;
         }
-        return thisVal;
+        // 非root只能选择一边
+        int bigger = Math.max(left, right);
+        if (bigger > 0) {
+            notRootVal += bigger;
+        }
+        max = Math.max(max,  rootVal);
+        notRootHm.put(root, notRootVal);
+        return notRootVal;
     }
 }
