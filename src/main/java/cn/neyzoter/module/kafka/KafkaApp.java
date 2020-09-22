@@ -11,10 +11,10 @@ public class KafkaApp {
         KafkaProducerCli producerThread = new KafkaProducerCli(KafkaProperties.TOPIC, isAsync);
         producerThread.start();
 
-        KafkaComsumerCli consumerThread1 = new KafkaComsumerCli(KafkaProperties.TOPIC, "consumer1");
-        consumerThread1.start();
-//        KafkaConsumerCliCommit consumerCliCommitThread = new KafkaConsumerCliCommit(KafkaProperties.TOPIC, "Commit2");
-//        consumerCliCommitThread.start();
+//        KafkaComsumerCli consumerThread1 = new KafkaComsumerCli(KafkaProperties.TOPIC, "consumer1");
+//        consumerThread1.start();
+        KafkaConsumerCliCommit consumerCliCommitThread = new KafkaConsumerCliCommit(KafkaProperties.TOPIC, "Commit2");
+        consumerCliCommitThread.start();
 //        KafkaComsumerCli consumerThread2 = new KafkaComsumerCli(KafkaProperties.TOPIC, "consumer2");
 //        consumerThread2.start();
     }

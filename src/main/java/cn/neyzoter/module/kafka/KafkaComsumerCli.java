@@ -45,14 +45,14 @@ public class KafkaComsumerCli extends ShutdownableThread{
 
         consumer = new KafkaConsumer<>(props);
         this.topic = topic;
-//        consumer.subscribe(Collections.singletonList(this.topic));
 
         /**
          * 手动分配partition
          * 和consumer.subscribe冲突
          */
-        TopicPartition partition2 = new TopicPartition(KafkaProperties.TOPIC, 2);
-        consumer.assign(Arrays.asList(partition2));
+        consumer.subscribe(Collections.singletonList(this.topic));
+//        TopicPartition partition2 = new TopicPartition(KafkaProperties.TOPIC, 2);
+//        consumer.assign(Arrays.asList(partition2));
 
     }
 

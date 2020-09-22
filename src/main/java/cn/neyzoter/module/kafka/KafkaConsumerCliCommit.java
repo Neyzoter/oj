@@ -34,6 +34,7 @@ public class KafkaConsumerCliCommit extends ShutdownableThread {
         props.put(ConsumerConfig.ENABLE_AUTO_COMMIT_CONFIG, "false");
 //        props.put(ConsumerConfig.AUTO_COMMIT_INTERVAL_MS_CONFIG, "1000");
         props.put(ConsumerConfig.SESSION_TIMEOUT_MS_CONFIG, "30000");
+//        props.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, "latest");
         props.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.IntegerDeserializer");
         props.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringDeserializer");
         props.put(ConsumerConfig.CLIENT_ID_CONFIG, name);
@@ -45,11 +46,13 @@ public class KafkaConsumerCliCommit extends ShutdownableThread {
          * 手动分配partition
          * 和consumer.subscribe冲突，使用其中一种方式
          */
-        TopicPartition partition0 = new TopicPartition(KafkaProperties.TOPIC, 0);
-        TopicPartition partition1 = new TopicPartition(KafkaProperties.TOPIC, 1);
-        consumer.assign(Arrays.asList(partition0, partition1));
+        consumer.subscribe(Collections.singletonList(this.topic));
+
+//        TopicPartition partition0 = new TopicPartition(KafkaProperties.TOPIC, 0);
+//        TopicPartition partition1 = new TopicPartition(KafkaProperties.TOPIC, 1);
+//        consumer.assign(Arrays.asList(partition0, partition1));
         // 如果宕机，则需要恢复到offset
-        resetConsumer();
+//        resetConsumer();
 
     }
 
@@ -57,7 +60,7 @@ public class KafkaConsumerCliCommit extends ShutdownableThread {
     public void doWork() {
 //        consumer.subscribe(Collections.singletonList(this.topic));
         long startMs = System.currentTimeMillis() / 1000;
-        ConsumerRecords<Integer, String> records = consumer.poll(Duration.ofSeconds(5));
+        ConsumerRecords<Integer, String> records = consumer.poll(Duration.ofSeconds(2));
 
         /**
          * 手动控制offset
