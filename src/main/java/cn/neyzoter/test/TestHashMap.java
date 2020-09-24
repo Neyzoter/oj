@@ -26,6 +26,7 @@ public class TestHashMap {
     }
     public static void main (String[] args) {
         HashMap<People, Integer> map = new HashMap<>();
-
+        map.put(null, 1);
+        System.out.println(map.get(null));
     }
 }
