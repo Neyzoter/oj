@@ -1,6 +1,8 @@
 package cn.neyzoter.test;
 
+import java.io.FileInputStream;
 import java.util.HashMap;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * 测试HashMap
@@ -26,7 +28,18 @@ public class TestHashMap {
     }
     public static void main (String[] args) {
         HashMap<People, Integer> map = new HashMap<>();
-        map.put(null, 1);
+        System.out.println("contains null ? " + map.containsKey(null));
         System.out.println(map.get(null));
+        map.put(null, 1);
+        System.out.println("contains null ? " + map.containsKey(null));
+        System.out.println(map.get(null));
+        String str = "123";
+        System.out.println(str.substring(1) + str.substring(str.length() - 1));
+        /**
+         * ConcurrentHashMap 的KV都不是NULL
+         */
+        ConcurrentHashMap<People, Integer> chm = new ConcurrentHashMap<>();
+        chm.put(null, 1);
     }
+
 }
