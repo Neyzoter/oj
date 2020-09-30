@@ -1,7 +1,9 @@
 package cn.neyzoter.sword;
 
 import java.util.LinkedList;
+import java.util.PriorityQueue;
 import java.util.Queue;
+import java.util.Random;
 
 public class _37_SerDeserTreeNodes {
     public static void main(String[] args) {
@@ -28,6 +30,7 @@ class Codec2 {
         }
         Queue<TreeNode> que = new LinkedList<>();
         StringBuilder sb = new StringBuilder();
+        Random random = new Random();
         sb.append("[");
         que.add(root);
         while (que.size() > 0) {
