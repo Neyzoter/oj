@@ -1,5 +1,8 @@
 package cn.neyzoter.sword;
 
+import java.util.LinkedHashMap;
+import java.util.PriorityQueue;
+
 public class _46_Translate2Word {
     public static void main(String[] args) {
 
@@ -8,10 +11,12 @@ public class _46_Translate2Word {
 
 class Sol_46_Translate2Word {
     public static final int maxAscii = 'z' - 'a';
+
     public int translateNum(int num) {
         String val = String.valueOf(num);
         return dfs(val, 0);
     }
+
     public int dfs(String val, int start) {
         if (start == val.length()) {
             return 1;

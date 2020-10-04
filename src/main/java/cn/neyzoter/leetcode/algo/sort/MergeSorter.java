@@ -7,7 +7,7 @@ package cn.neyzoter.leetcode.algo.sort;
  * @date 2020-3-1
  */
 public class MergeSorter {
-
+    public static int maxDelta = 0;
     public static int[] mergeSort (int[] array) {
         if (array.length <= 1) {
             return array;
@@ -22,7 +22,14 @@ public class MergeSorter {
                 right[i - mid] = array[i];
             }
         }
-        return merge(mergeSort(left), mergeSort(right));
+        int[] sortedLeft = mergeSort(left);
+        int[] sortedRight = mergeSort(right);
+        int[] res = merge(sortedLeft, sortedRight);
+//        System.out.println("left : " + Arrays.toString(sortedLeft));
+//        System.out.println("right : " + Arrays.toString(sortedRight));
+//        maxDelta = Math.max(maxDelta, sortedLeft[left.length - 1] - sortedRight[0]);
+//        System.out.println("max : " + maxDelta + "\n");
+        return res;
     }
 
     /**
@@ -70,7 +77,8 @@ public class MergeSorter {
         return result;
     }
     public static void main (String[] args) {
-        int[] array = {0,3,2,1,9,8,7,6,10,5,4};
+//        int[] array = {0,3,2,1,9,8,7,6,10,5,4};
+        int[] array = {9,3,18,11,4,22,17};
         System.out.print("Before  ");
         for (int i : array) {
             System.out.print(i + ",");
@@ -81,5 +89,6 @@ public class MergeSorter {
         for (int i : array) {
             System.out.print(i + ",");
         }
+        System.out.println("\n" + maxDelta);
     }
 }
