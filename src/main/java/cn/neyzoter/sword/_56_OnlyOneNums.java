@@ -2,6 +2,7 @@ package cn.neyzoter.sword;
 
 /**
  * 剑指 Offer 56 - I. 数组中数字出现的次数
+ * 数组中有2个单个的数字，其他都是一对儿
  * @author neyzoter
  */
 public class _56_OnlyOneNums {
