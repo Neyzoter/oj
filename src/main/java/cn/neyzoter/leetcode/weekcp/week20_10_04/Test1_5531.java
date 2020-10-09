@@ -7,7 +7,7 @@ import java.util.Arrays;
  *
  * @author neyzoter
  */
-public class Test1 {
+public class Test1_5531 {
     public static void main(String[] args) {
         Sol sol = new Sol();
         int[] nums = {3,6,7,7,0};
