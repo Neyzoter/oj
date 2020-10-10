@@ -90,12 +90,12 @@ public class ThreadPool {
         threadPool.threadPoolExecutor.submit(futureTask);
         // 不再接受新的任务
 //        threadPool.threadPoolExecutor.shutdown();
-
         getFutureInfo(futureTask);
     }
 
     public static void getFutureInfo (Future future) {
         System.out.println("isDone?" + future.isDone());
+
         while (!future.isDone()) {
 
         }
