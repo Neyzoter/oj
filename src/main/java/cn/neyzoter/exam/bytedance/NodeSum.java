@@ -1,5 +1,7 @@
 package cn.neyzoter.exam.bytedance;
 
+import java.util.Arrays;
+
 /**
  * 链表相加
  * @author Charles Song
@@ -14,7 +16,6 @@ public class NodeSum {
         node2.next = new Node(7);
         node2.next.next = new Node(3);
         Node node = add(node1, node2);
-
     }
     public static Node add (Node a, Node b) {
         int c = 0;
